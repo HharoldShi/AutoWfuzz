@@ -1,3 +1,3 @@
 # ECE653-Fuzzing
 
-mce is 
+This project is about the enhancement about AutoFuzz.
