@@ -1,0 +1,3 @@
+# Please specify the abstraction functions available. Function name:::<Input Abstraction source file name>:::<Ouput Abstraction file name>
+MSN Protocol:::MSNinputAbstraction:::MSNoutputAbstraction
+SMTP Protocol:::SMTPinputAbstraction:::SMTPoutputAbstraction

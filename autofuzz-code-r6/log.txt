@@ -1,0 +1,1856 @@
+Starting SOCKS Proxy on:0.0.0.0:22222
+Accepted from:127.0.0.1:62960
+Request version:5	Command: CONNECT
+IP:/13.107.42.12	Port:443
+Connected to /13.107.42.12:443
+Accepted from:127.0.0.1:62963
+Request version:5	Command: CONNECT
+IP:/52.158.208.111	Port:443
+Connected to /52.158.208.111:443
+Accepted from:127.0.0.1:62970
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Connected to /72.21.91.29:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:62977
+Request version:5	Command: CONNECT
+IP:/13.107.42.12	Port:443
+Connected to /13.107.42.12:443
+Accepted from:127.0.0.1:62982
+Request version:5	Command: CONNECT
+IP:/127.0.0.1	Port:62979
+Connected to /127.0.0.1:62979
+Accepted from:127.0.0.1:62988
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:62992
+Accepted from:127.0.0.1:62995
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63001
+Request version:5	Command: CONNECT
+IP:/209.148.205.10	Port:80
+Connected to /209.148.205.10:80
+Accepted from:127.0.0.1:63005
+Request version:5	Command: CONNECT
+IP:/172.217.0.227	Port:443
+Accepted from:127.0.0.1:63009
+Connected to /172.217.0.227:443
+Request version:5	Command: CONNECT
+IP:/13.224.38.115	Port:443
+Connected to /13.224.38.115:443
+Accepted from:127.0.0.1:63013
+Request version:5	Command: CONNECT
+IP:/52.13.211.193	Port:443
+Connected to /52.13.211.193:443
+Accepted from:127.0.0.1:63019
+Request version:5	Command: CONNECT
+IP:/209.148.205.10	Port:80
+Accepted from:127.0.0.1:63022
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Connected to /209.148.205.10:80
+Accepted from:127.0.0.1:63028
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:63032
+Accepted from:127.0.0.1:63035
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Accepted from:127.0.0.1:63038
+Request version:5	Command: CONNECT
+IP:/52.36.73.165	Port:443
+Accepted from:127.0.0.1:63042
+Accepted from:127.0.0.1:63045
+Request version:5	Command: CONNECT
+IP:/172.217.1.163	Port:80
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Accepted from:127.0.0.1:63051
+Connected to /172.217.1.163:80
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /52.32.34.32:443
+Connected to /72.21.91.29:80
+Accepted from:127.0.0.1:63056
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Connected to /52.36.73.165:443
+Accepted from:127.0.0.1:63060
+Accepted from:127.0.0.1:63065
+Request version:5	Command: CONNECT
+IP:/35.169.67.87	Port:443
+Connected to /52.32.34.32:443
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Accepted from:127.0.0.1:63069
+Accepted from:127.0.0.1:63073
+Connected to /35.169.67.87:443
+Connected to /13.224.38.23:443
+Request version:5	Command: CONNECT
+IP:/54.201.82.66	Port:443
+Request version:5	Command: CONNECT
+IP:/52.26.177.54	Port:443
+Accepted from:127.0.0.1:63081
+Accepted from:127.0.0.1:63084
+Connected to /54.201.82.66:443
+Request version:5	Command: CONNECT
+IP:/172.217.164.202	Port:443
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Connected to /172.217.164.202:443
+Connected to /72.21.91.29:80
+Connected to /52.26.177.54:443
+Accepted from:127.0.0.1:63089
+Accepted from:127.0.0.1:63092
+Aborting operation
+Main thread(client->remote)stopped.
+Request version:5	Command: CONNECT
+IP:/52.10.175.204	Port:443
+Request version:5	Command: CONNECT
+IP:/52.26.177.54	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63097
+Request version:5	Command: CONNECT
+IP:/13.226.142.12	Port:80
+Accepted from:127.0.0.1:63101
+Connected to /13.226.142.12:80
+Accepted from:127.0.0.1:63104
+Request version:5	Command: CONNECT
+IP:/52.10.175.204	Port:443
+Connected to /52.10.175.204:443
+Connected to /52.26.177.54:443
+Request version:5	Command: CONNECT
+IP:/52.10.175.204	Port:443
+Connected to /52.10.175.204:443
+Accepted from:127.0.0.1:63109
+Request version:5	Command: CONNECT
+IP:/143.204.0.8	Port:443
+Accepted from:127.0.0.1:63112
+Request version:5	Command: CONNECT
+IP:/114.80.187.121	Port:80
+Accepted from:127.0.0.1:63116
+Connected to /143.204.0.8:443
+Accepted from:127.0.0.1:63120
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63123
+Connected to /52.10.175.204:443
+Accepted from:127.0.0.1:63127
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Request version:5	Command: CONNECT
+IP:/52.10.175.204	Port:443
+Request version:5	Command: CONNECT
+IP:/52.10.175.204	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63133
+Aborting operation
+Main thread(client->remote)stopped.
+Connected to /52.10.175.204:443
+Connected to /52.10.175.204:443
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63137
+Accepted from:127.0.0.1:63140
+Accepted from:127.0.0.1:63143
+Connected to /114.80.187.121:80
+Accepted from:127.0.0.1:63146
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Request version:5	Command: CONNECT
+IP:/114.80.187.121	Port:80
+Request version:5	Command: CONNECT
+IP:/172.217.164.225	Port:443
+Request version:5	Command: CONNECT
+IP:/172.217.1.163	Port:80
+Connected to /172.217.1.163:80
+Connected to /172.217.164.225:443
+Accepted from:127.0.0.1:63153
+Request version:5	Command: CONNECT
+IP:/74.125.138.94	Port:443
+Accepted from:127.0.0.1:63157
+Request version:5	Command: CONNECT
+IP:/23.64.57.215	Port:443
+Connected to /23.64.57.215:443
+Connected to /74.125.138.94:443
+Connected to /114.80.187.121:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63161
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63165
+Request version:5	Command: CONNECT
+IP:/172.217.1.163	Port:443
+Accepted from:127.0.0.1:63169
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Connected to /172.217.1.163:443
+Accepted from:127.0.0.1:63173
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:63177
+Request version:5	Command: CONNECT
+IP:/216.58.217.3	Port:443
+Connected to /216.58.217.3:443
+Accepted from:127.0.0.1:63181
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:63185
+Accepted from:127.0.0.1:63188
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Request version:5	Command: CONNECT
+IP:/172.217.1.163	Port:80
+Accepted from:127.0.0.1:63193
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Connected to /172.217.1.163:80
+Accepted from:127.0.0.1:63197
+Request version:5	Command: CONNECT
+IP:/172.217.164.238	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63201
+Connected to /172.217.164.238:443
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63205
+Request version:5	Command: CONNECT
+IP:/172.217.1.174	Port:443
+Connected to /172.217.1.174:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63209
+Accepted from:127.0.0.1:63212
+Request version:5	Command: CONNECT
+IP:/143.204.0.8	Port:443
+Request version:5	Command: CONNECT
+IP:/143.204.0.8	Port:443
+Accepted from:127.0.0.1:63216
+Connected to /143.204.0.8:443
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Connected to /143.204.0.8:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63221
+Request version:5	Command: CONNECT
+IP:/23.64.57.215	Port:443
+Accepted from:127.0.0.1:63225
+Request version:5	Command: CONNECT
+IP:/39.107.233.151	Port:80
+Connected to /23.64.57.215:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63229
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63233
+Request version:5	Command: CONNECT
+IP:/39.107.233.151	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Connected to /39.107.233.151:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63237
+Request version:5	Command: CONNECT
+IP:/172.217.1.2	Port:443
+Accepted from:127.0.0.1:63240
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Connected to /172.217.1.2:443
+Connected to /39.107.233.151:80
+Accepted from:127.0.0.1:63245
+Request version:5	Command: CONNECT
+IP:/172.217.0.228	Port:443
+Connected to /172.217.0.228:443
+Accepted from:127.0.0.1:63249
+Request version:5	Command: CONNECT
+IP:/8.8.8.8	Port:443
+Accepted from:127.0.0.1:63252
+Request version:5	Command: CONNECT
+IP:/172.217.1.163	Port:80
+Connected to /8.8.8.8:443
+Connected to /172.217.1.163:80
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63257
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63261
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63265
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63269
+Request version:5	Command: CONNECT
+IP:/111.206.223.88	Port:443
+Accepted from:127.0.0.1:63273
+Request version:5	Command: CONNECT
+IP:/172.217.165.13	Port:443
+Connected to /172.217.165.13:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Connected to /111.206.223.88:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63277
+Request version:5	Command: CONNECT
+IP:/209.148.205.17	Port:80
+Connected to /209.148.205.17:80
+Accepted from:127.0.0.1:63281
+Request version:5	Command: CONNECT
+IP:/8.8.8.8	Port:443
+Connected to /8.8.8.8:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63285
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63289
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Connected to /72.21.91.29:80
+Accepted from:127.0.0.1:63293
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63297
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63301
+Request version:5	Command: CONNECT
+IP:/172.217.1.174	Port:443
+Connected to /172.217.1.174:443
+Accepted from:127.0.0.1:63305
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63309
+Request version:5	Command: CONNECT
+IP:/172.217.164.227	Port:443
+Connected to /172.217.164.227:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63313
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63317
+Request version:5	Command: CONNECT
+IP:/123.56.1.57	Port:443
+Connected to /123.56.1.57:443
+Accepted from:127.0.0.1:63321
+Request version:5	Command: CONNECT
+IP:/123.56.1.57	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Connected to /123.56.1.57:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63325
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Connected to /72.21.91.29:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63329
+Request version:5	Command: CONNECT
+IP:/122.155.237.89	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63333
+Request version:5	Command: CONNECT
+IP:/122.155.237.89	Port:443
+Connected to /122.155.237.89:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Connected to /122.155.237.89:443
+Accepted from:127.0.0.1:63336
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:63341
+Request version:5	Command: CONNECT
+IP:/47.246.17.230	Port:80
+Connected to /47.246.17.230:80
+Accepted from:127.0.0.1:63346
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:63350
+Request version:5	Command: CONNECT
+IP:/172.217.1.174	Port:443
+Connected to /172.217.1.174:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63353
+Request version:5	Command: CONNECT
+IP:/23.64.57.215	Port:443
+Connected to /23.64.57.215:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63358
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63362
+Request version:5	Command: CONNECT
+IP:/209.148.171.48	Port:443
+Connected to /209.148.171.48:443
+Accepted from:127.0.0.1:63365
+Request version:5	Command: CONNECT
+IP:/52.36.150.203	Port:443
+Accepted from:127.0.0.1:63370
+Request version:5	Command: CONNECT
+IP:/13.226.139.117	Port:443
+Connected to /13.226.139.117:443
+Connected to /52.36.150.203:443
+Accepted from:127.0.0.1:63374
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Connected to /35.186.227.140:443
+Accepted from:127.0.0.1:63378
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Accepted from:127.0.0.1:63382
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63386
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63390
+Request version:5	Command: CONNECT
+IP:/151.101.124.133	Port:443
+Connected to /151.101.124.133:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63396
+Request version:5	Command: CONNECT
+IP:/209.148.171.41	Port:443
+Connected to /209.148.171.41:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63399
+Request version:5	Command: CONNECT
+IP:/143.204.0.42	Port:443
+Connected to /143.204.0.42:443
+Accepted from:127.0.0.1:63403
+Request version:5	Command: CONNECT
+IP:/34.98.75.36	Port:443
+Connected to /34.98.75.36:443
+Accepted from:127.0.0.1:63408
+Request version:5	Command: CONNECT
+IP:/103.235.46.234	Port:80
+Connected to /103.235.46.234:80
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63412
+Request version:5	Command: CONNECT
+IP:/0.0.0.0	Port:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63416
+Request version:5	Command: CONNECT
+IP:/0.0.0.0	Port:9090
+Accepted from:127.0.0.1:63420
+Request version:5	Command: CONNECT
+IP:/0.0.0.0	Port:9090
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63423
+Request version:5	Command: CONNECT
+IP:/0.0.0.0	Port:9090
+Accepted from:127.0.0.1:63428
+Request version:5	Command: CONNECT
+IP:/0.0.0.0	Port:9090
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63432
+Accepted from:127.0.0.1:63435
+Request version:5	Command: CONNECT
+IP:/52.36.73.165	Port:443
+Accepted from:127.0.0.1:63438
+Request version:5	Command: CONNECT
+IP:/52.36.73.165	Port:443
+Request version:5	Command: CONNECT
+IP:/52.36.73.165	Port:443
+Connected to /52.36.73.165:443
+Connected to /52.36.73.165:443
+Connected to /52.36.73.165:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63443
+Request version:5	Command: CONNECT
+IP:/52.10.175.204	Port:443
+Connected to /52.10.175.204:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63448
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63451
+Request version:5	Command: CONNECT
+IP:/13.224.38.66	Port:443
+Connected to /13.224.38.66:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63462
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Accepted from:127.0.0.1:63466
+Request version:5	Command: CONNECT
+IP:/13.224.38.66	Port:443
+Connected to /13.224.38.66:443
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63472
+Request version:5	Command: CONNECT
+IP:/51.143.111.7	Port:443
+Connected to /51.143.111.7:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63476
+Request version:5	Command: CONNECT
+IP:/54.189.208.1	Port:443
+Connected to /54.189.208.1:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63480
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63484
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63488
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63492
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63496
+Request version:5	Command: CONNECT
+IP:/72.247.168.5	Port:443
+Connected to /72.247.168.5:443
+Accepted from:127.0.0.1:63500
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:80
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63503
+Request version:5	Command: CONNECT
+IP:/157.185.165.41	Port:80
+Connected to /157.185.165.41:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63508
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63512
+Accepted from:127.0.0.1:63515
+Accepted from:127.0.0.1:63518
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63521
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63525
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63529
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63536
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63540
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63544
+Connected to /192.168.0.10:9090
+Accepted from:127.0.0.1:63547
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63551
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63556
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63560
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63564
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63568
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63572
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63576
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63580
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63584
+Request version:5	Command: CONNECT
+IP:/34.212.188.196	Port:443
+Connected to /34.212.188.196:443
+Accepted from:127.0.0.1:63588
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63595
+Request version:5	Command: CONNECT
+IP:/52.34.254.140	Port:443
+Connected to /52.34.254.140:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63601
+Request version:5	Command: CONNECT
+IP:/52.41.2.143	Port:443
+Connected to /52.41.2.143:443
+Accepted from:127.0.0.1:63604
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63609
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Connected to /35.186.227.140:443
+Accepted from:127.0.0.1:63613
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /52.32.34.32:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63617
+Request version:5	Command: CONNECT
+IP:/34.210.182.212	Port:443
+Connected to /34.210.182.212:443
+Accepted from:127.0.0.1:63621
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63625
+Request version:5	Command: CONNECT
+IP:/35.161.162.25	Port:443
+Connected to /35.161.162.25:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63629
+Request version:5	Command: CONNECT
+IP:/8.36.80.237	Port:443
+Connected to /8.36.80.237:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63633
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /52.32.34.32:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63637
+Request version:5	Command: CONNECT
+IP:/52.25.31.211	Port:443
+Connected to /52.25.31.211:443
+Accepted from:127.0.0.1:63641
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63656
+Request version:5	Command: CONNECT
+IP:/23.203.29.190	Port:443
+Connected to /23.203.29.190:443
+Accepted from:127.0.0.1:63660
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Connected to /72.21.91.29:80
+Accepted from:127.0.0.1:63664
+Request version:5	Command: CONNECT
+IP:/157.55.109.226	Port:443
+Connected to /157.55.109.226:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63671
+Request version:5	Command: CONNECT
+IP:/35.155.194.246	Port:443
+Connected to /35.155.194.246:443
+Accepted from:127.0.0.1:63675
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Accepted from:127.0.0.1:63686
+Request version:5	Command: CONNECT
+IP:/23.54.187.27	Port:80
+Connected to /23.54.187.27:80
+Accepted from:127.0.0.1:63690
+Request version:5	Command: CONNECT
+IP:/23.54.187.27	Port:80
+Connected to /23.54.187.27:80
+Accepted from:127.0.0.1:63694
+Request version:5	Command: CONNECT
+IP:/72.21.91.29	Port:80
+Connected to /72.21.91.29:80
+Accepted from:127.0.0.1:63697
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:80
+Connected to /49.51.65.181:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63702
+Request version:5	Command: CONNECT
+IP:/49.7.115.35	Port:80
+Accepted from:127.0.0.1:63706
+Request version:5	Command: CONNECT
+IP:/211.159.235.216	Port:80
+Connected to /211.159.235.216:80
+Connected to /49.7.115.35:80
+Accepted from:127.0.0.1:63710
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:80
+Connected to /49.51.65.181:80
+Accepted from:127.0.0.1:63714
+Request version:5	Command: CONNECT
+IP:/49.7.115.35	Port:80
+Connected to /49.7.115.35:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63718
+Request version:5	Command: CONNECT
+IP:/211.159.235.216	Port:80
+Connected to /211.159.235.216:80
+Accepted from:127.0.0.1:63722
+Request version:5	Command: CONNECT
+IP:/49.7.115.35	Port:80
+Connected to /49.7.115.35:80
+Accepted from:127.0.0.1:63726
+Request version:5	Command: CONNECT
+IP:/211.159.235.216	Port:80
+Connected to /211.159.235.216:80
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63730
+Request version:5	Command: CONNECT
+IP:/127.0.0.1	Port:63728
+Connected to /127.0.0.1:63728
+Accepted from:127.0.0.1:63735
+Request version:5	Command: CONNECT
+IP:/49.7.115.35	Port:80
+Accepted from:127.0.0.1:63739
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49153
+Connected to /192.168.0.1:49153
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63743
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49153
+Connected to /192.168.0.1:49153
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63747
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49153
+Connected to /192.168.0.1:49153
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63751
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49153
+Connected to /192.168.0.1:49153
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Connected to /49.7.115.35:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63756
+Request version:5	Command: CONNECT
+IP:/221.204.166.36	Port:80
+Accepted from:127.0.0.1:63760
+Request version:5	Command: CONNECT
+IP:/109.244.23.149	Port:80
+Accepted from:127.0.0.1:63764
+Request version:5	Command: CONNECT
+IP:/49.7.115.35	Port:80
+Connected to /221.204.166.36:80
+Accepted from:127.0.0.1:63768
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49152
+Connected to /192.168.0.1:49152
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Connected to /109.244.23.149:80
+Connected to /49.7.115.35:80
+Accepted from:127.0.0.1:63772
+Request version:5	Command: CONNECT
+IP:/109.244.23.149	Port:80
+Accepted from:127.0.0.1:63775
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:80
+Connected to /49.51.65.181:80
+Connected to /109.244.23.149:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63780
+Request version:5	Command: CONNECT
+IP:/114.80.24.229	Port:80
+Connected to /114.80.24.229:80
+Accepted from:127.0.0.1:63784
+Request version:5	Command: CONNECT
+IP:/49.7.115.35	Port:80
+Connected to /49.7.115.35:80
+Accepted from:127.0.0.1:63788
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49153
+Connected to /192.168.0.1:49153
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63792
+Request version:5	Command: CONNECT
+IP:/192.168.0.1	Port:49153
+Connected to /192.168.0.1:49153
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63807
+Request version:5	Command: CONNECT
+IP:/40.74.108.123	Port:443
+Connected to /40.74.108.123:443
+Accepted from:127.0.0.1:63811
+Request version:5	Command: CONNECT
+IP:/40.74.108.123	Port:443
+Connected to /40.74.108.123:443
+Accepted from:127.0.0.1:63815
+Request version:5	Command: CONNECT
+IP:/109.244.23.227	Port:80
+Connected to /109.244.23.227:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63822
+Request version:5	Command: CONNECT
+IP:/101.71.72.220	Port:80
+Connected to /101.71.72.220:80
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63826
+Request version:5	Command: CONNECT
+IP:/101.71.72.220	Port:80
+Connected to /101.71.72.220:80
+Accepted from:127.0.0.1:63830
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:80
+Connected to /49.51.65.181:80
+Accepted from:127.0.0.1:63834
+Request version:5	Command: CONNECT
+IP:/203.205.137.227	Port:80
+Connected to /203.205.137.227:80
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63838
+Request version:5	Command: CONNECT
+IP:/211.159.235.216	Port:80
+Connected to /211.159.235.216:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63842
+Request version:5	Command: CONNECT
+IP:/52.40.145.244	Port:443
+Connected to /52.40.145.244:443
+Accepted from:127.0.0.1:63846
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63852
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Accepted from:127.0.0.1:63855
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Connected to /35.186.227.140:443
+Connected to /52.32.34.32:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63860
+Request version:5	Command: CONNECT
+IP:/52.25.121.22	Port:443
+Connected to /52.25.121.22:443
+Accepted from:127.0.0.1:63865
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Accepted from:127.0.0.1:63868
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63872
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63876
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63880
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63885
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63888
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63892
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63896
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Accepted from:127.0.0.1:63901
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63904
+Accepted from:127.0.0.1:63908
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63913
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63917
+Accepted from:127.0.0.1:63920
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63923
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63928
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Aborting operation
+Aborting operation
+Aborting operation
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63932
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Accepted from:127.0.0.1:63937
+Request version:5	Command: CONNECT
+IP:/192.168.0.10	Port:9090
+Connected to /192.168.0.10:9090
+Connected to /192.168.0.10:9090
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:63941
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63945
+Request version:5	Command: CONNECT
+IP:/104.18.21.226	Port:80
+Connected to /104.18.21.226:80
+Accepted from:127.0.0.1:63949
+Request version:5	Command: CONNECT
+IP:/104.18.20.226	Port:80
+Connected to /104.18.20.226:80
+Accepted from:127.0.0.1:63953
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63957
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63961
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63965
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63969
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63973
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63977
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:443
+Connected to /49.51.65.181:443
+Accepted from:127.0.0.1:63981
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:80
+Connected to /49.51.65.181:80
+Accepted from:127.0.0.1:63985
+Request version:5	Command: CONNECT
+IP:/109.244.23.149	Port:80
+Connected to /109.244.23.149:80
+Accepted from:127.0.0.1:63989
+Request version:5	Command: CONNECT
+IP:/49.51.65.181	Port:80
+Connected to /49.51.65.181:80
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Aborting operation
+Main thread(client->remote)stopped.
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63995
+Request version:5	Command: CONNECT
+IP:/40.74.108.123	Port:443
+Connected to /40.74.108.123:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:63999
+Request version:5	Command: CONNECT
+IP:/40.74.108.123	Port:443
+Connected to /40.74.108.123:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64003
+Request version:5	Command: CONNECT
+IP:/52.40.145.244	Port:443
+Connected to /52.40.145.244:443
+Accepted from:127.0.0.1:64007
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64011
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Accepted from:127.0.0.1:64015
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /35.186.227.140:443
+Connected to /52.32.34.32:443
+Accepted from:127.0.0.1:64019
+Request version:5	Command: CONNECT
+IP:/172.217.165.10	Port:443
+Connected to /172.217.165.10:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64023
+Request version:5	Command: CONNECT
+IP:/52.35.220.92	Port:443
+Connected to /52.35.220.92:443
+Accepted from:127.0.0.1:64027
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64031
+Request version:5	Command: CONNECT
+IP:/13.107.42.12	Port:443
+Connected to /13.107.42.12:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64040
+Request version:5	Command: CONNECT
+IP:/13.107.42.12	Port:443
+Connected to /13.107.42.12:443
+Accepted from:127.0.0.1:64044
+Request version:5	Command: CONNECT
+IP:localhost/127.0.0.1	Port:443
+Aborting operation
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:64048
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /52.32.34.32:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64053
+Request version:5	Command: CONNECT
+IP:/52.43.205.127	Port:443
+Connected to /52.43.205.127:443
+Accepted from:127.0.0.1:64057
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Accepted from:127.0.0.1:64061
+Request version:5	Command: CONNECT
+IP:/52.204.41.228	Port:443
+Accepted from:127.0.0.1:64065
+Request version:5	Command: CONNECT
+IP:/23.64.57.215	Port:443
+Connected to /23.64.57.215:443
+Connected to /52.204.41.228:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64068
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Accepted from:127.0.0.1:64073
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /35.186.227.140:443
+Connected to /52.32.34.32:443
+Aborting operation
+Support thread(remote->client) stopped
+Main thread(client->remote)stopped.
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64079
+Request version:5	Command: CONNECT
+IP:/64.4.54.254	Port:443
+Connected to /64.4.54.254:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64083
+Request version:5	Command: CONNECT
+IP:/35.161.47.250	Port:443
+Connected to /35.161.47.250:443
+Accepted from:127.0.0.1:64087
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64093
+Request version:5	Command: CONNECT
+IP:/34.214.1.68	Port:443
+Connected to /34.214.1.68:443
+Accepted from:127.0.0.1:64097
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64100
+Request version:5	Command: CONNECT
+IP:/52.26.20.242	Port:443
+Connected to /52.26.20.242:443
+Accepted from:127.0.0.1:64104
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64108
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Accepted from:127.0.0.1:64112
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Connected to /35.186.227.140:443
+Connected to /52.32.34.32:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64117
+Request version:5	Command: CONNECT
+IP:/52.26.240.56	Port:443
+Connected to /52.26.240.56:443
+Accepted from:127.0.0.1:64121
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64127
+Request version:5	Command: CONNECT
+IP:/52.40.47.101	Port:443
+Connected to /52.40.47.101:443
+Accepted from:127.0.0.1:64131
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64135
+Request version:5	Command: CONNECT
+IP:/52.158.208.111	Port:443
+Connected to /52.158.208.111:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64140
+Request version:5	Command: CONNECT
+IP:/52.40.145.244	Port:443
+Connected to /52.40.145.244:443
+Accepted from:127.0.0.1:64144
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Accepted from:127.0.0.1:64148
+Accepted from:127.0.0.1:64151
+Request version:5	Command: CONNECT
+IP:/52.32.34.32	Port:443
+Request version:5	Command: CONNECT
+IP:/54.201.160.68	Port:443
+Connected to /52.32.34.32:443
+Connected to /54.201.160.68:443
+Accepted from:127.0.0.1:64156
+Request version:5	Command: CONNECT
+IP:/35.186.227.140	Port:443
+Connected to /35.186.227.140:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Accepted from:127.0.0.1:64162
+Request version:5	Command: CONNECT
+IP:/52.38.31.225	Port:443
+Connected to /52.38.31.225:443
+Accepted from:127.0.0.1:64166
+Request version:5	Command: CONNECT
+IP:/13.224.38.23	Port:443
+Connected to /13.224.38.23:443
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped
+Aborting operation
+Main thread(client->remote)stopped.
+Support thread(remote->client) stopped

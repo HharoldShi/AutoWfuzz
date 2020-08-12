@@ -1,0 +1,13 @@
+# Please specify the fuzzing functions you would like to use. You can comment out any of the available functions
+# by placing '#' in front of it. 
+#FuzzingFunctionTwoToTen
+# FuzzingFunctionAddRandom
+FuzzingFunctionIntegerMax32Bit
+FuzzingFunctionIntegerMin32Bit
+FuzzingFunctionIntegerMax32BitUnsigned
+FuzzingFunctionIntegerMax64Bit
+FuzzingFunctionIntegerMin64Bit
+FuzzingFunctionIntegerMax64BitUnsigned
+FuzzingFunctionIntegerZero32Bit
+FuzzingFunctionSkipValue
+#FuzzingFunctionInsertRandomSample
