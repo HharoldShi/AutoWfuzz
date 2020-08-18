@@ -1,0 +1,368 @@
+<html><head></head><body bgcolor=#000000 text=#FFFFFF><h1>Fuzzing http://www.testfire.net/login.jsp</h1>
+<table border="1">
+<tr><td>#request</td><td>Code</td><td>#lines</td><td>#words</td><td>Url</td></tr>
+
+<tr><td>00001</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td></td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value=""><input type="hidden" name="passw" value=""><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00002</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>123456</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="123456"><input type="hidden" name="passw" value="123456"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00007</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>admin</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="admin"><input type="hidden" name="passw" value="admin"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00004</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>12345678</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="12345678"><input type="hidden" name="passw" value="12345678"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00003</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>1234567</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="1234567"><input type="hidden" name="passw" value="1234567"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00005</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>123asdf</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="123asdf"><input type="hidden" name="passw" value="123asdf"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00008</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>administrator</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="administrator"><input type="hidden" name="passw" value="administrator"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00010</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>backup</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="backup"><input type="hidden" name="passw" value="backup"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00006</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>Admin</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="Admin"><input type="hidden" name="passw" value="Admin"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00009</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>asdf123</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="asdf123"><input type="hidden" name="passw" value="asdf123"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00019</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>domino</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="domino"><input type="hidden" name="passw" value="domino"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00020</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>exchadm</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="exchadm"><input type="hidden" name="passw" value="exchadm"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00016</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>default</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="default"><input type="hidden" name="passw" value="default"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00017</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>dell</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="dell"><input type="hidden" name="passw" value="dell"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00018</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>dmz</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="dmz"><input type="hidden" name="passw" value="dmz"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00011</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>backupexec</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="backupexec"><input type="hidden" name="passw" value="backupexec"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00012</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>changeme</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="changeme"><input type="hidden" name="passw" value="changeme"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00013</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>clustadm</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="clustadm"><input type="hidden" name="passw" value="clustadm"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00014</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>cluster</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="cluster"><input type="hidden" name="passw" value="cluster"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00015</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>compaq</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="compaq"><input type="hidden" name="passw" value="compaq"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00021</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>exchange</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="exchange"><input type="hidden" name="passw" value="exchange"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00022</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>ftp</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="ftp"><input type="hidden" name="passw" value="ftp"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00023</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>gateway</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="gateway"><input type="hidden" name="passw" value="gateway"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00025</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>lotus</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="lotus"><input type="hidden" name="passw" value="lotus"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00027</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>notes</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="notes"><input type="hidden" name="passw" value="notes"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00028</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>office</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="office"><input type="hidden" name="passw" value="office"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00030</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>pass</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="pass"><input type="hidden" name="passw" value="pass"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00024</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>guest</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="guest"><input type="hidden" name="passw" value="guest"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00026</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>money</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="money"><input type="hidden" name="passw" value="money"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00029</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>oracle</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="oracle"><input type="hidden" name="passw" value="oracle"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00032</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>password!</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="password!"><input type="hidden" name="passw" value="password!"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00035</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>qwerty</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="qwerty"><input type="hidden" name="passw" value="qwerty"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00037</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>seagate</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="seagate"><input type="hidden" name="passw" value="seagate"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00031</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>password</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="password"><input type="hidden" name="passw" value="password"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00034</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>print</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="print"><input type="hidden" name="passw" value="print"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00033</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>password1</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="password1"><input type="hidden" name="passw" value="password1"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00036</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>replicate</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="replicate"><input type="hidden" name="passw" value="replicate"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00040</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>sqlexec</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="sqlexec"><input type="hidden" name="passw" value="sqlexec"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00038</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>secret</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="secret"><input type="hidden" name="passw" value="secret"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00039</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>sql</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="sql"><input type="hidden" name="passw" value="sql"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00041</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>temp</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="temp"><input type="hidden" name="passw" value="temp"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00042</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>temp!</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="temp!"><input type="hidden" name="passw" value="temp!"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00043</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>temp123</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="temp123"><input type="hidden" name="passw" value="temp123"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00046</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>test123</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="test123"><input type="hidden" name="passw" value="test123"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00047</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>tivoli</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="tivoli"><input type="hidden" name="passw" value="tivoli"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00044</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>test</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="test"><input type="hidden" name="passw" value="test"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00045</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>test!</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="test!"><input type="hidden" name="passw" value="test!"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00048</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>veritas</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="veritas"><input type="hidden" name="passw" value="veritas"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00049</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>virus</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="virus"><input type="hidden" name="passw" value="virus"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00050</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>web</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="web"><input type="hidden" name="passw" value="web"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00052</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>KKKKKKK</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="KKKKKKK"><input type="hidden" name="passw" value="KKKKKKK"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+
+<tr><td>00051</td>
+<td><font color=#00aa00>200</font></td>
+<td> 194L</td>
+<td>  582W</td>
+<td><table><tr><td>www</td><td><form method="post" action="http://www.testfire.net/login.jsp"><input type="hidden" name="uid" value="www"><input type="hidden" name="passw" value="www"><input type="hidden" name="btnSubmit" value="Login"><input type=submit name=b value="send POST"></form></td></tr></table></td>
+</tr>
+</table></body></html><h5>Wfuzz by EdgeSecurity<h5>

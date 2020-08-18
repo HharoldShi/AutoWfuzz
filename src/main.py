@@ -21,9 +21,8 @@ def main():
         if o == "-e":
             vw.show_error_only = True
 
-    # top_url = sys.argv[1]
-    top_url = "http://www.webscantest.com/"
-    fuzz_result_cluters = vw.FuzzResultClusters()
+    top_url = sys.argv[1]
+
 
     # web scraper
     s = ws.ScrapedURLs(top_url)
@@ -33,22 +32,14 @@ def main():
         print(i.url, i.getparams, i.postparams)
 
     # perform fuzzing
-    print("\n Perform Fuzzing the found URLs....")
+    print("\nPerform Fuzzing the found URLs....")
     for url in url_list:
-        vw.fuzz_weak_username(url, fuzz_result_cluters)
-        # vw.fuzz_sql_injection(url, fuzz_result_cluters)
-        # if len(url.getparams) != 0:
-            # vw.fuzz_sql_injection(url, fuzz_result_cluters)
+        vw.fuzz_weak_username(url)
+        vw.fuzz_sql_injection(url)
+        if len(url.getparams) != 0:
+            vw.fuzz_xss_injection(url)
 
 
-
-
-
-
-
-
-    # urls = []
-    # parameters = []
     # urls.append("/datastore/search_by_id.php") #only int
     # urls.append("/datastore/search_by_name.php") #only strings + two quotes
     # urls.append("/datastore/search_double_by_name.php") # only slashes and two quotes
@@ -58,19 +49,6 @@ def main():
     # parameters.append("id")
     # parameters.append("name")
 
-# for url in urls:
-#     print("URL Fuzzing: ", url)
-#     if "id" in url :
-#         vw.fuzz_sql_injection(home_url+url,'id', fuzz_result_cluters)
-#         vw.fuzz_xss_injection(home_url+url, 'id', fuzz_result_cluters)
-#     else:
-#         vw.fuzz_sql_injection(home_url + url, 'name', fuzz_result_cluters)
-#         vw.fuzz_xss_injection(home_url + url, 'name', fuzz_result_cluters)
-
-
-# # fuzzer test
-# vw.fuzz_sql_injection(top_url+"search.php",'test', fuzz_result_cluters)
-# vw.fuzz_xss_injection(top_url+"search.php",'test', fuzz_result_cluters)
 
 
 
