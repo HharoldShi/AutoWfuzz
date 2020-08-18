@@ -60,7 +60,10 @@ def wfuzz_get_request(payload, url, parameters, fuzz_result_clusters):
 def wfuzz_post_request(payload, url, parameters, fuzz_result_clusters):
     post_commands = "-d " + parameters[0] + "=FUZZ"
     for param in parameters[1:]:
-        post_commands += "&" + param + "=FUZZ"
+        if "submit" in param.lower():
+            post_commands += "&" + param + "=Login"
+        else:
+            post_commands += "&" + param + "=FUZZ"
     with wfuzz.get_session("{0} {1} -A -Z {2}".format(payload, post_commands, url)) as s:
         for r in s.fuzz():
             fuzz_result_clusters.append_entry(r)
@@ -88,7 +91,7 @@ def fuzz_xss_injection(url, fuzz_result_clusters):
 # TODO: add "weak password", need to locate login page
 
 def fuzz_weak_username(url,fuzz_result_clusters):
-    if "userinfo" in url.url.lower() or "doLogin" in url.url.lower():
+    if len(url.postparams) >= 2 and "pass" in url.postparams[1]:
         sys.stdout.write("\nWFuzz -- Weak Username and password\n")
         payload = "-z file,../wfuzz-master/wordlist/others/common_pass.txt"
         wfuzz_post_request(payload, url.url, url.postparams, fuzz_result_clusters)
