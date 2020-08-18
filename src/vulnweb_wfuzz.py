@@ -43,22 +43,37 @@ class FuzzResultClusters:
             clusterid += 1
 
 
-def fuzz_sql_injection(url, parameter, fuzz_result_cluters):
+def wfuzz_get_request(payload, url, parameter, fuzz_result_clusters):
+    with wfuzz.get_session("{0} -A -Z {1}?{2}=FUZZ".format(payload, url, parameter)) as s:
+        for r in s.fuzz():
+            fuzz_result_clusters.append_entry(r)
+        fuzz_result_clusters.output()
+
+
+def wfuzz_post_request(payload, url, parameters, fuzz_result_clusters):
+    post_commands = "-d " + parameters[0] + "=FUZZ"
+    for param in parameters[1:]:
+        post_commands += "&" + param + "=FUZZ"
+    with wfuzz.get_session("{0} {1} -A -Z {2}".format(payload, post_commands, url)) as s:
+        for r in s.fuzz():
+            fuzz_result_clusters.append_entry(r)
+        fuzz_result_clusters.output()
+
+
+def fuzz_sql_injection(url, parameter, fuzz_result_clusters):
+    # TODO: add post method
     sys.stdout.write("\nWFuzz -- SQL Injection\n")
-    with wfuzz.get_session("-z file,./wfuzz-master/wordlist/Injections/SQL.txt -A {0}?{1}=FUZZ".format(url, parameter)) as s:
-        for r in s.fuzz():
-            fuzz_result_cluters.append_entry(r)
-        fuzz_result_cluters.output()
+    payload = "-z file,../wfuzz-master/wordlist/Injections/SQL.txt"
+    wfuzz_get_request(payload, url, parameter, fuzz_result_clusters)
 
 
-def fuzz_xss_injection(url, parameter, fuzz_result_cluters):
+def fuzz_xss_injection(url, parameter, fuzz_result_clusters):
     sys.stdout.write("\nWFuzz -- XSS Injection\n")
-    with wfuzz.get_session("-z file,./wfuzz-master/wordlist/Injections/XSS.txt -A -Z {0}?{1}=FUZZ".format(url, parameter)) as s:
-        for r in s.fuzz():
-            fuzz_result_cluters.append_entry(r)
-        fuzz_result_cluters.output()
+    payload = "-z file,../wfuzz-master/wordlist/Injections/XSS.txt"
+    wfuzz_get_request(payload, url, parameter, fuzz_result_clusters)
 
 
+# TODO: add "weak password", need to locate login page
 
 
 

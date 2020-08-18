@@ -18,13 +18,16 @@ urls.append("/datastore/search_single_by_name.php") #only slashes and single quo
 parameters.append("id")
 parameters.append("name")
 
-for url in urls:
-    print("URL Fuzzing: ", url)
-    if "id" in url :
-        vw.fuzz_sql_injection(home_url+url,'id', fuzz_result_cluters)
-        vw.fuzz_xss_injection(home_url+url, 'id', fuzz_result_cluters)
-    else:
-        vw.fuzz_sql_injection(home_url + url, 'name', fuzz_result_cluters)
-        vw.fuzz_xss_injection(home_url + url, 'name', fuzz_result_cluters)
+# for url in urls:
+#     print("URL Fuzzing: ", url)
+#     if "id" in url :
+#         vw.fuzz_sql_injection(home_url+url,'id', fuzz_result_cluters)
+#         vw.fuzz_xss_injection(home_url+url, 'id', fuzz_result_cluters)
+#     else:
+#         vw.fuzz_sql_injection(home_url + url, 'name', fuzz_result_cluters)
+#         vw.fuzz_xss_injection(home_url + url, 'name', fuzz_result_cluters)
 
 
+
+vw.fuzz_sql_injection(top_url+"search.php",'test', fuzz_result_cluters)
+vw.fuzz_xss_injection(top_url+"search.php",'test', fuzz_result_cluters)
