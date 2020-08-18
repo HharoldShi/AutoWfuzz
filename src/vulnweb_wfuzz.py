@@ -87,8 +87,11 @@ def fuzz_xss_injection(url, fuzz_result_clusters):
 
 # TODO: add "weak password", need to locate login page
 
-
-
+def fuzz_weak_username(url,fuzz_result_clusters):
+    if "userinfo" in url.url.lower() or "doLogin" in url.url.lower():
+        sys.stdout.write("\nWFuzz -- Weak Username and password\n")
+        payload = "-z file,../wfuzz-master/wordlist/others/common_pass.txt"
+        wfuzz_post_request(payload, url.url, url.postparams, fuzz_result_clusters)
 
 
 
@@ -116,4 +119,3 @@ def fuzz_xss_injection(url, fuzz_result_clusters):
 # with wfuzz.get_session("--script=robots -z list,'robots.txt' http://testphp.vulnweb.com/FUZZ") as s:
 #     for r in s.fuzz():
 #         print(r)
-

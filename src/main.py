@@ -7,7 +7,7 @@ import getopt
 
 # "http://www.webscantest.com/"
 # "http://testphp.vulnweb.com/"
-
+# "http://www.testfire.net/"
 
 def main():
     try:
@@ -22,6 +22,7 @@ def main():
             vw.show_error_only = True
 
     top_url = sys.argv[1]
+    # top_url = "http://testphp.vulnweb.com/"
     fuzz_result_cluters = vw.FuzzResultClusters()
 
     # web scraper
@@ -32,10 +33,13 @@ def main():
         print(i.url, i.getparams, i.postparams)
 
     # perform fuzzing
+    print("\n Perform Fuzzing the found URLs....")
     for url in url_list:
+        vw.fuzz_weak_username(url, fuzz_result_cluters)
         vw.fuzz_sql_injection(url, fuzz_result_cluters)
         if len(url.getparams) != 0:
-            vw.fuzz_xss_injection(url, fuzz_result_cluters)
+            vw.fuzz_sql_injection(url, fuzz_result_cluters)
+
 
 
 
