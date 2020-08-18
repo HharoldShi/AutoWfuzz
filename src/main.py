@@ -40,6 +40,11 @@ def main():
             vw.fuzz_xss_injection(url)
 
 
+
+
+
+
+
     # urls.append("/datastore/search_by_id.php") #only int
     # urls.append("/datastore/search_by_name.php") #only strings + two quotes
     # urls.append("/datastore/search_double_by_name.php") # only slashes and two quotes

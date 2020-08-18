@@ -11,6 +11,8 @@ class URL:
         self.postparams = []
 
 
+# root_url =
+
 class ScrapedURLs:
     def __init__(self, root_url):
         self.root = root_url
@@ -103,7 +105,7 @@ class ScrapedURLs:
         try:
             page = urlopen(url)
         except urllib.error.HTTPError as e:
-            # print('HTTPError: {}'.format(e.code))
+            print('HTTPError: {}'.format(e.code))
             return [], [], {}
         html = page.read().decode("utf-8")
         soup = BeautifulSoup(html, "html.parser")
@@ -122,6 +124,12 @@ class ScrapedURLs:
 
         sub_urls = []
         for link in links:
+            i = ''
+            try:
+                i = link["href"]
+            except:
+                print("no href on " + url)
+                continue
 
             i = link["href"]
             i = re.sub(r"\/*", "", i)
@@ -156,15 +164,19 @@ class ScrapedURLs:
 
             try:
                 actions[(url, form['action'])] = []
-
+                flag = True
             except:
                 print("no action on " + url)
-                continue
+                actions[(url, "")] = []
+                flag = False
+                # continue
 
             for element in form.find_all('input'):
                 if re.search('name', str(element)):
-                    actions[(url, form['action'])].append(element['name'])
-
+                    if flag:
+                        actions[(url, form['action'])].append(element['name'])
+                    else:
+                        actions[(url, '')].append(element['name'])
                     # print(element['name'])
         return actions
 
