@@ -1,8 +1,10 @@
 import wfuzz
 from bs4 import BeautifulSoup
 import sys
+import random
 
 show_error_only = False
+error_msgs = ["Warning: mysql_fetch_array()", "Error 1064"]
 
 
 class FuzzResultEntry:
@@ -29,11 +31,18 @@ class FuzzResultClusters:
         self.cluster_list = []
 
     def append_entry(self, r):
+        # print((r.history.content).lower() + "\n -----------------------------------------------------------------------------\n")
+        error_found = False
         if len(r.plugins['errors']) != 0:
             entry = FuzzResultEntry(r.code, r.lines, r.words, r.chars, r.url, r.plugins['errors'][0], r.history.params.raw_post)
-        elif "error" in (r.history.content).lower():
-            entry = FuzzResultEntry(r.code, r.lines, r.words, r.chars, r.url, "Error found", r.history.params.raw_post)
+            error_found = True
         else:
+            for msg in error_msgs:
+                if msg in r.history.content:
+                    entry = FuzzResultEntry(r.code, r.lines, r.words, r.chars, r.url, "Error identified: " + msg, r.history.params.raw_post)
+                    error_found = True
+                    break
+        if not error_found:
             entry = FuzzResultEntry(r.code, r.lines, r.words, r.chars, r.url, None, r.history.params.raw_post)
         if entry not in self.cluster_list or entry.error_msg is not None:
             self.cluster_list.append(entry)
@@ -171,3 +180,4 @@ def find_hidden_urls(found_urls, com_dir_list, com_files_list):
         sys.stdout.write("\nFound hidden URLs: \n")
         for i in hidden_urls:
             sys.stdout.write(i + "\n")
+

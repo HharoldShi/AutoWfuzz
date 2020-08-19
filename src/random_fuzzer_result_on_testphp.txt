@@ -1,0 +1,319 @@
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          109 L     388     4958         None    http://testphp.vulnweb.com/     searchFor=24047004071128374665&goButton=24047004071128374665
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/cart.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          108 L     384     4903         None    http://testphp.vulnweb.com/cart.php     searchFor=24047004071128374665&goButton=24047004071128374665
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/artists.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          104 L     386     5328         None    http://testphp.vulnweb.com/artists.php  searchFor=24047004071128374665&goButton=24047004071128374665
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/login.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php    uname=202320714673&pass=202320714673
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/categories.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          116 L     503     6115         None    http://testphp.vulnweb.com/categories.php       searchFor=2042840523&goButton=2042840523
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/guestbook.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          112 L     400     5408         None    http://testphp.vulnweb.com/guestbook.php        name=234535543153113838&submit=Login
+        2            200          112 L     400     5400         None    http://testphp.vulnweb.com/guestbook.php        name=2042840523&submit=Login
+        3            200          112 L     400     5410         None    http://testphp.vulnweb.com/guestbook.php        name=24047004071128374665&submit=Login
+        4            200          112 L     400     5402         None    http://testphp.vulnweb.com/guestbook.php        name=202320714673&submit=Login
+        5            200          112 L     400     5404         None    http://testphp.vulnweb.com/guestbook.php        name=64228083623542&submit=Login
+        6            200          112 L     400     5396         None    http://testphp.vulnweb.com/guestbook.php        name=846774&submit=Login
+        7            200          112 L     400     5398         None    http://testphp.vulnweb.com/guestbook.php        name=23233258&submit=Login
+        8            200          112 L     400     5393         None    http://testphp.vulnweb.com/guestbook.php        name=687&submit=Login
+        9            200          112 L     400     5395         None    http://testphp.vulnweb.com/guestbook.php        name=22306&submit=Login
+       10            200          112 L     400     5405         None    http://testphp.vulnweb.com/guestbook.php        name=486313354275423&submit=Login
+       11            200          112 L     400     5406         None    http://testphp.vulnweb.com/guestbook.php        name=2841875308786807&submit=Login
+       12            200          112 L     400     5399         None    http://testphp.vulnweb.com/guestbook.php        name=137473215&submit=Login
+       13            200          112 L     400     5403         None    http://testphp.vulnweb.com/guestbook.php        name=3465410477448&submit=Login
+       14            200          112 L     400     5401         None    http://testphp.vulnweb.com/guestbook.php        name=00172626553&submit=Login
+       15            200          112 L     400     5407         None    http://testphp.vulnweb.com/guestbook.php        name=52346860340025183&submit=Login
+       16            200          112 L     400     5392         None    http://testphp.vulnweb.com/guestbook.php        name=67&submit=Login
+       17            200          112 L     400     5391         None    http://testphp.vulnweb.com/guestbook.php        name=6&submit=Login
+       18            200          112 L     400     5397         None    http://testphp.vulnweb.com/guestbook.php        name=3015011&submit=Login
+       19            200          112 L     400     5394         None    http://testphp.vulnweb.com/guestbook.php        name=0161&submit=Login
+       20            200          112 L     400     5460         None    http://testphp.vulnweb.com/guestbook.php        name=MTIOjlWcDXtMFRGBQWhjLdEwTFijPoVQSyhiFwksfUFHTdPHXtEdfTXVLlIqOFdMYkLKIr&submit=Login
+       21            200          112 L     400     5458         None    http://testphp.vulnweb.com/guestbook.php        name=FqOGUeDqfWXxLbnwkdggItjaMUfiqAdjoRXUaVIoIPCnGrtGVdbTdSttdAhWdbvDhdcd&submit=Login
+       22            200          112 L     400     5488         None    http://testphp.vulnweb.com/guestbook.php        name=mIhyxXgbrEQmYVCDdgkQTxslIwqteYYHsXrpQmcIhQRcpRPPMhrNHMHaiPFJpRCIJRUYsRxGDSQufnHgoXuQmbIxbVSyHDJIwY&submit=Login
+       23            200          112 L     400     5437         None    http://testphp.vulnweb.com/guestbook.php        name=QeSqQxymywPQvBtHGlVxxcIelMLeYQIfsQBADeTbFpACpbQ&submit=Login
+       24            200          112 L     400     5445         None    http://testphp.vulnweb.com/guestbook.php        name=VBFcpNwhuWtcTtIhQIqGRGvVgmWoOTEyIPEgwPKorQckgtAoXEIFGlo&submit=Login
+       25            200          112 L     400     5484         None    http://testphp.vulnweb.com/guestbook.php        name=FpyoyQncWgIRJgLaksdRGmkqjiQyQbeSedNsNSRxymnsCkSFGgDwrdrhPelVnFOSldRbBRbXCQcMOciuNdWjGMQWODDxJq&submit=Login
+       26            200          112 L     400     5470         None    http://testphp.vulnweb.com/guestbook.php        name=cfmsobuafpkaVsHHVPTHYhnpWgbNFTHVGGBBJiEpvXtmAleTfxQbXRYlNxRlgcRggpMGWlcluqVCwusy&submit=Login
+       27            200          112 L     400     5434         None    http://testphp.vulnweb.com/guestbook.php        name=sNxWrLWOTQLuYWBFcbIugxWyVUkXtIlbAaJloswaMSVR&submit=Login
+       28            200          112 L     400     5452         None    http://testphp.vulnweb.com/guestbook.php        name=QklcqYNAVweCnsQffdlacXbRLtuGsHhVKIGtSJRlrcCKEAOJmmQBRNiBMCpwDw&submit=Login
+       29            200          112 L     400     5412         None    http://testphp.vulnweb.com/guestbook.php        name=shuaMfnMkmtmHCgUAEmdsp&submit=Login
+       30            200          112 L     400     5418         None    http://testphp.vulnweb.com/guestbook.php        name=wamkXlGqWusJjEyfMYbYGjkHhCiv&submit=Login
+       31            200          112 L     400     5477         None    http://testphp.vulnweb.com/guestbook.php        name=mestUEYAIsDcIWbgwGqEcpwtVoPqUFyLNBPBfhAEuhjSqLWwGFUyiGjxVxihULXtmDxdBGcDEMTibTdTdEUSTAL&submit=Login
+       32            200          112 L     400     5409         None    http://testphp.vulnweb.com/guestbook.php        name=qcKoeyNBeysATsoLewb&submit=Login
+       33            200          112 L     400     5426         None    http://testphp.vulnweb.com/guestbook.php        name=DMpkAidCWiUHWkHeDGFpEFCjgrCkRJtXsoGP&submit=Login
+       34            200          112 L     400     5489         None    http://testphp.vulnweb.com/guestbook.php        name=tkPuvbmWVVgmtxTbeihxybowXhWABhadLVCpIepLcteFtmRGRNDYiKxyVANkCwHCgFyFlCroTYtcnSdqWdWljMURVlOtSauHtTS&submit=Login
+       35            200          112 L     400     5473         None    http://testphp.vulnweb.com/guestbook.php        name=wmmMWlbHoogHNaWBEsVvUlarvqfkOFeWlHtITpEuBWDqGXWsgCRUIHMjEsnPWPlkqJwljjScKlnkMKKyFvE&submit=Login
+       36            200          112 L     400     5415         None    http://testphp.vulnweb.com/guestbook.php        name=vWoapNMHEAIlihObbJisJAjpC&submit=Login
+       37            200          112 L     400     5481         None    http://testphp.vulnweb.com/guestbook.php        name=NIFofEqSVsGPufddwEynRHWdpajxPoKFDPWLQJXbqonXtcIwonHHCSDmByNRBrqECcLuIfuhskJECHIwsjJBXdejJCO&submit=Login
+       38            200          112 L     400     5419         None    http://testphp.vulnweb.com/guestbook.php        name=imYAGOuFnUWCGPwpxGuNAQjKnnBlT&submit=Login
+       39            200          112 L     400     5474         None    http://testphp.vulnweb.com/guestbook.php        name=XQXmOJTTaUNuyGRubOijelEgPAHyQaQIibLQLUEUIieHoGovHJXYKTGAIkyKpDwuurEuaWVtdeYoIjQPqiLE&submit=Login
+       40            200          112 L     400     5443         None    http://testphp.vulnweb.com/guestbook.php        name=amNLNgJirgmEBVuKhcncDmFfSLoXQyOatwvXOPmgBPoDmWXepceXm&submit=Login
+       41            200          112 L     400     5490         None    http://testphp.vulnweb.com/guestbook.php        name=KiMcTkxEYbEolUjhRLlJlljhsFBaxTrewjhWgkQnGiKVEiWiMkpjbEGfgksvosmPkAfgODFrCykxSvuJRTJuuYltCuDLMwMCMtpv&submit=Login
+       42            200          112 L     401     5441         None    http://testphp.vulnweb.com/guestbook.php        name=#7-";$ym9th.4v\dus,p4mq@bOVe03TPp5y!BW1QB/`mpLhBp+f&TPieiYT46 macW_oK1GNhtve5m L*=Kn#%}D#;w\?78qr>u_?XAdM{7cs\/3Dq>b5w)k| ms"$Tt&}ypUV8&submit=Login
+       43            200          112 L     403     5585         None    http://testphp.vulnweb.com/guestbook.php        name=WBxYbnd59:("fCcBUhI_r^k:ou=dQ@SVk8M8B`B]6p+;U4^x5k!2jmKoJ=>1U6v0.[)b*==+Z-P?|a7Wlm\<b8jRcv6}e|/j\t0=B}Z"Md*:2/ut}D#u9bim2eU2n.#w2sY"eJ5UQpO[<jl}U+3$;jv<MO)d\sA;Fs%%\)2-p#BwoRuX@4kLqJQtrRQ9%YNYQNT&submit=Login
+       44            200          112 L     400     5423         None    http://testphp.vulnweb.com/guestbook.php        name=/*);.;Om@HCv|fDTGQF*k5HD;Ad1afn$=&0ch!E]&,:ao)E#!1o`?)|8(4wc+fsg]W]\=2@*MDT.XY/q7NO<v7.'8f@vE?g^lh%D9bUqqo,w{s1K&submit=Login
+       45            200          112 L     402     5490         None    http://testphp.vulnweb.com/guestbook.php        name=L_;AZo1D"Q/-"q6BWbjXG'Enz_XK!wt\#vQl:)^"U^9#)mXbYODAh54Ts:`QqNP4=0{TfYy%?H+7{@FG U<ZAt\:):BG62z)Bzfr&0\j(|('GbdE'B+&z.#_zMv35gzJ%z\:@t1hQ?D+L(u.xh\Qo;|SCg[)nysF_Hm!7}Slq&Q[B3{BR]a!Uj`)Gb@ia2)&submit=Login
+       46            200          112 L     401     5454         None    http://testphp.vulnweb.com/guestbook.php        name=sAVV+TN4QuZ@A[}/K=st{Vgq)(CMf8.8urdf^ZLI6o6?O[OFfvtxa8{C`_FJ^>FL&submit=Login
+       47            200          112 L     402     5433         None    http://testphp.vulnweb.com/guestbook.php        name=%XzlQyT\e}/wP} 1aS|H`q]Pv=6{4/XY'LMx!rP/*/ &NM*R-zH?W]}b!}vGfxJL8\$d)pk]^PB,OO([V=pq_[&`Lu%20p#,;Wa*X]$&submit=Login
+       48            200          112 L     403     5526         None    http://testphp.vulnweb.com/guestbook.php        name=ePd9r"bHC^ajhAn^EboAwaVIaw2_jcpSe=L4GL%|W7e/]@BP"<8L'Yk#{<DcPhE|iKuZxCd/K6A4X9r-D+11%k[cIZ<`zoGwx3]9 )Hbh5U{FpMt`$0=Ao>N@MXC+rMH_PhIQ;fY&submit=Login
+       49            200          112 L     402     5499         None    http://testphp.vulnweb.com/guestbook.php        name=JcX*V))}7FHA).i<4X6`[>xQ;hPpWA[D3aS2_?n+Z4mPCviHvJ: rhn|(6r'AxsalNE8h)u\.dZui'8Z,L=Zg;QrMtxX_(Z"SdiuqdV,4vH@_&submit=Login
+       50            200          112 L     401     5418         None    http://testphp.vulnweb.com/guestbook.php        name=faU#mKSHpgU3*/4wZ"{>V^.Sf2+W&&c |^QQsM`HJ@mov[P59;BU5isl&?sQ4kF|SPw$5_F(_g[l/\K707X3P^Kh^3+-<B1:EwAt2"zWjFt)Tc]IP(]8GNbRQy`>@[s$E?:BXos*$[fh9<ZoxC7EC4(JS`UivF3Y`z`%hkRI8dBF%sNr#R"S&%UGk+lP4jk=/qL&submit=Login
+       51            200          112 L     403     5503         None    http://testphp.vulnweb.com/guestbook.php        name=mx/0l`6[D mX"f@vzK*bQss.vVZT\O2CDf`y)mDEASdJo]vLj:i`q#T!})f9[ti'E"-y]OfaZ@\vec@b`vqz@ZL:_%m`k/\uk?+SEod!h+3HL:\Xi&submit=Login
+       52            200          112 L     401     5409         None    http://testphp.vulnweb.com/guestbook.php        name=RiUYZ %/.DR'dI4x8oM&submit=Login
+       53            200          112 L     401     5469         None    http://testphp.vulnweb.com/guestbook.php        name=]?v5B=B\]Uuyg/3}Olcrl4gy@%J9o62+B"2MJ`DZMfLH?Pd4=/lH2TW#N^gI|]tFHN[t2z%RvZ)qp%I&submit=Login
+       54            200          112 L     404     5421         None    http://testphp.vulnweb.com/guestbook.php        name=!@4VNMdqL>[Lk,:Z]F v+Mu.ZE me ]&nf,&submit=Login
+       55            200          112 L     400     5422         None    http://testphp.vulnweb.com/guestbook.php        name=T3<$]*Eeif9nc$Y#c/a'|=*"D-GYxYkI&submit=Login
+       56            200          112 L     403     5511         None    http://testphp.vulnweb.com/guestbook.php        name=*{Ep)C zuWtx'xNMNg+QuzXj7Qvk`j;pMHN3tUP7|L:}\x7M0VF*!"u-huLtQ,%1Fh}7}cj9H1VWdBe=s%W9dvC^|QL@%!TB9TFiCro*23`O_#G.yU"O4|M2SH7&submit=Login
+       57            200          112 L     404     5542         None    http://testphp.vulnweb.com/guestbook.php        name=XIgt64L)JM0A<c"DJ_E8#UO1|oCxLkZ+SO;gXrr"cn]Av@4SD38x]V{jgEjf"=A{6R|+P_e1LE@f8oWG{+.uwS!FwhAT!s};3t!=Zw"=m6R8ie^MnF}KOxr[cC?2eZ1"R$-Xx3<'0^w P>VlP=eN)xp8&submit=Login
+       58            200          112 L     400     5446         None    http://testphp.vulnweb.com/guestbook.php        name=02.cBd,|P%wcpn'(q}M?,](BOY8>*@7`{Q**-Hhvm/jm]f[FTuufTRNB&p_=#iT]Zns6&oT]13H1H[Y-Vd7+EJDE+wW81`+>Fki#tMQC.;Y1;u ve((Nq8w=h^/W>koHmWub&submit=Login
+       59            200          112 L     403     5508         None    http://testphp.vulnweb.com/guestbook.php        name=rwv#{y}3PX8.oB?[R!8L@xB;1Och< i.H8=)WvO,3bE0U:RPM-7PR@joOf j)`_xiX9sKY>Q:RWn`?`iTZ_ogVr}J. YA_@za>;\`?#P2*5yOE^gswVVwo&TvG4p>*T"YLe\$z? th^*^-ttyD?u>YVhe_QYh;wiV{#?w@0tcO\argJ8"^a{0J&H$8t?5BR&submit=Login
+       60            200          112 L     400     5451         None    http://testphp.vulnweb.com/guestbook.php        name=Y|']YDVV1;nn:,f0(GnTr${#b<tVeXiCF(>{uoQBCAu0r_dbap<J!%vLQw2q5&submit=Login
+       61            200          112 L     401     5444         None    http://testphp.vulnweb.com/guestbook.php        name=upSu5[0>=H+56kJ9T<oLY#rG-k\V'r)R2yw=W}m$N[]s"06>wTjB[f&!uVBsQ_lh6zbw9G!cUv"&submit=Login
+       62            200          112 L     400     5427         None    http://testphp.vulnweb.com/guestbook.php        name=3oV^v7uiMJ,/kz-a/0Spndk"u.7fUpW7CIldr&submit=Login
+       63            200          112 L     401     5396         None    http://testphp.vulnweb.com/guestbook.php        name=9+M|m}&submit=Login
+       64            200          112 L     400     5534         None    http://testphp.vulnweb.com/guestbook.php        name={K[3jq}neumlQD;cMu@I<TZIZ4!_D:Jq5GAgqU:Q>byU`e}h0Z'cY:{kH;b@!r=nO^@ITG9_v:V[#Ql-@N#[a8zQwqfz3hJ{_aVOY6ik$w"b@qAi=#w\!Vb$]i{]y=C{Gz2z0%FoTu-<i,@Z&submit=Login
+       65            200          112 L     401     5415         None    http://testphp.vulnweb.com/guestbook.php        name=>wpOGGukeS!#VPtKI.-'e8` e&&submit=Login
+       66            200          112 L     401     5495         None    http://testphp.vulnweb.com/guestbook.php        name=WsVe3CC[<R"`1<F<>O/tB[J/{Tf[)vt_'az!#(oE'X6#+iywL39p5b]YW\4)hgAM622q1Z=[|J,CB#P{5t<2m0J4-{9l>e/N}|=:n*n]c&submit=Login
+       67            200          112 L     404     5520         None    http://testphp.vulnweb.com/guestbook.php        name=R|oJnCh7o|j4RZ>O#o'PUDRBdnb$K@5<%I9z\.B:T.=Nj<']eo)\t F`/s9$_i?85!jWol0(M)D{S9PrUiilq2GJ\jnAOLg,<'CpcA+1vl$jg):sjPdvpPrp@=J <' ,N4&submit=Login
+       68            200          112 L     402     5432         None    http://testphp.vulnweb.com/guestbook.php        name=n=bXK[tgfbPa}-Q*S>^9f*N+i?!<>-' uqA9g.Tl)2&submit=Login
+       69            200          112 L     401     5405         None    http://testphp.vulnweb.com/guestbook.php        name=]6rv+,vZ-hsh22Q&UZrI,ERWXT,{2{4vd{swhx]i2)lek0,yI^&submit=Login
+       70            200          112 L     401     5450         None    http://testphp.vulnweb.com/guestbook.php        name=548$-<l?XJ%n6i\[:aPPx>jS15sGc[=-1j <4]OsUhXHVu:M2Js#R<)iCY==&submit=Login
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/index.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          109 L     388     4958         None    http://testphp.vulnweb.com/index.php    searchFor=24047004071128374665&goButton=24047004071128374665
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/disclaimer.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          114 L     463     5524         None    http://testphp.vulnweb.com/disclaimer.php       searchFor=24047004071128374665&goButton=24047004071128374665
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/userinfo.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            302            0 L       3       14         None    http://testphp.vulnweb.com/userinfo.php         uname=687&pass=687
+        2            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=L_;AZo1D"Q/-"q6BWbjXG'Enz_XK!wt\#vQl:)^"U^9#)mXbYODAh54Ts:`QqNP4=0{TfYy%?H+7{@FG U<ZAt\:):BG62z)Bzfr&0\j(|('GbdE'B+&z.#_zMv35gzJ%z\:@t1hQ?D+L(u.xh\Qo;|SCg[)nysF_Hm!7}Slq&Q[B3{BR]a!Uj`)Gb@ia2)&pass=L_;AZo1D"Q/-"q6BWbjXG'Enz_XK!wt\#vQl:)^"U^9#)mXbYODAh54Ts:`QqNP4=0{TfYy%?H+7{@FG U<ZAt\:):BG62z)Bzfr&0\j(|('GbdE'B+&z.#_zMv35gzJ%z\:@t1hQ?D+L(u.xh\Qo;|SCg[)nysF_Hm!7}Slq&Q[B3{BR]a!Uj`)Gb@ia2)
+        3            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=%XzlQyT\e}/wP} 1aS|H`q]Pv=6{4/XY'LMx!rP/*/ &NM*R-zH?W]}b!}vGfxJL8\$d)pk]^PB,OO([V=pq_[&`Lu%20p#,;Wa*X]$&pass=%XzlQyT\e}/wP} 1aS|H`q]Pv=6{4/XY'LMx!rP/*/ &NM*R-zH?W]}b!}vGfxJL8\$d)pk]^PB,OO([V=pq_[&`Lu%20p#,;Wa*X]$
+        4            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=ePd9r"bHC^ajhAn^EboAwaVIaw2_jcpSe=L4GL%|W7e/]@BP"<8L'Yk#{<DcPhE|iKuZxCd/K6A4X9r-D+11%k[cIZ<`zoGwx3]9 )Hbh5U{FpMt`$0=Ao>N@MXC+rMH_PhIQ;fY&pass=ePd9r"bHC^ajhAn^EboAwaVIaw2_jcpSe=L4GL%|W7e/]@BP"<8L'Yk#{<DcPhE|iKuZxCd/K6A4X9r-D+11%k[cIZ<`zoGwx3]9 )Hbh5U{FpMt`$0=Ao>N@MXC+rMH_PhIQ;fY
+        5            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=JcX*V))}7FHA).i<4X6`[>xQ;hPpWA[D3aS2_?n+Z4mPCviHvJ: rhn|(6r'AxsalNE8h)u\.dZui'8Z,L=Zg;QrMtxX_(Z"SdiuqdV,4vH@_&pass=JcX*V))}7FHA).i<4X6`[>xQ;hPpWA[D3aS2_?n+Z4mPCviHvJ: rhn|(6r'AxsalNE8h)u\.dZui'8Z,L=Zg;QrMtxX_(Z"SdiuqdV,4vH@_
+        6            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=mx/0l`6[D mX"f@vzK*bQss.vVZT\O2CDf`y)mDEASdJo]vLj:i`q#T!})f9[ti'E"-y]OfaZ@\vec@b`vqz@ZL:_%m`k/\uk?+SEod!h+3HL:\Xi&pass=mx/0l`6[D mX"f@vzK*bQss.vVZT\O2CDf`y)mDEASdJo]vLj:i`q#T!})f9[ti'E"-y]OfaZ@\vec@b`vqz@ZL:_%m`k/\uk?+SEod!h+3HL:\Xi
+        7            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=RiUYZ %/.DR'dI4x8oM&pass=RiUYZ %/.DR'dI4x8oM
+        8            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='$,&pass='$,
+        9            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=T3<$]*Eeif9nc$Y#c/a'|=*"D-GYxYkI&pass=T3<$]*Eeif9nc$Y#c/a'|=*"D-GYxYkI
+       10            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=*{Ep)C zuWtx'xNMNg+QuzXj7Qvk`j;pMHN3tUP7|L:}\x7M0VF*!"u-huLtQ,%1Fh}7}cj9H1VWdBe=s%W9dvC^|QL@%!TB9TFiCro*23`O_#G.yU"O4|M2SH7&pass=*{Ep)C zuWtx'xNMNg+QuzXj7Qvk`j;pMHN3tUP7|L:}\x7M0VF*!"u-huLtQ,%1Fh}7}cj9H1VWdBe=s%W9dvC^|QL@%!TB9TFiCro*23`O_#G.yU"O4|M2SH7
+       11            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=02.cBd,|P%wcpn'(q}M?,](BOY8>*@7`{Q**-Hhvm/jm]f[FTuufTRNB&p_=#iT]Zns6&oT]13H1H[Y-Vd7+EJDE+wW81`+>Fki#tMQC.;Y1;u ve((Nq8w=h^/W>koHmWub&pass=02.cBd,|P%wcpn'(q}M?,](BOY8>*@7`{Q**-Hhvm/jm]f[FTuufTRNB&p_=#iT]Zns6&oT]13H1H[Y-Vd7+EJDE+wW81`+>Fki#tMQC.;Y1;u ve((Nq8w=h^/W>koHmWub
+       12            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=Y|']YDVV1;nn:,f0(GnTr${#b<tVeXiCF(>{uoQBCAu0r_dbap<J!%vLQw2q5&pass=Y|']YDVV1;nn:,f0(GnTr${#b<tVeXiCF(>{uoQBCAu0r_dbap<J!%vLQw2q5
+       13            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=XIgt64L)JM0A<c"DJ_E8#UO1|oCxLkZ+SO;gXrr"cn]Av@4SD38x]V{jgEjf"=A{6R|+P_e1LE@f8oWG{+.uwS!FwhAT!s};3t!=Zw"=m6R8ie^MnF}KOxr[cC?2eZ1"R$-Xx3<'0^w P>VlP=eN)xp8&pass=XIgt64L)JM0A<c"DJ_E8#UO1|oCxLkZ+SO;gXrr"cn]Av@4SD38x]V{jgEjf"=A{6R|+P_e1LE@f8oWG{+.uwS!FwhAT!s};3t!=Zw"=m6R8ie^MnF}KOxr[cC?2eZ1"R$-Xx3<'0^w P>VlP=eN)xp8
+       14            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=upSu5[0>=H+56kJ9T<oLY#rG-k\V'r)R2yw=W}m$N[]s"06>wTjB[f&!uVBsQ_lh6zbw9G!cUv"&pass=upSu5[0>=H+56kJ9T<oLY#rG-k\V'r)R2yw=W}m$N[]s"06>wTjB[f&!uVBsQ_lh6zbw9G!cUv"
+       15            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname={K[3jq}neumlQD;cMu@I<TZIZ4!_D:Jq5GAgqU:Q>byU`e}h0Z'cY:{kH;b@!r=nO^@ITG9_v:V[#Ql-@N#[a8zQwqfz3hJ{_aVOY6ik$w"b@qAi=#w\!Vb$]i{]y=C{Gz2z0%FoTu-<i,@Z&pass={K[3jq}neumlQD;cMu@I<TZIZ4!_D:Jq5GAgqU:Q>byU`e}h0Z'cY:{kH;b@!r=nO^@ITG9_v:V[#Ql-@N#[a8zQwqfz3hJ{_aVOY6ik$w"b@qAi=#w\!Vb$]i{]y=C{Gz2z0%FoTu-<i,@Z
+       16            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname='_,#&pass='_,#
+       17            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=>wpOGGukeS!#VPtKI.-'e8` e&&pass=>wpOGGukeS!#VPtKI.-'e8` e&
+       18            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=R|oJnCh7o|j4RZ>O#o'PUDRBdnb$K@5<%I9z\.B:T.=Nj<']eo)\t F`/s9$_i?85!jWol0(M)D{S9PrUiilq2GJ\jnAOLg,<'CpcA+1vl$jg):sjPdvpPrp@=J <' ,N4&pass=R|oJnCh7o|j4RZ>O#o'PUDRBdnb$K@5<%I9z\.B:T.=Nj<']eo)\t F`/s9$_i?85!jWol0(M)D{S9PrUiilq2GJ\jnAOLg,<'CpcA+1vl$jg):sjPdvpPrp@=J <' ,N4
+       19            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=WsVe3CC[<R"`1<F<>O/tB[J/{Tf[)vt_'az!#(oE'X6#+iywL39p5b]YW\4)hgAM622q1Z=[|J,CB#P{5t<2m0J4-{9l>e/N}|=:n*n]c&pass=WsVe3CC[<R"`1<F<>O/tB[J/{Tf[)vt_'az!#(oE'X6#+iywL39p5b]YW\4)hgAM622q1Z=[|J,CB#P{5t<2m0J4-{9l>e/N}|=:n*n]c
+       20            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=n=bXK[tgfbPa}-Q*S>^9f*N+i?!<>-' uqA9g.Tl)2&pass=n=bXK[tgfbPa}-Q*S>^9f*N+i?!<>-' uqA9g.Tl)2
+       21            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=h,pR"2?$H1Ag;$8'zB2o&vy<HIqV*34Oh1WnN8-6iv*;sIPGfg^.b2&pass=h,pR"2?$H1Ag;$8'zB2o&vy<HIqV*34Oh1WnN8-6iv*;sIPGfg^.b2
+       22            302            2 L      18      133         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/userinfo.php         uname=quL|s*gB:Y FzTGMN/LdM6IU%d3;`6(#B3Af-zg98IV3bbx)Iy5oOepbWPP0i0(hzz>;b_/ID?rR0/np=g07\@x,6i@9'BJ|n_s|mC6'(tv&sKVjOn/GMe!e.}gt?!m&pass=quL|s*gB:Y FzTGMN/LdM6IU%d3;`6(#B3Af-zg98IV3bbx)Iy5oOepbWPP0i0(hzz>;b_/ID?rR0/np=g07\@x,6i@9'BJ|n_s|mC6'(tv&sKVjOn/GMe!e.}gt?!m
+
+Random Fuzzing on POST parameters, URL = http://testphp.vulnweb.com/login.php/signup.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200          119 L     432     5523         None    http://testphp.vulnweb.com/login.php/signup.php         uname=24047004071128374665&pass=24047004071128374665
+
+Random Fuzzing on URL parameters, URL = http://testphp.vulnweb.com/artists.php/artists.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          104 L     364     4735         None    http://testphp.vulnweb.com/artists.php/artists.php?artist=24047004071128374665
+        2            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=dGmET
+        3            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=xfhiQmtSdBcmcAm
+        4            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=MTIOjlWcDXtMFRGBQWhjLdEwTFijPoVQSyhiFwksfUFHTdPHXtEdfTXVLlIqOFdMYkLKIr
+        5            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=HCPD
+        6            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=VBFcpNwhuWtcTtIhQIqGRGvVgmWoOTEyIPEgwPKorQckgtAoXEIFGlo
+        7            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=jUKHCVoOuMbInSuhX
+        8            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=FqOGUeDqfWXxLbnwkdggItjaMUfiqAdjoRXUaVIoIPCnGrtGVdbTdSttdAhWdbvDhdcd
+        9            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=QeSqQxymywPQvBtHGlVxxcIelMLeYQIfsQBADeTbFpACpbQ
+       10            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=mIhyxXgbrEQmYVCDdgkQTxslIwqteYYHsXrpQmcIhQRcpRPPMhrNHMHaiPFJpRCIJRUYsRxGDSQufnHgoXuQmbIxbVSyHDJIwY
+       11            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=fRrU
+       12            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=hiVEOUCnOjNeSoSjFXfKVtfheUbHWdTSLcGyGmNFmBnYVxgLqxNNdeJaRygGTtmoAlTC
+       13            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=MnuKhIJQhUiSWtftcNFmfyvfOoNprvbyRUqQvcmJkLElaVDVPpHHXptAgSBllVQqpHhpctUAxvUksCDDHALeHRalEJQbKsPWte
+       14            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=D
+       15            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=NlUNlgsYMaNCBEJ
+       16            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=cfmsobuafpkaVsHHVPTHYhnpWgbNFTHVGGBBJiEpvXtmAleTfxQbXRYlNxRlgcRggpMGWlcluqVCwusy
+       17            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=shuaMfnMkmtmHCgUAEmdsp
+       18            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=wamkXlGqWusJjEyfMYbYGjkHhCiv
+       19            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=sNxWrLWOTQLuYWBFcbIugxWyVUkXtIlbAaJloswaMSVR
+       20            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=QklcqYNAVweCnsQffdlacXbRLtuGsHhVKIGtSJRlrcCKEAOJmmQBRNiBMCpwDw
+       21            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=FpyoyQncWgIRJgLaksdRGmkqjiQyQbeSedNsNSRxymnsCkSFGgDwrdrhPelVnFOSldRbBRbXCQcMOciuNdWjGMQWODDxJq
+       22            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=qcKoeyNBeysATsoLewb
+       23            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=DMpkAidCWiUHWkHeDGFpEFCjgrCkRJtXsoGP
+       24            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=mestUEYAIsDcIWbgwGqEcpwtVoPqUFyLNBPBfhAEuhjSqLWwGFUyiGjxVxihULXtmDxdBGcDEMTibTdTdEUSTAL
+       25            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=MWqPLVmgqFmqJaDtKCAdwhUjKxbEWYEynUgcOVTRhOPrFbwIoPEbRyOsXeifffAEqwErhUqolxagXvhmPwXjUObTQJDiwtcfqY
+       26            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=tkPuvbmWVVgmtxTbeihxybowXhWABhadLVCpIepLcteFtmRGRNDYiKxyVANkCwHCgFyFlCroTYtcnSdqWdWljMURVlOtSauHtTS
+       27            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=UOjM
+       28            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=QL
+       29            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=LBXwt
+       30            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=vWoapNMHEAIlihObbJisJAjpC
+       31            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=wmmMWlbHoogHNaWBEsVvUlarvqfkOFeWlHtITpEuBWDqGXWsgCRUIHMjEsnPWPlkqJwljjScKlnkMKKyFvE
+       32            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=fRTkdokhrCTdOOiptjXisSSANJVCcIphTxloAhvMmMcOUChNehbvFoEPCWagiyyDgDURFTOolYFilbyXiJmbilpbBSMJWPCtQl
+       33            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=oEkpXYOopBHKBJMuGnHkvteMiQKyBwuPdYuxcysJYbWyBaoiOpfobQgOmuniSxLEKvQYwcbdWIroWPcaMKn
+       34            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=NIFofEqSVsGPufddwEynRHWdpajxPoKFDPWLQJXbqonXtcIwonHHCSDmByNRBrqECcLuIfuhskJECHIwsjJBXdejJCO
+       35            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=SJqSahbioEqSvCFjgHXFWHajmhYFQqkcnDTR
+       36            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=amNLNgJirgmEBVuKhcncDmFfSLoXQyOatwvXOPmgBPoDmWXepceXm
+       37            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=imYAGOuFnUWCGPwpxGuNAQjKnnBlT
+       38            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=XQXmOJTTaUNuyGRubOijelEgPAHyQaQIibLQLUEUIieHoGovHJXYKTGAIkyKpDwuurEuaWVtdeYoIjQPqiLE
+       39            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=KiMcTkxEYbEolUjhRLlJlljhsFBaxTrewjhWgkQnGiKVEiWiMkpjbEGfgksvosmPkAfgODFrCykxSvuJRTJuuYltCuDLMwMCMtpv
+       40            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=pswIelXBXMpfWeFepwOLRfFemVxnoxuhpRjXVgCYUpkCfLvuTwhjDUaXXpnhsUsHPPhxfxIHXtlpcIBi
+       41            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=FsnXBQLiuglHge
+       42            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=
+       43            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=WBxYbnd59:("fCcBUhI_r^k:ou=dQ@SVk8M8B`B]6p+;U4^x5k!2jmKoJ=>1U6v0.[)b*==+Z-P?|a7Wlm\<b8jRcv6}e|/j\t0=B}Z"Md*:2/ut}D
+       44            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=L_;AZo1D"Q/-"q6BWbjXG'Enz_XK!wt\
+       45            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=/*);.;Om@HCv|fDTGQF*k5HD;Ad1afn$=&0ch!E]&,:ao)E
+       46            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=sAVV+TN4QuZ@A[}/K=st{Vgq)(CMf8.8urdf^ZLI6o6?O[OFfvtxa8{C`_FJ^>FL
+       47            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=ePd9r"bHC^ajhAn^EboAwaVIaw2_jcpSe=L4GL%|W7e/]@BP"<8L'Yk
+       48            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%XzlQyT\e}/wP}%201aS|H`q]Pv=6{4/XY'LMx!rP/*/%20&NM*R-zH?W]}b!}vGfxJL8\$d)pk]^PB,OO([V=pq_[&`Lu%20p
+       49            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=JcX*V))}7FHA).i<4X6`[>xQ;hPpWA[D3aS2_?n+Z4mPCviHvJ:%20rhn|(6r'AxsalNE8h)u\.dZui'8Z,L=Zg;QrMtxX_(Z"SdiuqdV,4vH@_
+       50            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=<ifep&Q}e%206h!DYpqR8Citd-m(Bq]hiHOc{E&};Kh/zIvoPt,dskd3XU6R[|Mp%E!YiS9\%20f(/S4j2K,>9}Q4Y0{*ay
+       51            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=faU
+       52            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=mx/0l`6[D%20mX"f@vzK*bQss.vVZT\O2CDf`y)mDEASdJo]vLj:i`q
+       53            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=RiUYZ%20%/.DR'dI4x8oM
+       54            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='$,
+       55            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=?t{Y.-I@OGeQ7_em&*jTHLc!0vvMv,@M7;,9u(l(q6e4
+       56            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=]?v5B=B\]Uuyg/3}Olcrl4gy@%J9o62+B"2MJ`DZMfLH?Pd4=/lH2TW
+       57            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=!@4VNMdqL>[Lk,:Z]F%20v+Mu.ZE%20me%20]&nf,
+       58            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=kkbG=eF7Stv
+       59            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=rwv
+       60            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=T3<$]*Eeif9nc$Y
+       61            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=02.cBd,|P%wcpn'(q}M?,](BOY8>*@7`{Q**-Hhvm/jm]f[FTuufTRNB&p_=
+       62            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=*{Ep)C%20zuWtx'xNMNg+QuzXj7Qvk`j;pMHN3tUP7|L:}\x7M0VF*!"u-huLtQ,%1Fh}7}cj9H1VWdBe=s%W9dvC^|QL@%!TB9TFiCro*23`O_
+       63            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=upSu5[0>=H+56kJ9T<oLY
+       64            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=Y|']YDVV1;nn:,f0(GnTr${
+       65            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=XIgt64L)JM0A<c"DJ_E8
+       66            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=3oV^v7uiMJ,/kz-a/0Spndk"u.7fUpW7CIldr
+       67            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=%@
+       68            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist={3IOBK\eRc<s[k&A*b)MW-$c?$'Oe='g}N=+LF&I:^/4$Q(WHmrX5AH(d\NEDj(4dY:&gu/?VdymMbX4f7rmeQD^@u,?aTjPE.^2`J9!o-gp/Ppl>8IM`vut<PR
+       69            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=-:/uCTO8
+       70            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=9+M|m}
+       71            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist={K[3jq}neumlQD;cMu@I<TZIZ4!_D:Jq5GAgqU:Q>byU`e}h0Z'cY:{kH;b@!r=nO^@ITG9_v:V[
+       72            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=>wpOGGukeS!
+       73            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist='_,
+       74            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=R|oJnCh7o|j4RZ>O
+       75            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=WsVe3CC[<R"`1<F<>O/tB[J/{Tf[)vt_'az!
+       76            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=^f`,f^,M<.N4MLTUlM\l@(27sI>Y?$\KSAam&^1T]b{e$F9.T?Jq9?[j|SD*Yb3j@0N"f
+       77            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=n=bXK[tgfbPa}-Q*S>^9f*N+i?!<>-'%20uqA9g.Tl)2
+       78            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=h,pR"2?$H1Ag;$8'zB2o&vy<HIqV*34Oh1WnN8-6iv*;sIPGfg^.b2
+       79            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=]6rv+,vZ-hsh22Q&UZrI,ERWXT,{2{4vd{swhx]i2)lek0,yI^
+       80            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=548$-<l?XJ%n6i\[:aPPx>jS15sGc[=-1j%20<4]OsUhXHVu:M2Js
+       81            200          106 L     379     4853         Error identified: Warning: mysql_fetch_array()  http://testphp.vulnweb.com/artists.php/artists.php?artist=quL|s*gB:Y%20FzTGMN/LdM6IU%d3;`6(
+
+Random Fuzzing on URL parameters, URL = http://testphp.vulnweb.com/categories.php/listproducts.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200          116 L     503     6115         None    http://testphp.vulnweb.com/categories.php/listproducts.php?cat=2042840523
+
+Random Fuzzing on URL parameters, URL = http://testphp.vulnweb.com/hpp/
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200            5 L      16      422         None    http://testphp.vulnweb.com/hpp/?pp=486313354275423
+        2            200            5 L      16      413         None    http://testphp.vulnweb.com/hpp/?pp=202320714673
+        3            200            5 L      16      407         None    http://testphp.vulnweb.com/hpp/?pp=2042840523
+        4            200            5 L      16      419         None    http://testphp.vulnweb.com/hpp/?pp=64228083623542
+        5            200            5 L      16      431         None    http://testphp.vulnweb.com/hpp/?pp=234535543153113838
+        6            200            5 L      16      401         None    http://testphp.vulnweb.com/hpp/?pp=23233258
+        7            200            5 L      16      395         None    http://testphp.vulnweb.com/hpp/?pp=846774
+        8            200            5 L      16      386         None    http://testphp.vulnweb.com/hpp/?pp=687
+        9            200            5 L      16      437         None    http://testphp.vulnweb.com/hpp/?pp=24047004071128374665
+       10            200            5 L      16      392         None    http://testphp.vulnweb.com/hpp/?pp=22306
+       11            200            5 L      16      416         None    http://testphp.vulnweb.com/hpp/?pp=3465410477448
+       12            200            5 L      16      425         None    http://testphp.vulnweb.com/hpp/?pp=2841875308786807
+       13            200            5 L      16      404         None    http://testphp.vulnweb.com/hpp/?pp=137473215
+       14            200            5 L      16      428         None    http://testphp.vulnweb.com/hpp/?pp=52346860340025183
+       15            200            5 L      16      410         None    http://testphp.vulnweb.com/hpp/?pp=00172626553
+       16            200            5 L      16      383         None    http://testphp.vulnweb.com/hpp/?pp=67
+       17            200            5 L      16      380         None    http://testphp.vulnweb.com/hpp/?pp=6
+       18            200            5 L      16      398         None    http://testphp.vulnweb.com/hpp/?pp=3015011
+       19            200            5 L      16      389         None    http://testphp.vulnweb.com/hpp/?pp=0161
+       20            200            5 L      16      587         None    http://testphp.vulnweb.com/hpp/?pp=MTIOjlWcDXtMFRGBQWhjLdEwTFijPoVQSyhiFwksfUFHTdPHXtEdfTXVLlIqOFdMYkLKIr
+       21            200            5 L      16      518         None    http://testphp.vulnweb.com/hpp/?pp=QeSqQxymywPQvBtHGlVxxcIelMLeYQIfsQBADeTbFpACpbQ
+       22            200            5 L      16      542         None    http://testphp.vulnweb.com/hpp/?pp=VBFcpNwhuWtcTtIhQIqGRGvVgmWoOTEyIPEgwPKorQckgtAoXEIFGlo
+       23            200            5 L      16      671         None    http://testphp.vulnweb.com/hpp/?pp=mIhyxXgbrEQmYVCDdgkQTxslIwqteYYHsXrpQmcIhQRcpRPPMhrNHMHaiPFJpRCIJRUYsRxGDSQufnHgoXuQmbIxbVSyHDJIwY
+       24            200            5 L      16      581         None    http://testphp.vulnweb.com/hpp/?pp=FqOGUeDqfWXxLbnwkdggItjaMUfiqAdjoRXUaVIoIPCnGrtGVdbTdSttdAhWdbvDhdcd
+       25            200            5 L      16      461         None    http://testphp.vulnweb.com/hpp/?pp=wamkXlGqWusJjEyfMYbYGjkHhCiv
+       26            200            5 L      16      443         None    http://testphp.vulnweb.com/hpp/?pp=shuaMfnMkmtmHCgUAEmdsp
+       27            200            5 L      16      617         None    http://testphp.vulnweb.com/hpp/?pp=cfmsobuafpkaVsHHVPTHYhnpWgbNFTHVGGBBJiEpvXtmAleTfxQbXRYlNxRlgcRggpMGWlcluqVCwusy
+       28            200            5 L      16      509         None    http://testphp.vulnweb.com/hpp/?pp=sNxWrLWOTQLuYWBFcbIugxWyVUkXtIlbAaJloswaMSVR
+       29            200            5 L      16      563         None    http://testphp.vulnweb.com/hpp/?pp=QklcqYNAVweCnsQffdlacXbRLtuGsHhVKIGtSJRlrcCKEAOJmmQBRNiBMCpwDw
+       30            200            5 L      16      659         None    http://testphp.vulnweb.com/hpp/?pp=FpyoyQncWgIRJgLaksdRGmkqjiQyQbeSedNsNSRxymnsCkSFGgDwrdrhPelVnFOSldRbBRbXCQcMOciuNdWjGMQWODDxJq
+       31            200            5 L      16      434         None    http://testphp.vulnweb.com/hpp/?pp=qcKoeyNBeysATsoLewb
+       32            200            5 L      16      638         None    http://testphp.vulnweb.com/hpp/?pp=mestUEYAIsDcIWbgwGqEcpwtVoPqUFyLNBPBfhAEuhjSqLWwGFUyiGjxVxihULXtmDxdBGcDEMTibTdTdEUSTAL
+       33            200            5 L      16      485         None    http://testphp.vulnweb.com/hpp/?pp=DMpkAidCWiUHWkHeDGFpEFCjgrCkRJtXsoGP
+       34            200            5 L      16      674         None    http://testphp.vulnweb.com/hpp/?pp=tkPuvbmWVVgmtxTbeihxybowXhWABhadLVCpIepLcteFtmRGRNDYiKxyVANkCwHCgFyFlCroTYtcnSdqWdWljMURVlOtSauHtTS
+       35            200            5 L      16      452         None    http://testphp.vulnweb.com/hpp/?pp=vWoapNMHEAIlihObbJisJAjpC
+       36            200            5 L      16      626         None    http://testphp.vulnweb.com/hpp/?pp=wmmMWlbHoogHNaWBEsVvUlarvqfkOFeWlHtITpEuBWDqGXWsgCRUIHMjEsnPWPlkqJwljjScKlnkMKKyFvE
+       37            200            5 L      16      650         None    http://testphp.vulnweb.com/hpp/?pp=NIFofEqSVsGPufddwEynRHWdpajxPoKFDPWLQJXbqonXtcIwonHHCSDmByNRBrqECcLuIfuhskJECHIwsjJBXdejJCO
+       38            200            5 L      16      629         None    http://testphp.vulnweb.com/hpp/?pp=XQXmOJTTaUNuyGRubOijelEgPAHyQaQIibLQLUEUIieHoGovHJXYKTGAIkyKpDwuurEuaWVtdeYoIjQPqiLE
+       39            200            5 L      16      536         None    http://testphp.vulnweb.com/hpp/?pp=amNLNgJirgmEBVuKhcncDmFfSLoXQyOatwvXOPmgBPoDmWXepceXm
+       40            200            5 L      16      677         None    http://testphp.vulnweb.com/hpp/?pp=KiMcTkxEYbEolUjhRLlJlljhsFBaxTrewjhWgkQnGiKVEiWiMkpjbEGfgksvosmPkAfgODFrCykxSvuJRTJuuYltCuDLMwMCMtpv
+       41            200            5 L      16      464         None    http://testphp.vulnweb.com/hpp/?pp=imYAGOuFnUWCGPwpxGuNAQjKnnBlT
+       42            200            5 L      16      377         None    http://testphp.vulnweb.com/hpp/?pp=
+       43            200            5 L      16      498         None    http://testphp.vulnweb.com/hpp/?pp=/*);.;Om@HCv|fDTGQF*k5HD;Ad1afn$=&0ch!E]&,:ao)E
+       44            200            5 L      20      787         None    http://testphp.vulnweb.com/hpp/?pp=WBxYbnd59:("fCcBUhI_r^k:ou=dQ@SVk8M8B`B]6p+;U4^x5k!2jmKoJ=>1U6v0.[)b*==+Z-P?|a7Wlm\<b8jRcv6}e|/j\t0=B}Z"Md*:2/ut}D
+       45            200            5 L      16      487         None    http://testphp.vulnweb.com/hpp/?pp=L_;AZo1D"Q/-"q6BWbjXG'Enz_XK!wt\
+       46            200            5 L      18      599         None    http://testphp.vulnweb.com/hpp/?pp=sAVV+TN4QuZ@A[}/K=st{Vgq)(CMf8.8urdf^ZLI6o6?O[OFfvtxa8{C`_FJ^>FL
+       47            200            5 L      16      566         None    http://testphp.vulnweb.com/hpp/?pp=ePd9r"bHC^ajhAn^EboAwaVIaw2_jcpSe=L4GL%|W7e/]@BP"<8L'Yk
+       48            200            5 L      16      394         None    http://testphp.vulnweb.com/hpp/?pp=<ifep&Q}e%206h!DYpqR8Citd-m(Bq]hiHOc{E&};Kh/zIvoPt,dskd3XU6R[|Mp%E!YiS9\%20f(/S4j2K,>9}Q4Y0{*ay
+       49            200            5 L      20      538         None    http://testphp.vulnweb.com/hpp/?pp=%XzlQyT\e}/wP}%201aS|H`q]Pv=6{4/XY'LMx!rP/*/%20&NM*R-zH?W]}b!}vGfxJL8\$d)pk]^PB,OO([V=pq_[&`Lu%20p
+       50            200            5 L      20      756         None    http://testphp.vulnweb.com/hpp/?pp=JcX*V))}7FHA).i<4X6`[>xQ;hPpWA[D3aS2_?n+Z4mPCviHvJ:%20rhn|(6r'AxsalNE8h)u\.dZui'8Z,L=Zg;QrMtxX_(Z"SdiuqdV,4vH@_
+       51            200            5 L      18      440         None    http://testphp.vulnweb.com/hpp/?pp=RiUYZ%20%/.DR'dI4x8oM
+       52            200            5 L      18      560         None    http://testphp.vulnweb.com/hpp/?pp=mx/0l`6[D%20mX"f@vzK*bQss.vVZT\O2CDf`y)mDEASdJo]vLj:i`q
+       53            200            5 L      18      570         None    http://testphp.vulnweb.com/hpp/?pp=]?v5B=B\]Uuyg/3}Olcrl4gy@%J9o62+B"2MJ`DZMfLH?Pd4=/lH2TW
+       54            200            5 L      24      486         None    http://testphp.vulnweb.com/hpp/?pp=!@4VNMdqL>[Lk,:Z]F%20v+Mu.ZE%20me%20]&nf,
+       55            200            5 L      16      412         None    http://testphp.vulnweb.com/hpp/?pp=kkbG=eF7Stv
+       56            200            5 L      16      432         None    http://testphp.vulnweb.com/hpp/?pp=T3<$]*Eeif9nc$Y
+       57            200            5 L      22      750         None    http://testphp.vulnweb.com/hpp/?pp=*{Ep)C%20zuWtx'xNMNg+QuzXj7Qvk`j;pMHN3tUP7|L:}\x7M0VF*!"u-huLtQ,%1Fh}7}cj9H1VWdBe=s%W9dvC^|QL@%!TB9TFiCro*23`O_
+       58            200            5 L      16      585         None    http://testphp.vulnweb.com/hpp/?pp=02.cBd,|P%wcpn'(q}M?,](BOY8>*@7`{Q**-Hhvm/jm]f[FTuufTRNB&p_=
+       59            200            5 L      18      448         None    http://testphp.vulnweb.com/hpp/?pp=upSu5[0>=H+56kJ9T<oLY
+       60            200            5 L      16      387         None    http://testphp.vulnweb.com/hpp/?pp=%@
+       61            200            5 L      16      427         None    http://testphp.vulnweb.com/hpp/?pp={3IOBK\eRc<s[k&A*b)MW-$c?$'Oe='g}N=+LF&I:^/4$Q(WHmrX5AH(d\NEDj(4dY:&gu/?VdymMbX4f7rmeQD^@u,?aTjPE.^2`J9!o-gp/Ppl>8IM`vut<PR
+       62            200            5 L      16      405         None    http://testphp.vulnweb.com/hpp/?pp=-:/uCTO8
+       63            200            5 L      18      399         None    http://testphp.vulnweb.com/hpp/?pp=9+M|m}
+       64            200            5 L      16      651         None    http://testphp.vulnweb.com/hpp/?pp={K[3jq}neumlQD;cMu@I<TZIZ4!_D:Jq5GAgqU:Q>byU`e}h0Z'cY:{kH;b@!r=nO^@ITG9_v:V[
+       65            200            5 L      16      414         None    http://testphp.vulnweb.com/hpp/?pp=>wpOGGukeS!
+       66            200            5 L      16      390         None    http://testphp.vulnweb.com/hpp/?pp='_,
+       67            200            5 L      16      515         None    http://testphp.vulnweb.com/hpp/?pp=WsVe3CC[<R"`1<F<>O/tB[J/{Tf[)vt_'az!
+       68            200            5 L      20      529         None    http://testphp.vulnweb.com/hpp/?pp=n=bXK[tgfbPa}-Q*S>^9f*N+i?!<>-'%20uqA9g.Tl)2
+       69            200            5 L      16      451         None    http://testphp.vulnweb.com/hpp/?pp=h,pR"2?$H1Ag;$8'zB2o&vy<HIqV*34Oh1WnN8-6iv*;sIPGfg^.b2
+       70            200            5 L      16      511         None    http://testphp.vulnweb.com/hpp/?pp=^f`,f^,M<.N4MLTUlM\l@(27sI>Y?$\KSAam&^1T]b{e$F9.T?Jq9?[j|SD*Yb3j@0N"f
+       71            200            5 L      18      556         None    http://testphp.vulnweb.com/hpp/?pp=548$-<l?XJ%n6i\[:aPPx>jS15sGc[=-1j%20<4]OsUhXHVu:M2Js
+       72            200            5 L      18      480         None    http://testphp.vulnweb.com/hpp/?pp=quL|s*gB:Y%20FzTGMN/LdM6IU%d3;`6(
+       73            200            5 L      18      426         None    http://testphp.vulnweb.com/hpp/?pp=]6rv+,vZ-hsh22Q&UZrI,ERWXT,{2{4vd{swhx]i2)lek0,yI^

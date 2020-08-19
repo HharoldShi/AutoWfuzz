@@ -46,10 +46,13 @@ def main():
 
 
 def test_main():
-    url = ws.URL("http://testphp.vulnweb.com/hpp/")
-    url.getparams = ["pp"]
-    vw.fuzz_xss_injection(url)
+    # url = ws.URL("http://testphp.vulnweb.com/hpp/")
+    # url.getparams = ["pp"]
+    url = ws.URL("http://testphp.vulnweb.com/artists.php/artists.php")
+    url.getparams = ["artist"]
+    vw.fuzz_sql_injection(url)
 
 
 if __name__ == '__main__':
     main()
+    # test_main()
