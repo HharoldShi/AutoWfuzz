@@ -1,0 +1,469 @@
+Scraping from http://www.webscantest.com/
+no action on http://www.webscantest.com/
+Scraping from http://www.webscantest.com/corscors.php
+Scraping from http://www.webscantest.com/gonowhere
+Scraping from http://www.webscantest.com/restdemo
+Scraping from http://www.webscantest.com/business
+Scraping from http://www.webscantest.com/xmldbindex.php
+Scraping from http://www.webscantest.com/jsmenuauto_crosstraining.php
+Scraping from http://www.webscantest.com/jsmenuauto_datastore.php
+Scraping from http://www.webscantest.com/csrf
+Scraping from http://www.webscantest.com/soapdemo
+Scraping from http://www.webscantest.com/jsmenuauto_shutterdb.php
+Scraping from http://www.webscantest.com/jsmenugotoajax.php
+Scraping from http://www.webscantest.com/angular
+Scraping from http://www.webscantest.com/static
+Scraping from http://www.webscantest.com/login.php
+Scraping from http://www.webscantest.com/reactindex
+Scraping from http://www.webscantest.com/privacy.php
+Scraping from http://www.webscantest.com/infodbindex.php
+Scraping from http://www.webscantest.com/jsmenugotoframeme.php?foo%3D0+bar%3D+url%3Dhttps%3A%2F%2Fauth.ntobjectives.com+dr%3Dsomedir
+Scraping from http://www.webscantest.com/jsmenucookie_set_coffeepits.php
+Scraping from http://www.webscantest.com/jsmenudynalink_myfiles.php
+Scraping from http://www.webscantest.com/jsmenudynalink_rfplaces.php
+Scraping from http://www.webscantest.com/jsmenuauto_osrun.php
+Scraping from http://www.webscantest.com/csrf/redirect.php
+no action on http://www.webscantest.com/csrf/redirect.php/
+Scraping from http://www.webscantest.com/static/product22.html
+Scraping from http://www.webscantest.com/static/product47.html
+Scraping from http://www.webscantest.com/static/product34.html
+Scraping from http://www.webscantest.com/static/product49.html
+Scraping from http://www.webscantest.com/csrf/csrfpost.php
+no action on http://www.webscantest.com/csrf/csrfpost.php/
+Scraping from http://www.webscantest.com/static/product35.html
+Scraping from http://www.webscantest.com/static/product8.html
+Scraping from http://www.webscantest.com/static/product38.html
+Scraping from http://www.webscantest.com/static/product29.html
+Scraping from http://www.webscantest.com/static/product5.html
+Scraping from http://www.webscantest.com/static/product40.html
+Scraping from http://www.webscantest.com/static/product25.html
+Scraping from http://www.webscantest.com/static/product50.html
+Scraping from http://www.webscantest.com/static/product39.html
+Scraping from http://www.webscantest.com/static/product14.html
+Scraping from http://www.webscantest.com/static/product16.html
+Scraping from http://www.webscantest.com/static/product13.html
+Scraping from http://www.webscantest.com/static/product23.html
+Scraping from http://www.webscantest.com/static/product1.html
+Scraping from http://www.webscantest.com/static/product6.html
+Scraping from http://www.webscantest.com/static/product21.html
+Scraping from http://www.webscantest.com/static/product48.html
+Scraping from http://www.webscantest.com/static/product11.html
+Scraping from http://www.webscantest.com/static/product46.html
+Scraping from http://www.webscantest.com/csrf/session.php
+Scraping from http://www.webscantest.com/static/product7.html
+Scraping from http://www.webscantest.com/static/product4.html
+Scraping from http://www.webscantest.com/static/product17.html
+Scraping from http://www.webscantest.com/static/product18.html
+Scraping from http://www.webscantest.com/static/product43.html
+Scraping from http://www.webscantest.com/static/product15.html
+Scraping from http://www.webscantest.com/static/product20.html
+Scraping from http://www.webscantest.com/static/product37.html
+Scraping from http://www.webscantest.com/static/product3.html
+Scraping from http://www.webscantest.com/static/product26.html
+Scraping from http://www.webscantest.com/static/product2.html
+Scraping from http://www.webscantest.com/static/product30.html
+Scraping from http://www.webscantest.com/static/product41.html
+Scraping from http://www.webscantest.com/static/product31.html
+Scraping from http://www.webscantest.com/static/product42.html
+Scraping from http://www.webscantest.com/static/product44.html
+Scraping from http://www.webscantest.com/static/product19.html
+Scraping from http://www.webscantest.com/static/product24.html
+Scraping from http://www.webscantest.com/angular/.angular1index.html
+Scraping from http://www.webscantest.com/static/product12.html
+Scraping from http://www.webscantest.com/static/product33.html
+Scraping from http://www.webscantest.com/static/product27.html
+Scraping from http://www.webscantest.com/csrf/token.php
+no action on http://www.webscantest.com/csrf/token.php/
+Scraping from http://www.webscantest.com/static/product32.html
+Scraping from http://www.webscantest.com/static/product28.html
+Scraping from http://www.webscantest.com/static/product10.html
+Scraping from http://www.webscantest.com/static/product9.html
+Scraping from http://www.webscantest.com/static/product45.html
+Scraping from http://www.webscantest.com/csrf/aspnetSetCookie.php
+Scraping from http://www.webscantest.com/static/product36.html
+Scraping from http://www.webscantest.com/csrf/aspnetSetCookie.php/aspnetsimulate.php
+
+The found urls, corresponding url parameters and POST parameters.
+http://www.webscantest.com [] []
+http://www.webscantest.com/login.php [] ['login', 'passwd', 'submit_login']
+http://www.webscantest.com/csrf/redirect.php [] ['property', 'token']
+http://www.webscantest.com/csrf/csrfpost.php [] ['property']
+http://www.webscantest.com/csrf/token.php [] ['property', 'csrf_token']
+http://www.webscantest.com/imagesbouncingmike.jpg ['a'] []
+http://www.webscantest.com/business/quantity.php ['quantity'] []
+http://www.webscantest.com/business/privilege.php ['admin'] []
+http://www.webscantest.com/business/access.php ['serviceid'] []
+http://www.webscantest.com/business/account.php ['accountId'] []
+http://www.webscantest.com/csrf/session.php/session.php ['jsession'] []
+
+Perform Random Fuzzing on the Found URLs....
+
+Random Fuzzing on POST parameters, URL = http://www.webscantest.com/login.php
+libraries.FileLoader: CRITICAL __load_py_from_file. Filename: /Users/maxinyi/anaconda3/lib/python3.7/site-packages/wfuzz/plugins/payloads/bing.py Exception, msg=No module named 'shodan'
+libraries.FileLoader: CRITICAL __load_py_from_file. Filename: /Users/maxinyi/anaconda3/lib/python3.7/site-packages/wfuzz/plugins/payloads/shodanp.py Exception, msg=No module named 'shodan'
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200           48 L     122     1596         None    http://www.webscantest.com/login.php    login=&passwd=&submit_login=Login
+        2            302            0 L       0        0         None    http://www.webscantest.com/login.php    login=037782680135537&passwd=037782680135537&submit_login=Login
+
+Random Fuzzing on POST parameters, URL = http://www.webscantest.com/csrf/redirect.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            302           35 L      92     1271         None    http://www.webscantest.com/csrf/redirect.php    property=5&token=5
+
+Random Fuzzing on POST parameters, URL = http://www.webscantest.com/csrf/csrfpost.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200           35 L      95     1296         None    http://www.webscantest.com/csrf/csrfpost.php    property=0317804802318
+        2            200           35 L      94     1283         None    http://www.webscantest.com/csrf/csrfpost.php    property=
+        3            200           35 L      95     1284         None    http://www.webscantest.com/csrf/csrfpost.php    property=5
+        4            200           35 L      95     1290         None    http://www.webscantest.com/csrf/csrfpost.php    property=3645845
+        5            200           35 L      95     1298         None    http://www.webscantest.com/csrf/csrfpost.php    property=037782680135537
+        6            200           35 L      95     1285         None    http://www.webscantest.com/csrf/csrfpost.php    property=47
+        7            200           35 L      95     1293         None    http://www.webscantest.com/csrf/csrfpost.php    property=3106428327
+        8            200           35 L      95     1302         None    http://www.webscantest.com/csrf/csrfpost.php    property=7828127522401553638
+        9            200           35 L      95     1295         None    http://www.webscantest.com/csrf/csrfpost.php    property=821373132867
+       10            200           35 L      95     1292         None    http://www.webscantest.com/csrf/csrfpost.php    property=511616403
+       11            200           35 L      95     1289         None    http://www.webscantest.com/csrf/csrfpost.php    property=345706
+       12            200           35 L      95     1291         None    http://www.webscantest.com/csrf/csrfpost.php    property=62555627
+       13            200           35 L      95     1294         None    http://www.webscantest.com/csrf/csrfpost.php    property=41384421752
+       14            200           35 L      95     1300         None    http://www.webscantest.com/csrf/csrfpost.php    property=25763881800254058
+       15            200           35 L      95     1287         None    http://www.webscantest.com/csrf/csrfpost.php    property=3306
+       16            200           35 L      95     1301         None    http://www.webscantest.com/csrf/csrfpost.php    property=408523178076288425
+       17            200           35 L      95     1288         None    http://www.webscantest.com/csrf/csrfpost.php    property=21031
+       18            200           35 L      95     1303         None    http://www.webscantest.com/csrf/csrfpost.php    property=65250762715562744128
+       19            200           35 L      95     1346         None    http://www.webscantest.com/csrf/csrfpost.php    property=AjEKmNuKPvuckARfnhKvcupvdMnqBjxheYhhStfUXtXHlQnkcacUmfmVtldWKVN
+       20            200           35 L      95     1360         None    http://www.webscantest.com/csrf/csrfpost.php    property=hFXrcmoLVdABksnBIWswcQaKHYtKWNnBybRXlBvyJpBsijyrqvcCKpFpBpYhGuftWulfsQWUIqmKI
+       21            200           35 L      95     1343         None    http://www.webscantest.com/csrf/csrfpost.php    property=cRRqfCAqYXTVysgHapMkNlGiUSbajatIXNcFDkALhenkvyREVsPNFcxTQEGX
+       22            200           35 L      95     1368         None    http://www.webscantest.com/csrf/csrfpost.php    property=SGJrOfeWMKpSwkLYjNIrFDaTFkTGOyGAFUCWcnyLRooNJfCxFvxRFKrQiJOHRELgBDdrkWgHmrhnmMDWYMTvN
+       23            200           35 L      95     1369         None    http://www.webscantest.com/csrf/csrfpost.php    property=pDbKTfMgKMPCnpwvwreQLPRttoRwMDkMPtqEvCUpCisrtxFmLVhlFFTUajRByWQTbyJOudcMwetGrQEntUPMCE
+       24            200           35 L      95     1356         None    http://www.webscantest.com/csrf/csrfpost.php    property=HCuqJiIULQGDFOeNdFSwYKRXADahlkdVbrGqQPhcjNxkyhGlkswKHDUBXPNdDCKPmoVcukRTB
+       25            200           35 L      95     1358         None    http://www.webscantest.com/csrf/csrfpost.php    property=JRdDILwkrFbggpIqoAbIDQmMXKDtDmFfgaUiPPGKfiOJeDpFcrOLdSdaRJKGWtISgyodwDCpWkL
+       26            200           35 L      95     1326         None    http://www.webscantest.com/csrf/csrfpost.php    property=uRVjbYPGgAPUheGfdoUdMfBoRpJuLykJLSXMcKESuQw
+       27            200           35 L      95     1365         None    http://www.webscantest.com/csrf/csrfpost.php    property=SOkcXglEjfRkHnnrtBHsXooVeVpXJYBvOGpHpulxsgWbYHukteCgJiTSgJukhWSdViXpKQtGLYWWEubgFf
+       28            200           35 L      95     1339         None    http://www.webscantest.com/csrf/csrfpost.php    property=yhQpdBokGoGldndXjvXVXIiORWqtWrEpxHrDNFsrgCGrpHVESDWBgHbJ
+       29            200           35 L      95     1309         None    http://www.webscantest.com/csrf/csrfpost.php    property=SgOstqNOwbifBwslSWBhlpDUWK
+       30            200           35 L      95     1333         None    http://www.webscantest.com/csrf/csrfpost.php    property=IANIqeRPLfxUYQewyfkEyrLGvqmcuVuruvkcnqiGcxrAAuFQcc
+       31            200           35 L      95     1319         None    http://www.webscantest.com/csrf/csrfpost.php    property=xmvJQfyOoTxMajgpOadJuclOgQWBAxVlGGBY
+       32            200           35 L      95     1286         None    http://www.webscantest.com/csrf/csrfpost.php    property=PuJ
+       33            200           35 L      95     1378         None    http://www.webscantest.com/csrf/csrfpost.php    property=yrLgCCtRBsofYYyIFJHoMhLxepNeBXdnFxysdfnuiuJRnsfRKOJgSEnbLKfLkiENKpIjxrAhqKsINUdDjBdrfoopXqtxBqT
+       34            200           35 L      95     1313         None    http://www.webscantest.com/csrf/csrfpost.php    property=WQURjhEtAhxpmOpqeHsqrLtnAmOtrm
+       35            200           35 L      95     1335         None    http://www.webscantest.com/csrf/csrfpost.php    property=phNopBdDjGoyBTGaQcthYoHATddYDSFGbxpiHIVklEGbQBvuWkQG
+       36            200           35 L      95     1370         None    http://www.webscantest.com/csrf/csrfpost.php    property=RNQFfgWueTwGiDEdbjyAyWuwUYCoxgQxfLJTSVEcOfVjsUtJRwtFsEJQOakuIraAyRYuQrgKDGYxwEHqmDCXIXM
+       37            200           35 L      95     1311         None    http://www.webscantest.com/csrf/csrfpost.php    property=kgcNoBOydHgTCLAEuFHxpYRdYpmT
+       38            200           35 L      95     1324         None    http://www.webscantest.com/csrf/csrfpost.php    property=PuKlvfhkCBswQYFPEngoShidEADjnpmIpduQMikhG
+       39            200           35 L      95     1307         None    http://www.webscantest.com/csrf/csrfpost.php    property=kdvCaFFnTSAsaJCUtTgbSvUv
+       40            200           35 L      95     1381         None    http://www.webscantest.com/csrf/csrfpost.php    property=bHEDaaolFWwCbLiectpitJsMhdGLBBiOFMmRUJBMcbgPHKxiIUdiYJYraHKQVKJeshAVngsbDqfsqUEylkLQdrYIXGrjRnOWIi
+       41            200           35 L      95     1341         None    http://www.webscantest.com/csrf/csrfpost.php    property=YeybYEcCjELOLGgejSNwtRIreqfpQXFNMWUbNtJhTjGLOVjXIrTWqKQdRX
+       42            200           35 L      95     1342         None    http://www.webscantest.com/csrf/csrfpost.php    property=SAaheQOXhFjjpJPdxFfrqmeQKbkYHsApMLUyAmcNlbbiwxgnvqNhHEDueAO
+       43            200           35 L      95     1367         None    http://www.webscantest.com/csrf/csrfpost.php    property=PKWdleYOUqOWYpyEohULToAExVrXMteffXoKPHJeuSJLhxyEPBHgRNLLjVkQEHToOGdpxRgjHWdakfuvvasK
+       44            200           35 L      95     1348         None    http://www.webscantest.com/csrf/csrfpost.php    property=OhgnNevvFypihDMoYtoIjusjVFgXcsWdtXeDNtnQaHERJNyDKUawpHpfpcekKocaF
+       45            200           35 L      95     1375         None    http://www.webscantest.com/csrf/csrfpost.php    property=HJJfELnmlTcUhcVINFWOtXrePanIxvBGVaETuTJrmSnGIyAUfwCpBGwmeSuRuJhKhxMOeHCGwIVNPvyPFaJTNeRqLPhO
+       46            200           35 L      95     1325         None    http://www.webscantest.com/csrf/csrfpost.php    property=ldSANNicLDocnEuJLhURJdCkHdgjctAsxDSYbVFsWJ
+       47            200           35 L      95     1340         None    http://www.webscantest.com/csrf/csrfpost.php    property=XTNIqNaoJLujyeApIfWuUqQXULURoyCEnJWBPXbNoqHgjGWoTGhybUOVF
+       48            200           35 L      96     1313         None    http://www.webscantest.com/csrf/csrfpost.php    property=#dq"sOa;Wiik$i0XV'l5VP=+jk^p)2&uDl4oTj[;d1Li[tC^{gD@W9N1o85fX=9I?(K]5r CBoU[1U@H$5)h}P[pNgiCdi@{xou6@:iXOVG9f|X?'@J:+2%6E[d.tRCU}N=pki9v$3g,
+       49            200           35 L      98     1367         None    http://www.webscantest.com/csrf/csrfpost.php    property=%,oEce+7$%ChUjgy(>+3sle-K5{;#2?9fylwPgjvS}MKQpHNwfXD>b!E#o>k{}kU"QJ}"ZbW;Bc}U%7+[oA7
+       50            200           35 L      96     1350         None    http://www.webscantest.com/csrf/csrfpost.php    property=%Z7[OmiA'ue` <X<`jit/LY^m@cWEYT3LGBVa2>XNAEEb!4|@9wNg.l\3dj:Kr!Na]7
+       51            200           35 L      95     1321         None    http://www.webscantest.com/csrf/csrfpost.php    property=_'q%"UvofZa'NmG\M\I=(AL-BeI[1|we=z,Gk'&.$vp48m&==SWA
+       52            200           35 L      95     1312         None    http://www.webscantest.com/csrf/csrfpost.php    property=X:RMq]`o=z#OM)|wBaD8g.nz`oqzO&,-C3alzrM"Yl0paZ!)/TG'tP_J`B<NfLLf)NkN0N%(a7f]>#')=m_&I98*`(pnC"YHJL^l(8WQ]L1;y.@Lt h5d95o<4&c:W))??T,k3</l4}r%"k$O$(j,"PuW=qQ(HU-cME`)l%FVB)\>j/;
+       53            200           35 L      96     1379         None    http://www.webscantest.com/csrf/csrfpost.php    property={[" j'AhMt[Rq]#-VNBfe_nxm=]-(z*iV>mk_tbDUD<At^.z:c1,-[<:kYF^wcZXfHj8XK"9E`8zYJ_]",?5#E)aB(P;S/Lv&mS`Qs:e{\!"h0|w^j
+       54            200           35 L      95     1317         None    http://www.webscantest.com/csrf/csrfpost.php    property="tW}4rSG/>gF|PVWoHiagxhM{ut#Syj2w-
+       55            200           35 L      95     1334         None    http://www.webscantest.com/csrf/csrfpost.php    property=C0U_z/p8o$n;K$pM,WFn@z?\lUz=BvNG',r^=o5r;(`Y@Sp|L$"
+       56            200           35 L      97     1335         None    http://www.webscantest.com/csrf/csrfpost.php    property=1>a4D""aTZaRHDc$||;[,k6#8u@}-Q^ {jCsN/Pom ]?Hy%bt)kU
+       57            200           35 L      95     1299         None    http://www.webscantest.com/csrf/csrfpost.php    property=Ils$eF02tN7XdskH&C\dD9->LF{-w{'IGT,S/nT134x=*w'x85xW:kadPg`z_R8QC4H0*)9Xge{MngK)at2t_4^*$oJ+MTGrT<Mb?#.a4LtdFDgMI"7k9fx{H.TnJD%NZ*:j x<s/C\[b1=EWDZ`7al63Exb1COF]vE
+       58            200           35 L      97     1353         None    http://www.webscantest.com/csrf/csrfpost.php    property=W\)G-n[vzMm/V:lGtESZ1V4slKHuAm@yd_Szt|gi\ip IU.W%+J$wZb5`RGe]PoN1_D>6D&Y(F84E2{F)OponZNqhQAp+tdTo{&8(=WBc,f ]>]}4.^i#"u[|adD??#)K;UK6iSBH??=dV}mk&t3:bBr%53Gnq+<bB1ZdwKmJ<YkyCD'SCHay-?BHO
+       59            200           35 L      97     1305         None    http://www.webscantest.com/csrf/csrfpost.php    property=E8NY<+)pEw0+oy0"dq4GQC
+       60            200           35 L      98     1342         None    http://www.webscantest.com/csrf/csrfpost.php    property=g0{i9gLy; A17dW@;1oKA`=+oPGO=[aLn*>s!x5#g BVe-1)irHaAQJw'X*&(Z[xP,of-aosD$1sK^o^;Hbx 62tkr+pHP55`u+{*}/<c),Ux+Te(}7F#o;4:&cc<k1 WQU 59x5L-12%e$%p!jqOL_Ie#;OZ(W\mMhB2sn&8S!}-9gHw`PoI|EAF}]L%WHN
+       61            200           35 L      96     1333         None    http://www.webscantest.com/csrf/csrfpost.php    property=D)"jT4>7N XErNI",F>R}!>bVM$bNS>p"!ykK5M*M4fP3>pwOc&Pk%P76C?-)OTl">k^e,6n*e:Y{B+(ZdW)yH[nypmx9=y._F4bmPsb@8'4<D=
+       62            200           35 L      96     1365         None    http://www.webscantest.com/csrf/csrfpost.php    property=C`l7$#mwb[Slju<S+}f7Wl<1Qo>;cNX_Ar"BJQ}!)mJZrb)SFMv:V.v>#C#IZxztE@}r#Ex:\!khgt$%Jq
+       63            200           35 L      95     1332         None    http://www.webscantest.com/csrf/csrfpost.php    property=Rq/Ui)):!,cNcth)1dRiYvw4#"XLav,}OO#WOzCEl}ut[*pxm
+       64            200           35 L      97     1315         None    http://www.webscantest.com/csrf/csrfpost.php    property=S4n+=[tq+lQ}f*wh1`VJ62p`yR#?mbeB&m$>]Q2uI|gY?y4qFb-4Pa9/$SeCA":P0;Ia6;ja8oAU|7)IFR?MbL2zCww iZY`.-y:=]U8$^+]HohO$+fR\FISJ12QEA7\x7CP:)c+cwnn`h>2X<UoIkT^>{1uZCJ,# x:vk|(x_q)v|D7Vh'N]F.IH+#SBRi
+       65            200           35 L      98     1339         None    http://www.webscantest.com/csrf/csrfpost.php    property=P1)4hF|{6QN{4xEKblMAv"?izR8 )!+H;^`8*t/AqzVdU=;* bQ*gYZ`
+       66            200           35 L      95     1310         None    http://www.webscantest.com/csrf/csrfpost.php    property=]ttvXK^TR%[U2|K60JJ}?HGq#]Y&L39S>:@l^P6_tYyPG?
+       67            200           35 L      96     1344         None    http://www.webscantest.com/csrf/csrfpost.php    property=Qr2YwqhQA8j>N#(2=-{j-#o+Ie06?cj|lo}JwH0<0{IONf|>Dpuy}h>m5O>n|
+       68            200           35 L      96     1311         None    http://www.webscantest.com/csrf/csrfpost.php    property=%N+i{fnmyWV;0';Xp`/kk00*-/LS
+       69            200           35 L      99     1400         None    http://www.webscantest.com/csrf/csrfpost.php    property=0H9WY^KG8(PVq3KO<nLGfSP]>.Y0N /EW=<\fy:4k(GN5eO:=Bcj">-j@Uj<;lM.DYK_Sr5IvIWzZ;7>BUc,+K1i+Rnh|#/z D<.HwpIa<vCQlM%|BCd;&uyz.}bP`4K:wTr_VkDSq4tAb&*$9,&6vd}QARNah|\{8pwkf"7=y&=.=:jocaUPt;TR6p=
+       70            200           35 L     100     1414         None    http://www.webscantest.com/csrf/csrfpost.php    property=<7CH{U"\q@`+v#4Wur0b1pKd(5o,+H'=k/oG)KUYj$n^PLB8>n,V1]4+0"J|R"FlZ;.tyGvvFG^}f<k8P6vnz<|KDHt+aK|4$_CTVEW"?^x*K)i2Oq3,P8z)ll+ixNb|/y/
+       71            200           35 L      96     1310         None    http://www.webscantest.com/csrf/csrfpost.php    property=L7-_K[DCO="{pRb#[< ,TAv=SZE
+       72            200           35 L      95     1320         None    http://www.webscantest.com/csrf/csrfpost.php    property=hzSU:PdGj|S8?}h-WJERj2aME:"apW8OMe5D^&vZToJ;tsYSf@#u_u3nv9Q'Zv.G_"G]c+.!ZBf%Vwln9F]SE95x["];8H!P1mi_q3hF["l/
+       73            200           35 L      95     1306         None    http://www.webscantest.com/csrf/csrfpost.php    property=]-Ue9raY>r=]yvp>GHtpt5}&CTL)v%7T6%> ;:LG#]pKP`N5PtN{P,H.b@r,nw04\IhQ%dYqFM0x49=bw2uesY/^vwR9Ba#Y,[4:)D, `s<jUe'uNh2d8O/wH0C/ZN'|wq{hH x'h5LXU[]$@LHr|R 7pD3nd>}5hQV$szEQG`'@(2
+
+Random Fuzzing on POST parameters, URL = http://www.webscantest.com/csrf/token.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200           36 L      98     1320         None    http://www.webscantest.com/csrf/token.php       property=2488222311423&csrf_token=2488222311423
+        2            200           36 L      98     1298         None    http://www.webscantest.com/csrf/token.php       property=47&csrf_token=47
+        3            200           36 L      96     1294         None    http://www.webscantest.com/csrf/token.php       property=&csrf_token=
+        4            200           36 L      98     1324         None    http://www.webscantest.com/csrf/token.php       property=037782680135537&csrf_token=037782680135537
+        5            200           36 L      98     1308         None    http://www.webscantest.com/csrf/token.php       property=3645845&csrf_token=3645845
+        6            200           36 L      98     1296         None    http://www.webscantest.com/csrf/token.php       property=5&csrf_token=5
+        7            200           36 L      98     1314         None    http://www.webscantest.com/csrf/token.php       property=3106428327&csrf_token=3106428327
+        8            200           36 L      98     1318         None    http://www.webscantest.com/csrf/token.php       property=821373132867&csrf_token=821373132867
+        9            200           36 L      98     1306         None    http://www.webscantest.com/csrf/token.php       property=345706&csrf_token=345706
+       10            200           36 L      98     1332         None    http://www.webscantest.com/csrf/token.php       property=8126478235134867332&csrf_token=8126478235134867332
+       11            200           36 L      98     1310         None    http://www.webscantest.com/csrf/token.php       property=62555627&csrf_token=62555627
+       12            200           36 L      98     1312         None    http://www.webscantest.com/csrf/token.php       property=511616403&csrf_token=511616403
+       13            200           36 L      98     1316         None    http://www.webscantest.com/csrf/token.php       property=41384421752&csrf_token=41384421752
+       14            200           36 L      98     1302         None    http://www.webscantest.com/csrf/token.php       property=3306&csrf_token=3306
+       15            200           36 L      98     1330         None    http://www.webscantest.com/csrf/token.php       property=408523178076288425&csrf_token=408523178076288425
+       16            200           36 L      98     1328         None    http://www.webscantest.com/csrf/token.php       property=25763881800254058&csrf_token=25763881800254058
+       17            200           36 L      98     1304         None    http://www.webscantest.com/csrf/token.php       property=21031&csrf_token=21031
+       18            200           36 L      98     1334         None    http://www.webscantest.com/csrf/token.php       property=65250762715562744128&csrf_token=65250762715562744128
+       19            200           36 L      98     1420         None    http://www.webscantest.com/csrf/token.php       property=AjEKmNuKPvuckARfnhKvcupvdMnqBjxheYhhStfUXtXHlQnkcacUmfmVtldWKVN&csrf_token=AjEKmNuKPvuckARfnhKvcupvdMnqBjxheYhhStfUXtXHlQnkcacUmfmVtldWKVN
+       20            200           36 L      98     1448         None    http://www.webscantest.com/csrf/token.php       property=hFXrcmoLVdABksnBIWswcQaKHYtKWNnBybRXlBvyJpBsijyrqvcCKpFpBpYhGuftWulfsQWUIqmKI&csrf_token=hFXrcmoLVdABksnBIWswcQaKHYtKWNnBybRXlBvyJpBsijyrqvcCKpFpBpYhGuftWulfsQWUIqmKI
+       21            200           36 L      98     1440         None    http://www.webscantest.com/csrf/token.php       property=HCuqJiIULQGDFOeNdFSwYKRXADahlkdVbrGqQPhcjNxkyhGlkswKHDUBXPNdDCKPmoVcukRTB&csrf_token=HCuqJiIULQGDFOeNdFSwYKRXADahlkdVbrGqQPhcjNxkyhGlkswKHDUBXPNdDCKPmoVcukRTB
+       22            200           36 L      98     1414         None    http://www.webscantest.com/csrf/token.php       property=cRRqfCAqYXTVysgHapMkNlGiUSbajatIXNcFDkALhenkvyREVsPNFcxTQEGX&csrf_token=cRRqfCAqYXTVysgHapMkNlGiUSbajatIXNcFDkALhenkvyREVsPNFcxTQEGX
+       23            200           36 L      98     1464         None    http://www.webscantest.com/csrf/token.php       property=SGJrOfeWMKpSwkLYjNIrFDaTFkTGOyGAFUCWcnyLRooNJfCxFvxRFKrQiJOHRELgBDdrkWgHmrhnmMDWYMTvN&csrf_token=SGJrOfeWMKpSwkLYjNIrFDaTFkTGOyGAFUCWcnyLRooNJfCxFvxRFKrQiJOHRELgBDdrkWgHmrhnmMDWYMTvN
+       24            200           36 L      98     1444         None    http://www.webscantest.com/csrf/token.php       property=JRdDILwkrFbggpIqoAbIDQmMXKDtDmFfgaUiPPGKfiOJeDpFcrOLdSdaRJKGWtISgyodwDCpWkL&csrf_token=JRdDILwkrFbggpIqoAbIDQmMXKDtDmFfgaUiPPGKfiOJeDpFcrOLdSdaRJKGWtISgyodwDCpWkL
+       25            200           36 L      98     1380         None    http://www.webscantest.com/csrf/token.php       property=uRVjbYPGgAPUheGfdoUdMfBoRpJuLykJLSXMcKESuQw&csrf_token=uRVjbYPGgAPUheGfdoUdMfBoRpJuLykJLSXMcKESuQw
+       26            200           36 L      98     1466         None    http://www.webscantest.com/csrf/token.php       property=pDbKTfMgKMPCnpwvwreQLPRttoRwMDkMPtqEvCUpCisrtxFmLVhlFFTUajRByWQTbyJOudcMwetGrQEntUPMCE&csrf_token=pDbKTfMgKMPCnpwvwreQLPRttoRwMDkMPtqEvCUpCisrtxFmLVhlFFTUajRByWQTbyJOudcMwetGrQEntUPMCE
+       27            200           36 L      98     1458         None    http://www.webscantest.com/csrf/token.php       property=SOkcXglEjfRkHnnrtBHsXooVeVpXJYBvOGpHpulxsgWbYHukteCgJiTSgJukhWSdViXpKQtGLYWWEubgFf&csrf_token=SOkcXglEjfRkHnnrtBHsXooVeVpXJYBvOGpHpulxsgWbYHukteCgJiTSgJukhWSdViXpKQtGLYWWEubgFf
+       28            200           36 L      98     1406         None    http://www.webscantest.com/csrf/token.php       property=yhQpdBokGoGldndXjvXVXIiORWqtWrEpxHrDNFsrgCGrpHVESDWBgHbJ&csrf_token=yhQpdBokGoGldndXjvXVXIiORWqtWrEpxHrDNFsrgCGrpHVESDWBgHbJ
+       29            200           36 L      98     1346         None    http://www.webscantest.com/csrf/token.php       property=SgOstqNOwbifBwslSWBhlpDUWK&csrf_token=SgOstqNOwbifBwslSWBhlpDUWK
+       30            200           36 L      98     1366         None    http://www.webscantest.com/csrf/token.php       property=xmvJQfyOoTxMajgpOadJuclOgQWBAxVlGGBY&csrf_token=xmvJQfyOoTxMajgpOadJuclOgQWBAxVlGGBY
+       31            200           36 L      98     1468         None    http://www.webscantest.com/csrf/token.php       property=RNQFfgWueTwGiDEdbjyAyWuwUYCoxgQxfLJTSVEcOfVjsUtJRwtFsEJQOakuIraAyRYuQrgKDGYxwEHqmDCXIXM&csrf_token=RNQFfgWueTwGiDEdbjyAyWuwUYCoxgQxfLJTSVEcOfVjsUtJRwtFsEJQOakuIraAyRYuQrgKDGYxwEHqmDCXIXM
+       32            200           36 L      98     1300         None    http://www.webscantest.com/csrf/token.php       property=PuJ&csrf_token=PuJ
+       33            200           36 L      98     1394         None    http://www.webscantest.com/csrf/token.php       property=IANIqeRPLfxUYQewyfkEyrLGvqmcuVuruvkcnqiGcxrAAuFQcc&csrf_token=IANIqeRPLfxUYQewyfkEyrLGvqmcuVuruvkcnqiGcxrAAuFQcc
+       34            200           36 L      98     1484         None    http://www.webscantest.com/csrf/token.php       property=yrLgCCtRBsofYYyIFJHoMhLxepNeBXdnFxysdfnuiuJRnsfRKOJgSEnbLKfLkiENKpIjxrAhqKsINUdDjBdrfoopXqtxBqT&csrf_token=yrLgCCtRBsofYYyIFJHoMhLxepNeBXdnFxysdfnuiuJRnsfRKOJgSEnbLKfLkiENKpIjxrAhqKsINUdDjBdrfoopXqtxBqT
+       35            200           36 L      98     1354         None    http://www.webscantest.com/csrf/token.php       property=WQURjhEtAhxpmOpqeHsqrLtnAmOtrm&csrf_token=WQURjhEtAhxpmOpqeHsqrLtnAmOtrm
+       36            200           36 L      98     1398         None    http://www.webscantest.com/csrf/token.php       property=phNopBdDjGoyBTGaQcthYoHATddYDSFGbxpiHIVklEGbQBvuWkQG&csrf_token=phNopBdDjGoyBTGaQcthYoHATddYDSFGbxpiHIVklEGbQBvuWkQG
+       37            200           36 L      98     1350         None    http://www.webscantest.com/csrf/token.php       property=kgcNoBOydHgTCLAEuFHxpYRdYpmT&csrf_token=kgcNoBOydHgTCLAEuFHxpYRdYpmT
+       38            200           36 L      98     1376         None    http://www.webscantest.com/csrf/token.php       property=PuKlvfhkCBswQYFPEngoShidEADjnpmIpduQMikhG&csrf_token=PuKlvfhkCBswQYFPEngoShidEADjnpmIpduQMikhG
+       39            200           36 L      98     1342         None    http://www.webscantest.com/csrf/token.php       property=kdvCaFFnTSAsaJCUtTgbSvUv&csrf_token=kdvCaFFnTSAsaJCUtTgbSvUv
+       40            200           36 L      98     1462         None    http://www.webscantest.com/csrf/token.php       property=PKWdleYOUqOWYpyEohULToAExVrXMteffXoKPHJeuSJLhxyEPBHgRNLLjVkQEHToOGdpxRgjHWdakfuvvasK&csrf_token=PKWdleYOUqOWYpyEohULToAExVrXMteffXoKPHJeuSJLhxyEPBHgRNLLjVkQEHToOGdpxRgjHWdakfuvvasK
+       41            200           36 L      98     1410         None    http://www.webscantest.com/csrf/token.php       property=YeybYEcCjELOLGgejSNwtRIreqfpQXFNMWUbNtJhTjGLOVjXIrTWqKQdRX&csrf_token=YeybYEcCjELOLGgejSNwtRIreqfpQXFNMWUbNtJhTjGLOVjXIrTWqKQdRX
+       42            200           36 L      98     1412         None    http://www.webscantest.com/csrf/token.php       property=SAaheQOXhFjjpJPdxFfrqmeQKbkYHsApMLUyAmcNlbbiwxgnvqNhHEDueAO&csrf_token=SAaheQOXhFjjpJPdxFfrqmeQKbkYHsApMLUyAmcNlbbiwxgnvqNhHEDueAO
+       43            200           36 L      98     1490         None    http://www.webscantest.com/csrf/token.php       property=bHEDaaolFWwCbLiectpitJsMhdGLBBiOFMmRUJBMcbgPHKxiIUdiYJYraHKQVKJeshAVngsbDqfsqUEylkLQdrYIXGrjRnOWIi&csrf_token=bHEDaaolFWwCbLiectpitJsMhdGLBBiOFMmRUJBMcbgPHKxiIUdiYJYraHKQVKJeshAVngsbDqfsqUEylkLQdrYIXGrjRnOWIi
+       44            200           36 L      98     1424         None    http://www.webscantest.com/csrf/token.php       property=OhgnNevvFypihDMoYtoIjusjVFgXcsWdtXeDNtnQaHERJNyDKUawpHpfpcekKocaF&csrf_token=OhgnNevvFypihDMoYtoIjusjVFgXcsWdtXeDNtnQaHERJNyDKUawpHpfpcekKocaF
+       45            200           36 L      98     1478         None    http://www.webscantest.com/csrf/token.php       property=HJJfELnmlTcUhcVINFWOtXrePanIxvBGVaETuTJrmSnGIyAUfwCpBGwmeSuRuJhKhxMOeHCGwIVNPvyPFaJTNeRqLPhO&csrf_token=HJJfELnmlTcUhcVINFWOtXrePanIxvBGVaETuTJrmSnGIyAUfwCpBGwmeSuRuJhKhxMOeHCGwIVNPvyPFaJTNeRqLPhO
+       46            200           36 L      98     1378         None    http://www.webscantest.com/csrf/token.php       property=ldSANNicLDocnEuJLhURJdCkHdgjctAsxDSYbVFsWJ&csrf_token=ldSANNicLDocnEuJLhURJdCkHdgjctAsxDSYbVFsWJ
+       47            200           36 L      98     1408         None    http://www.webscantest.com/csrf/token.php       property=XTNIqNaoJLujyeApIfWuUqQXULURoyCEnJWBPXbNoqHgjGWoTGhybUOVF&csrf_token=XTNIqNaoJLujyeApIfWuUqQXULURoyCEnJWBPXbNoqHgjGWoTGhybUOVF
+       48            200           36 L     104     1462         None    http://www.webscantest.com/csrf/token.php       property=%,oEce+7$%ChUjgy(>+3sle-K5{;#2?9fylwPgjvS}MKQpHNwfXD>b!E#o>k{}kU"QJ}"ZbW;Bc}U%7+[oA7&csrf_token=%,oEce+7$%ChUjgy(>+3sle-K5{;#2?9fylwPgjvS}MKQpHNwfXD>b!E#o>k{}kU"QJ}"ZbW;Bc}U%7+[oA7
+       49            200           36 L     100     1354         None    http://www.webscantest.com/csrf/token.php       property=#dq"sOa;Wiik$i0XV'l5VP=+jk^p)2&uDl4oTj[;d1Li[tC^{gD@W9N1o85fX=9I?(K]5r CBoU[1U@H$5)h}P[pNgiCdi@{xou6@:iXOVG9f|X?'@J:+2%6E[d.tRCU}N=pki9v$3g,&csrf_token=#dq"sOa;Wiik$i0XV'l5VP=+jk^p)2&uDl4oTj[;d1Li[tC^{gD@W9N1o85fX=9I?(K]5r CBoU[1U@H$5)h}P[pNgiCdi@{xou6@:iXOVG9f|X?'@J:+2%6E[d.tRCU}N=pki9v$3g,
+       50            200           36 L     100     1428         None    http://www.webscantest.com/csrf/token.php       property=%Z7[OmiA'ue` <X<`jit/LY^m@cWEYT3LGBVa2>XNAEEb!4|@9wNg.l\3dj:Kr!Na]7&csrf_token=%Z7[OmiA'ue` <X<`jit/LY^m@cWEYT3LGBVa2>XNAEEb!4|@9wNg.l\3dj:Kr!Na]7
+       51            200           36 L      98     1370         None    http://www.webscantest.com/csrf/token.php       property=_'q%"UvofZa'NmG\M\I=(AL-BeI[1|we=z,Gk'&.$vp48m&==SWA&csrf_token=_'q%"UvofZa'NmG\M\I=(AL-BeI[1|we=z,Gk'&.$vp48m&==SWA
+       52            200           36 L     100     1486         None    http://www.webscantest.com/csrf/token.php       property={[" j'AhMt[Rq]#-VNBfe_nxm=]-(z*iV>mk_tbDUD<At^.z:c1,-[<:kYF^wcZXfHj8XK"9E`8zYJ_]",?5#E)aB(P;S/Lv&mS`Qs:e{\!"h0|w^j&csrf_token={[" j'AhMt[Rq]#-VNBfe_nxm=]-(z*iV>mk_tbDUD<At^.z:c1,-[<:kYF^wcZXfHj8XK"9E`8zYJ_]",?5#E)aB(P;S/Lv&mS`Qs:e{\!"h0|w^j
+       53            200           36 L      98     1352         None    http://www.webscantest.com/csrf/token.php       property=X:RMq]`o=z#OM)|wBaD8g.nz`oqzO&,-C3alzrM"Yl0paZ!)/TG'tP_J`B<NfLLf)NkN0N%(a7f]>#')=m_&I98*`(pnC"YHJL^l(8WQ]L1;y.@Lt h5d95o<4&c:W))??T,k3</l4}r%"k$O$(j,"PuW=qQ(HU-cME`)l%FVB)\>j/;&csrf_token=X:RMq]`o=z#OM)|wBaD8g.nz`oqzO&,-C3alzrM"Yl0paZ!)/TG'tP_J`B<NfLLf)NkN0N%(a7f]>#')=m_&I98*`(pnC"YHJL^l(8WQ]L1;y.@Lt h5d95o<4&c:W))??T,k3</l4}r%"k$O$(j,"PuW=qQ(HU-cME`)l%FVB)\>j/;
+       54            200           36 L      98     1362         None    http://www.webscantest.com/csrf/token.php       property="tW}4rSG/>gF|PVWoHiagxhM{ut#Syj2w-&csrf_token="tW}4rSG/>gF|PVWoHiagxhM{ut#Syj2w-
+       55            200           36 L      98     1396         None    http://www.webscantest.com/csrf/token.php       property=C0U_z/p8o$n;K$pM,WFn@z?\lUz=BvNG',r^=o5r;(`Y@Sp|L$"&csrf_token=C0U_z/p8o$n;K$pM,WFn@z?\lUz=BvNG',r^=o5r;(`Y@Sp|L$"
+       56            200           36 L     102     1398         None    http://www.webscantest.com/csrf/token.php       property=1>a4D""aTZaRHDc$||;[,k6#8u@}-Q^ {jCsN/Pom ]?Hy%bt)kU&csrf_token=1>a4D""aTZaRHDc$||;[,k6#8u@}-Q^ {jCsN/Pom ]?Hy%bt)kU
+       57            200           36 L      98     1326         None    http://www.webscantest.com/csrf/token.php       property=Ils$eF02tN7XdskH&C\dD9->LF{-w{'IGT,S/nT134x=*w'x85xW:kadPg`z_R8QC4H0*)9Xge{MngK)at2t_4^*$oJ+MTGrT<Mb?#.a4LtdFDgMI"7k9fx{H.TnJD%NZ*:j x<s/C\[b1=EWDZ`7al63Exb1COF]vE&csrf_token=Ils$eF02tN7XdskH&C\dD9->LF{-w{'IGT,S/nT134x=*w'x85xW:kadPg`z_R8QC4H0*)9Xge{MngK)at2t_4^*$oJ+MTGrT<Mb?#.a4LtdFDgMI"7k9fx{H.TnJD%NZ*:j x<s/C\[b1=EWDZ`7al63Exb1COF]vE
+       58            200           36 L     102     1434         None    http://www.webscantest.com/csrf/token.php       property=W\)G-n[vzMm/V:lGtESZ1V4slKHuAm@yd_Szt|gi\ip IU.W%+J$wZb5`RGe]PoN1_D>6D&Y(F84E2{F)OponZNqhQAp+tdTo{&8(=WBc,f ]>]}4.^i#"u[|adD??#)K;UK6iSBH??=dV}mk&t3:bBr%53Gnq+<bB1ZdwKmJ<YkyCD'SCHay-?BHO&csrf_token=W\)G-n[vzMm/V:lGtESZ1V4slKHuAm@yd_Szt|gi\ip IU.W%+J$wZb5`RGe]PoN1_D>6D&Y(F84E2{F)OponZNqhQAp+tdTo{&8(=WBc,f ]>]}4.^i#"u[|adD??#)K;UK6iSBH??=dV}mk&t3:bBr%53Gnq+<bB1ZdwKmJ<YkyCD'SCHay-?BHO
+       59            200           36 L     102     1338         None    http://www.webscantest.com/csrf/token.php       property=E8NY<+)pEw0+oy0"dq4GQC&csrf_token=E8NY<+)pEw0+oy0"dq4GQC
+       60            200           36 L     104     1412         None    http://www.webscantest.com/csrf/token.php       property=g0{i9gLy; A17dW@;1oKA`=+oPGO=[aLn*>s!x5#g BVe-1)irHaAQJw'X*&(Z[xP,of-aosD$1sK^o^;Hbx 62tkr+pHP55`u+{*}/<c),Ux+Te(}7F#o;4:&cc<k1 WQU 59x5L-12%e$%p!jqOL_Ie#;OZ(W\mMhB2sn&8S!}-9gHw`PoI|EAF}]L%WHN&csrf_token=g0{i9gLy; A17dW@;1oKA`=+oPGO=[aLn*>s!x5#g BVe-1)irHaAQJw'X*&(Z[xP,of-aosD$1sK^o^;Hbx 62tkr+pHP55`u+{*}/<c),Ux+Te(}7F#o;4:&cc<k1 WQU 59x5L-12%e$%p!jqOL_Ie#;OZ(W\mMhB2sn&8S!}-9gHw`PoI|EAF}]L%WHN
+       61            200           36 L     100     1458         None    http://www.webscantest.com/csrf/token.php       property=C`l7$#mwb[Slju<S+}f7Wl<1Qo>;cNX_Ar"BJQ}!)mJZrb)SFMv:V.v>#C#IZxztE@}r#Ex:\!khgt$%Jq&csrf_token=C`l7$#mwb[Slju<S+}f7Wl<1Qo>;cNX_Ar"BJQ}!)mJZrb)SFMv:V.v>#C#IZxztE@}r#Ex:\!khgt$%Jq
+       62            200           36 L     100     1394         None    http://www.webscantest.com/csrf/token.php       property=D)"jT4>7N XErNI",F>R}!>bVM$bNS>p"!ykK5M*M4fP3>pwOc&Pk%P76C?-)OTl">k^e,6n*e:Y{B+(ZdW)yH[nypmx9=y._F4bmPsb@8'4<D=&csrf_token=D)"jT4>7N XErNI",F>R}!>bVM$bNS>p"!ykK5M*M4fP3>pwOc&Pk%P76C?-)OTl">k^e,6n*e:Y{B+(ZdW)yH[nypmx9=y._F4bmPsb@8'4<D=
+       63            200           36 L      98     1392         None    http://www.webscantest.com/csrf/token.php       property=Rq/Ui)):!,cNcth)1dRiYvw4#"XLav,}OO#WOzCEl}ut[*pxm&csrf_token=Rq/Ui)):!,cNcth)1dRiYvw4#"XLav,}OO#WOzCEl}ut[*pxm
+       64            200           36 L     102     1358         None    http://www.webscantest.com/csrf/token.php       property=S4n+=[tq+lQ}f*wh1`VJ62p`yR#?mbeB&m$>]Q2uI|gY?y4qFb-4Pa9/$SeCA":P0;Ia6;ja8oAU|7)IFR?MbL2zCww iZY`.-y:=]U8$^+]HohO$+fR\FISJ12QEA7\x7CP:)c+cwnn`h>2X<UoIkT^>{1uZCJ,# x:vk|(x_q)v|D7Vh'N]F.IH+#SBRi&csrf_token=S4n+=[tq+lQ}f*wh1`VJ62p`yR#?mbeB&m$>]Q2uI|gY?y4qFb-4Pa9/$SeCA":P0;Ia6;ja8oAU|7)IFR?MbL2zCww iZY`.-y:=]U8$^+]HohO$+fR\FISJ12QEA7\x7CP:)c+cwnn`h>2X<UoIkT^>{1uZCJ,# x:vk|(x_q)v|D7Vh'N]F.IH+#SBRi
+       65            200           36 L      98     1348         None    http://www.webscantest.com/csrf/token.php       property=]ttvXK^TR%[U2|K60JJ}?HGq#]Y&L39S>:@l^P6_tYyPG?&csrf_token=]ttvXK^TR%[U2|K60JJ}?HGq#]Y&L39S>:@l^P6_tYyPG?
+       66            200           36 L     104     1406         None    http://www.webscantest.com/csrf/token.php       property=P1)4hF|{6QN{4xEKblMAv"?izR8 )!+H;^`8*t/AqzVdU=;* bQ*gYZ`&csrf_token=P1)4hF|{6QN{4xEKblMAv"?izR8 )!+H;^`8*t/AqzVdU=;* bQ*gYZ`
+       67            200           36 L     100     1350         None    http://www.webscantest.com/csrf/token.php       property=%N+i{fnmyWV;0';Xp`/kk00*-/LS&csrf_token=%N+i{fnmyWV;0';Xp`/kk00*-/LS
+       68            200           36 L     106     1528         None    http://www.webscantest.com/csrf/token.php       property=0H9WY^KG8(PVq3KO<nLGfSP]>.Y0N /EW=<\fy:4k(GN5eO:=Bcj">-j@Uj<;lM.DYK_Sr5IvIWzZ;7>BUc,+K1i+Rnh|#/z D<.HwpIa<vCQlM%|BCd;&uyz.}bP`4K:wTr_VkDSq4tAb&*$9,&6vd}QARNah|\{8pwkf"7=y&=.=:jocaUPt;TR6p=&csrf_token=0H9WY^KG8(PVq3KO<nLGfSP]>.Y0N /EW=<\fy:4k(GN5eO:=Bcj">-j@Uj<;lM.DYK_Sr5IvIWzZ;7>BUc,+K1i+Rnh|#/z D<.HwpIa<vCQlM%|BCd;&uyz.}bP`4K:wTr_VkDSq4tAb&*$9,&6vd}QARNah|\{8pwkf"7=y&=.=:jocaUPt;TR6p=
+       69            200           36 L     100     1416         None    http://www.webscantest.com/csrf/token.php       property=Qr2YwqhQA8j>N#(2=-{j-#o+Ie06?cj|lo}JwH0<0{IONf|>Dpuy}h>m5O>n|&csrf_token=Qr2YwqhQA8j>N#(2=-{j-#o+Ie06?cj|lo}JwH0<0{IONf|>Dpuy}h>m5O>n|
+       70            200           36 L     108     1556         None    http://www.webscantest.com/csrf/token.php       property=<7CH{U"\q@`+v#4Wur0b1pKd(5o,+H'=k/oG)KUYj$n^PLB8>n,V1]4+0"J|R"FlZ;.tyGvvFG^}f<k8P6vnz<|KDHt+aK|4$_CTVEW"?^x*K)i2Oq3,P8z)ll+ixNb|/y/&csrf_token=<7CH{U"\q@`+v#4Wur0b1pKd(5o,+H'=k/oG)KUYj$n^PLB8>n,V1]4+0"J|R"FlZ;.tyGvvFG^}f<k8P6vnz<|KDHt+aK|4$_CTVEW"?^x*K)i2Oq3,P8z)ll+ixNb|/y/
+       71            200           36 L     100     1348         None    http://www.webscantest.com/csrf/token.php       property=L7-_K[DCO="{pRb#[< ,TAv=SZE&csrf_token=L7-_K[DCO="{pRb#[< ,TAv=SZE
+       72            200           36 L      98     1368         None    http://www.webscantest.com/csrf/token.php       property=hzSU:PdGj|S8?}h-WJERj2aME:"apW8OMe5D^&vZToJ;tsYSf@#u_u3nv9Q'Zv.G_"G]c+.!ZBf%Vwln9F]SE95x["];8H!P1mi_q3hF["l/&csrf_token=hzSU:PdGj|S8?}h-WJERj2aME:"apW8OMe5D^&vZToJ;tsYSf@#u_u3nv9Q'Zv.G_"G]c+.!ZBf%Vwln9F]SE95x["];8H!P1mi_q3hF["l/
+       73            200           36 L      98     1340         None    http://www.webscantest.com/csrf/token.php       property=]-Ue9raY>r=]yvp>GHtpt5}&CTL)v%7T6%> ;:LG#]pKP`N5PtN{P,H.b@r,nw04\IhQ%dYqFM0x49=bw2uesY/^vwR9Ba#Y,[4:)D, `s<jUe'uNh2d8O/wH0C/ZN'|wq{hH x'h5LXU[]$@LHr|R 7pD3nd>}5hQV$szEQG`'@(2&csrf_token=]-Ue9raY>r=]yvp>GHtpt5}&CTL)v%7T6%> ;:LG#]pKP`N5PtN{P,H.b@r,nw04\IhQ%dYqFM0x49=bw2uesY/^vwR9Ba#Y,[4:)D, `s<jUe'uNh2d8O/wH0C/ZN'|wq{hH x'h5LXU[]$@LHr|R 7pD3nd>}5hQV$szEQG`'@(2
+
+Random Fuzzing on URL parameters, URL = http://www.webscantest.com/imagesbouncingmike.jpg
+
+Random Fuzzing on URL parameters, URL = http://www.webscantest.com/business/quantity.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     103     1396         None    http://www.webscantest.com/business/quantity.php?quantity=2488222311423
+        2            200           35 L     102     1367         None    http://www.webscantest.com/business/quantity.php?quantity=
+        3            200           35 L     103     1385         None    http://www.webscantest.com/business/quantity.php?quantity=47
+        4            200           35 L     103     1397         None    http://www.webscantest.com/business/quantity.php?quantity=074261827184183
+        5            200           35 L     103     1390         None    http://www.webscantest.com/business/quantity.php?quantity=3645845
+        6            200           35 L     103     1395         None    http://www.webscantest.com/business/quantity.php?quantity=0317804802318
+        7            200           35 L     103     1393         None    http://www.webscantest.com/business/quantity.php?quantity=3106428327
+        8            200           35 L     103     1384         None    http://www.webscantest.com/business/quantity.php?quantity=5
+        9            200           35 L     103     1402         None    http://www.webscantest.com/business/quantity.php?quantity=7828127522401553638
+       10            200           35 L     103     1389         None    http://www.webscantest.com/business/quantity.php?quantity=345706
+       11            200           35 L     103     1392         None    http://www.webscantest.com/business/quantity.php?quantity=511616403
+       12            200           35 L     103     1398         None    http://www.webscantest.com/business/quantity.php?quantity=814117423808736
+       13            200           35 L     103     1394         None    http://www.webscantest.com/business/quantity.php?quantity=41384421752
+       14            200           35 L     103     1391         None    http://www.webscantest.com/business/quantity.php?quantity=62555627
+       15            200           35 L     103     1388         None    http://www.webscantest.com/business/quantity.php?quantity=075638
+       16            200           35 L     103     1387         None    http://www.webscantest.com/business/quantity.php?quantity=3306
+       17            200           35 L     103     1401         None    http://www.webscantest.com/business/quantity.php?quantity=408523178076288425
+       18            200           35 L     103     1400         None    http://www.webscantest.com/business/quantity.php?quantity=25763881800254058
+
+Random Fuzzing on URL parameters, URL = http://www.webscantest.com/business/privilege.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     107     1412         None    http://www.webscantest.com/business/privilege.php?admin=0317804802318
+
+Random Fuzzing on URL parameters, URL = http://www.webscantest.com/business/access.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     101     1363         None    http://www.webscantest.com/business/access.php?serviceid=47
+        2            200           35 L     101     1374         None    http://www.webscantest.com/business/access.php?serviceid=2488222311423
+        3            200           35 L     101     1371         None    http://www.webscantest.com/business/access.php?serviceid=3106428327
+        4            200           35 L     101     1373         None    http://www.webscantest.com/business/access.php?serviceid=0317804802318
+        5            200           35 L     105     1384         None    http://www.webscantest.com/business/access.php?serviceid=
+        6            200           35 L     101     1375         None    http://www.webscantest.com/business/access.php?serviceid=037782680135537
+        7            200           35 L     101     1362         None    http://www.webscantest.com/business/access.php?serviceid=5
+        8            200           35 L     101     1368         None    http://www.webscantest.com/business/access.php?serviceid=3645845
+        9            200           35 L     101     1376         None    http://www.webscantest.com/business/access.php?serviceid=814117423808736
+       10            200           35 L     101     1367         None    http://www.webscantest.com/business/access.php?serviceid=345706
+       11            200           35 L     101     1370         None    http://www.webscantest.com/business/access.php?serviceid=511616403
+       12            200           35 L     101     1380         None    http://www.webscantest.com/business/access.php?serviceid=7828127522401553638
+       13            200           35 L     101     1369         None    http://www.webscantest.com/business/access.php?serviceid=62555627
+       14            200           35 L     101     1372         None    http://www.webscantest.com/business/access.php?serviceid=41384421752
+       15            200           35 L     101     1366         None    http://www.webscantest.com/business/access.php?serviceid=075638
+       16            200           35 L     101     1378         None    http://www.webscantest.com/business/access.php?serviceid=25763881800254058
+       17            200           35 L     101     1365         None    http://www.webscantest.com/business/access.php?serviceid=3306
+       18            200           35 L     101     1379         None    http://www.webscantest.com/business/access.php?serviceid=408523178076288425
+
+Random Fuzzing on URL parameters, URL = http://www.webscantest.com/business/account.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     102     1380         None    http://www.webscantest.com/business/account.php?accountId=037782680135537
+        2            200           35 L     102     1366         None    http://www.webscantest.com/business/account.php?accountId=5
+        3            200           35 L     102     1372         None    http://www.webscantest.com/business/account.php?accountId=3645845
+        4            200           35 L     102     1378         None    http://www.webscantest.com/business/account.php?accountId=0317804802318
+        5            200           35 L     106     1386         None    http://www.webscantest.com/business/account.php?accountId=
+        6            200           35 L     102     1367         None    http://www.webscantest.com/business/account.php?accountId=47
+        7            200           35 L     102     1375         None    http://www.webscantest.com/business/account.php?accountId=3106428327
+        8            200           35 L     102     1377         None    http://www.webscantest.com/business/account.php?accountId=821373132867
+        9            200           35 L     102     1371         None    http://www.webscantest.com/business/account.php?accountId=345706
+       10            200           35 L     102     1374         None    http://www.webscantest.com/business/account.php?accountId=511616403
+       11            200           35 L     102     1384         None    http://www.webscantest.com/business/account.php?accountId=8126478235134867332
+       12            200           35 L     102     1373         None    http://www.webscantest.com/business/account.php?accountId=62555627
+       13            200           35 L     102     1376         None    http://www.webscantest.com/business/account.php?accountId=41384421752
+       14            200           35 L     102     1382         None    http://www.webscantest.com/business/account.php?accountId=25763881800254058
+       15            200           35 L     102     1383         None    http://www.webscantest.com/business/account.php?accountId=408523178076288425
+       16            200           35 L     102     1369         None    http://www.webscantest.com/business/account.php?accountId=3306
+       17            200           35 L     102     1370         None    http://www.webscantest.com/business/account.php?accountId=21031
+       18            200           35 L     102     1385         None    http://www.webscantest.com/business/account.php?accountId=65250762715562744128
+       19            200           35 L     102     1428         None    http://www.webscantest.com/business/account.php?accountId=AjEKmNuKPvuckARfnhKvcupvdMnqBjxheYhhStfUXtXHlQnkcacUmfmVtldWKVN
+       20            200           35 L     102     1440         None    http://www.webscantest.com/business/account.php?accountId=JRdDILwkrFbggpIqoAbIDQmMXKDtDmFfgaUiPPGKfiOJeDpFcrOLdSdaRJKGWtISgyodwDCpWkL
+       21            200           35 L     102     1442         None    http://www.webscantest.com/business/account.php?accountId=hFXrcmoLVdABksnBIWswcQaKHYtKWNnBybRXlBvyJpBsijyrqvcCKpFpBpYhGuftWulfsQWUIqmKI
+       22            200           35 L     102     1408         None    http://www.webscantest.com/business/account.php?accountId=uRVjbYPGgAPUheGfdoUdMfBoRpJuLykJLSXMcKESuQw
+       23            200           35 L     102     1425         None    http://www.webscantest.com/business/account.php?accountId=cRRqfCAqYXTVysgHapMkNlGiUSbajatIXNcFDkALhenkvyREVsPNFcxTQEGX
+       24            200           35 L     102     1450         None    http://www.webscantest.com/business/account.php?accountId=SGJrOfeWMKpSwkLYjNIrFDaTFkTGOyGAFUCWcnyLRooNJfCxFvxRFKrQiJOHRELgBDdrkWgHmrhnmMDWYMTvN
+       25            200           35 L     102     1447         None    http://www.webscantest.com/business/account.php?accountId=SOkcXglEjfRkHnnrtBHsXooVeVpXJYBvOGpHpulxsgWbYHukteCgJiTSgJukhWSdViXpKQtGLYWWEubgFf
+       26            200           35 L     102     1451         None    http://www.webscantest.com/business/account.php?accountId=pDbKTfMgKMPCnpwvwreQLPRttoRwMDkMPtqEvCUpCisrtxFmLVhlFFTUajRByWQTbyJOudcMwetGrQEntUPMCE
+       27            200           35 L     102     1438         None    http://www.webscantest.com/business/account.php?accountId=HCuqJiIULQGDFOeNdFSwYKRXADahlkdVbrGqQPhcjNxkyhGlkswKHDUBXPNdDCKPmoVcukRTB
+       28            200           35 L     102     1421         None    http://www.webscantest.com/business/account.php?accountId=yhQpdBokGoGldndXjvXVXIiORWqtWrEpxHrDNFsrgCGrpHVESDWBgHbJ
+       29            200           35 L     102     1391         None    http://www.webscantest.com/business/account.php?accountId=SgOstqNOwbifBwslSWBhlpDUWK
+       30            200           35 L     102     1415         None    http://www.webscantest.com/business/account.php?accountId=IANIqeRPLfxUYQewyfkEyrLGvqmcuVuruvkcnqiGcxrAAuFQcc
+       31            200           35 L     102     1460         None    http://www.webscantest.com/business/account.php?accountId=yrLgCCtRBsofYYyIFJHoMhLxepNeBXdnFxysdfnuiuJRnsfRKOJgSEnbLKfLkiENKpIjxrAhqKsINUdDjBdrfoopXqtxBqT
+       32            200           35 L     102     1401         None    http://www.webscantest.com/business/account.php?accountId=xmvJQfyOoTxMajgpOadJuclOgQWBAxVlGGBY
+       33            200           35 L     102     1368         None    http://www.webscantest.com/business/account.php?accountId=PuJ
+       34            200           35 L     102     1395         None    http://www.webscantest.com/business/account.php?accountId=WQURjhEtAhxpmOpqeHsqrLtnAmOtrm
+       35            200           35 L     102     1393         None    http://www.webscantest.com/business/account.php?accountId=kgcNoBOydHgTCLAEuFHxpYRdYpmT
+       36            200           35 L     102     1417         None    http://www.webscantest.com/business/account.php?accountId=phNopBdDjGoyBTGaQcthYoHATddYDSFGbxpiHIVklEGbQBvuWkQG
+       37            200           35 L     102     1452         None    http://www.webscantest.com/business/account.php?accountId=RNQFfgWueTwGiDEdbjyAyWuwUYCoxgQxfLJTSVEcOfVjsUtJRwtFsEJQOakuIraAyRYuQrgKDGYxwEHqmDCXIXM
+       38            200           35 L     102     1406         None    http://www.webscantest.com/business/account.php?accountId=PuKlvfhkCBswQYFPEngoShidEADjnpmIpduQMikhG
+       39            200           35 L     102     1389         None    http://www.webscantest.com/business/account.php?accountId=kdvCaFFnTSAsaJCUtTgbSvUv
+       40            200           35 L     102     1424         None    http://www.webscantest.com/business/account.php?accountId=SAaheQOXhFjjpJPdxFfrqmeQKbkYHsApMLUyAmcNlbbiwxgnvqNhHEDueAO
+       41            200           35 L     102     1423         None    http://www.webscantest.com/business/account.php?accountId=YeybYEcCjELOLGgejSNwtRIreqfpQXFNMWUbNtJhTjGLOVjXIrTWqKQdRX
+       42            200           35 L     102     1449         None    http://www.webscantest.com/business/account.php?accountId=PKWdleYOUqOWYpyEohULToAExVrXMteffXoKPHJeuSJLhxyEPBHgRNLLjVkQEHToOGdpxRgjHWdakfuvvasK
+       43            200           35 L     102     1463         None    http://www.webscantest.com/business/account.php?accountId=bHEDaaolFWwCbLiectpitJsMhdGLBBiOFMmRUJBMcbgPHKxiIUdiYJYraHKQVKJeshAVngsbDqfsqUEylkLQdrYIXGrjRnOWIi
+       44            200           35 L     102     1422         None    http://www.webscantest.com/business/account.php?accountId=XTNIqNaoJLujyeApIfWuUqQXULURoyCEnJWBPXbNoqHgjGWoTGhybUOVF
+       45            200           35 L     102     1407         None    http://www.webscantest.com/business/account.php?accountId=ldSANNicLDocnEuJLhURJdCkHdgjctAsxDSYbVFsWJ
+       46            200           35 L     102     1430         None    http://www.webscantest.com/business/account.php?accountId=OhgnNevvFypihDMoYtoIjusjVFgXcsWdtXeDNtnQaHERJNyDKUawpHpfpcekKocaF
+       47            200           35 L     102     1457         None    http://www.webscantest.com/business/account.php?accountId=HJJfELnmlTcUhcVINFWOtXrePanIxvBGVaETuTJrmSnGIyAUfwCpBGwmeSuRuJhKhxMOeHCGwIVNPvyPFaJTNeRqLPhO
+       48            200           35 L     103     1395         None    http://www.webscantest.com/business/account.php?accountId=P>CG$R?0EGnbz5>R%20%S:XN$B/q6q.o&dQeem7*S@!B^Hdj$i{Ez(KD!5|KG
+       49            200           35 L     104     1393         None    http://www.webscantest.com/business/account.php?accountId=%,oEce+7$%ChUjgy(>+3sle-K5{;
+       50            200           35 L     103     1432         None    http://www.webscantest.com/business/account.php?accountId=%Z7[OmiA'ue`%20<X<`jit/LY^m@cWEYT3LGBVa2>XNAEEb!4|@9wNg.l\3dj:Kr!Na]7
+       51            200           35 L     103     1379         None    http://www.webscantest.com/business/account.php?accountId={["%20j'AhMt[Rq]
+       52            200           35 L     102     1392         None    http://www.webscantest.com/business/account.php?accountId="tW}4rSG/>gF|PVWoHiagxhM{ut
+       53            200           35 L     102     1403         None    http://www.webscantest.com/business/account.php?accountId=_'q%"UvofZa'NmG\M\I=(AL-BeI[1|we=z,Gk'&.$vp48m&==SWA
+       54            200           35 L     102     1416         None    http://www.webscantest.com/business/account.php?accountId=C0U_z/p8o$n;K$pM,WFn@z?\lUz=BvNG',r^=o5r;(`Y@Sp|L$"
+       55            200           35 L     104     1387         None    http://www.webscantest.com/business/account.php?accountId=E8NY<+)pEw0+oy0"dq4GQC
+       56            200           35 L     102     1381         None    http://www.webscantest.com/business/account.php?accountId=Ils$eF02tN7XdskH&C\dD9->LF{-w{'IGT,S/nT134x=*w'x85xW:kadPg`z_R8QC4H0*)9Xge{MngK)at2t_4^*$oJ+MTGrT<Mb?
+       57            200           35 L     102     1388         None    http://www.webscantest.com/business/account.php?accountId=1>a4D""aTZaRHDc$||;[,k6
+       58            200           35 L     104     1435         None    http://www.webscantest.com/business/account.php?accountId=W\)G-n[vzMm/V:lGtESZ1V4slKHuAm@yd_Szt|gi\ip%20IU.W%+J$wZb5`RGe]PoN1_D>6D&Y(F84E2{F)OponZNqhQAp+tdTo{&8(=WBc,f%20]>]}4.^i
+       59            200           35 L     102     1405         None    http://www.webscantest.com/business/account.php?accountId=3'/nG.qxp"ABG\-$|3M\$F!qO}O/v'a'1pwgGEw"
+       60            200           35 L     103     1415         None    http://www.webscantest.com/business/account.php?accountId=D)"jT4>7N%20XErNI",F>R}!>bVM$bNS>p"!ykK5M*M4fP3>pwOc&Pk%P76C?-)OTl">k^e,6n*e:Y{B+(ZdW)yH[nypmx9=y._F4bmPsb@8'4<D=
+       61            200           35 L     104     1404         None    http://www.webscantest.com/business/account.php?accountId=g0{i9gLy;%20A17dW@;1oKA`=+oPGO=[aLn*>s!x5
+       62            200           35 L     103     1374         None    http://www.webscantest.com/business/account.php?accountId=;GZHc\ln+&Yj8iig&WN^jH(Y9Qra4UQO*.p4^S'lVS:f%20"O7R.1?*y\+GQu\^H_E3Wi/%[zuPF;&>r]egHsh%d
+       63            200           35 L     105     1421         None    http://www.webscantest.com/business/account.php?accountId=P1)4hF|{6QN{4xEKblMAv"?izR8%20)!+H;^`8*t/AqzVdU=;*%20bQ*gYZ`
+       64            200           35 L     104     1391         None    http://www.webscantest.com/business/account.php?accountId=S4n+=[tq+lQ}f*wh1`VJ62p`yR
+       65            200           35 L     102     1402         None    http://www.webscantest.com/business/account.php?accountId=hzSU:PdGj|S8?}h-WJERj2aME:"apW8OMe5D^&vZToJ;tsYSf@
+       66            200           35 L     103     1393         None    http://www.webscantest.com/business/account.php?accountId=%N+i{fnmyWV;0';Xp`/kk00*-/LS
+       67            200           35 L     105     1458         None    http://www.webscantest.com/business/account.php?accountId=0H9WY^KG8(PVq3KO<nLGfSP]>.Y0N%20/EW=<\fy:4k(GN5eO:=Bcj">-j@Uj<;lM.DYK_Sr5IvIWzZ;7>BUc,+K1i+Rnh|
+       68            200           35 L     103     1378         None    http://www.webscantest.com/business/account.php?accountId=<7CH{U"\q@`+v
+
+Random Fuzzing on URL parameters, URL = http://www.webscantest.com/csrf/session.php/session.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L      96     1289         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=5
+        2            200           35 L      96     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=0317804802318
+        3            200           35 L      95     1288         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=
+        4            200           35 L      96     1303         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=074261827184183
+        5            200           35 L      96     1290         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=47
+        6            200           35 L      96     1298         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=3106428327
+        7            200           35 L      96     1295         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=3645845
+        8            200           35 L      96     1294         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=345706
+        9            200           35 L      96     1300         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=821373132867
+       10            200           35 L      96     1297         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=511616403
+       11            200           35 L      96     1307         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=8126478235134867332
+       12            200           35 L      96     1299         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=41384421752
+       13            200           35 L      96     1296         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=62555627
+       14            200           35 L      96     1292         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=3306
+       15            200           35 L      96     1306         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=408523178076288425
+       16            200           35 L      96     1305         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=25763881800254058
+       17            200           35 L      96     1293         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=21031
+       18            200           35 L      96     1308         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=65250762715562744128
+       19            200           35 L      96     1351         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=AjEKmNuKPvuckARfnhKvcupvdMnqBjxheYhhStfUXtXHlQnkcacUmfmVtldWKVN
+       20            200           35 L      96     1348         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=cRRqfCAqYXTVysgHapMkNlGiUSbajatIXNcFDkALhenkvyREVsPNFcxTQEGX
+       21            200           35 L      96     1365         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=hFXrcmoLVdABksnBIWswcQaKHYtKWNnBybRXlBvyJpBsijyrqvcCKpFpBpYhGuftWulfsQWUIqmKI
+       22            200           35 L      96     1373         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=SGJrOfeWMKpSwkLYjNIrFDaTFkTGOyGAFUCWcnyLRooNJfCxFvxRFKrQiJOHRELgBDdrkWgHmrhnmMDWYMTvN
+       23            200           35 L      96     1374         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=pDbKTfMgKMPCnpwvwreQLPRttoRwMDkMPtqEvCUpCisrtxFmLVhlFFTUajRByWQTbyJOudcMwetGrQEntUPMCE
+       24            200           35 L      96     1363         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=JRdDILwkrFbggpIqoAbIDQmMXKDtDmFfgaUiPPGKfiOJeDpFcrOLdSdaRJKGWtISgyodwDCpWkL
+       25            200           35 L      96     1331         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=uRVjbYPGgAPUheGfdoUdMfBoRpJuLykJLSXMcKESuQw
+       26            200           35 L      96     1370         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=SOkcXglEjfRkHnnrtBHsXooVeVpXJYBvOGpHpulxsgWbYHukteCgJiTSgJukhWSdViXpKQtGLYWWEubgFf
+       27            200           35 L      96     1361         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=HCuqJiIULQGDFOeNdFSwYKRXADahlkdVbrGqQPhcjNxkyhGlkswKHDUBXPNdDCKPmoVcukRTB
+       28            200           35 L      96     1344         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=yhQpdBokGoGldndXjvXVXIiORWqtWrEpxHrDNFsrgCGrpHVESDWBgHbJ
+       29            200           35 L      96     1291         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=PuJ
+       30            200           35 L      96     1314         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=SgOstqNOwbifBwslSWBhlpDUWK
+       31            200           35 L      96     1338         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=IANIqeRPLfxUYQewyfkEyrLGvqmcuVuruvkcnqiGcxrAAuFQcc
+       32            200           35 L      96     1324         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=xmvJQfyOoTxMajgpOadJuclOgQWBAxVlGGBY
+       33            200           35 L      96     1383         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=yrLgCCtRBsofYYyIFJHoMhLxepNeBXdnFxysdfnuiuJRnsfRKOJgSEnbLKfLkiENKpIjxrAhqKsINUdDjBdrfoopXqtxBqT
+       34            200           35 L      96     1318         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=WQURjhEtAhxpmOpqeHsqrLtnAmOtrm
+       35            200           35 L      96     1340         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=phNopBdDjGoyBTGaQcthYoHATddYDSFGbxpiHIVklEGbQBvuWkQG
+       36            200           35 L      96     1316         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=kgcNoBOydHgTCLAEuFHxpYRdYpmT
+       37            200           35 L      96     1375         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=RNQFfgWueTwGiDEdbjyAyWuwUYCoxgQxfLJTSVEcOfVjsUtJRwtFsEJQOakuIraAyRYuQrgKDGYxwEHqmDCXIXM
+       38            200           35 L      96     1329         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=PuKlvfhkCBswQYFPEngoShidEADjnpmIpduQMikhG
+       39            200           35 L      96     1312         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=kdvCaFFnTSAsaJCUtTgbSvUv
+       40            200           35 L      96     1346         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=YeybYEcCjELOLGgejSNwtRIreqfpQXFNMWUbNtJhTjGLOVjXIrTWqKQdRX
+       41            200           35 L      96     1372         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=PKWdleYOUqOWYpyEohULToAExVrXMteffXoKPHJeuSJLhxyEPBHgRNLLjVkQEHToOGdpxRgjHWdakfuvvasK
+       42            200           35 L      96     1347         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=SAaheQOXhFjjpJPdxFfrqmeQKbkYHsApMLUyAmcNlbbiwxgnvqNhHEDueAO
+       43            200           35 L      96     1380         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=HJJfELnmlTcUhcVINFWOtXrePanIxvBGVaETuTJrmSnGIyAUfwCpBGwmeSuRuJhKhxMOeHCGwIVNPvyPFaJTNeRqLPhO
+       44            200           35 L      96     1386         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=bHEDaaolFWwCbLiectpitJsMhdGLBBiOFMmRUJBMcbgPHKxiIUdiYJYraHKQVKJeshAVngsbDqfsqUEylkLQdrYIXGrjRnOWIi
+       45            200           35 L      96     1353         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=OhgnNevvFypihDMoYtoIjusjVFgXcsWdtXeDNtnQaHERJNyDKUawpHpfpcekKocaF
+       46            200           35 L      96     1330         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=ldSANNicLDocnEuJLhURJdCkHdgjctAsxDSYbVFsWJ
+       47            200           35 L      96     1345         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=XTNIqNaoJLujyeApIfWuUqQXULURoyCEnJWBPXbNoqHgjGWoTGhybUOVF
+       48            200           35 L      98     1316         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%,oEce+7$%ChUjgy(>+3sle-K5{;
+       49            200           35 L      97     1355         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%Z7[OmiA'ue`%20<X<`jit/LY^m@cWEYT3LGBVa2>XNAEEb!4|@9wNg.l\3dj:Kr!Na]7
+       50            200           35 L      97     1302         None    http://www.webscantest.com/csrf/session.php/session.php?jsession={["%20j'AhMt[Rq]
+       51            200           35 L      96     1326         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=_'q%"UvofZa'NmG\M\I=(AL-BeI[1|we=z,Gk'&.$vp48m&==SWA
+       52            200           35 L      97     1318         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=P>CG$R?0EGnbz5>R%20%S:XN$B/q6q.o&dQeem7*S@!B^Hdj$i{Ez(KD!5|KG
+       53            200           35 L      96     1315         None    http://www.webscantest.com/csrf/session.php/session.php?jsession="tW}4rSG/>gF|PVWoHiagxhM{ut
+       54            200           35 L      98     1310         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=E8NY<+)pEw0+oy0"dq4GQC
+       55            200           35 L      96     1339         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=C0U_z/p8o$n;K$pM,WFn@z?\lUz=BvNG',r^=o5r;(`Y@Sp|L$"
+       56            200           35 L      96     1304         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=Ils$eF02tN7XdskH&C\dD9->LF{-w{'IGT,S/nT134x=*w'x85xW:kadPg`z_R8QC4H0*)9Xge{MngK)at2t_4^*$oJ+MTGrT<Mb?
+       57            200           35 L      96     1311         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=1>a4D""aTZaRHDc$||;[,k6
+       58            200           35 L      98     1358         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=W\)G-n[vzMm/V:lGtESZ1V4slKHuAm@yd_Szt|gi\ip%20IU.W%+J$wZb5`RGe]PoN1_D>6D&Y(F84E2{F)OponZNqhQAp+tdTo{&8(=WBc,f%20]>]}4.^i
+       59            200           35 L      98     1327         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=g0{i9gLy;%20A17dW@;1oKA`=+oPGO=[aLn*>s!x5
+       60            200           35 L      96     1328         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=3'/nG.qxp"ABG\-$|3M\$F!qO}O/v'a'1pwgGEw"
+       61            200           35 L      97     1338         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=D)"jT4>7N%20XErNI",F>R}!>bVM$bNS>p"!ykK5M*M4fP3>pwOc&Pk%P76C?-)OTl">k^e,6n*e:Y{B+(ZdW)yH[nypmx9=y._F4bmPsb@8'4<D=
+       62            200           35 L      99     1344         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=P1)4hF|{6QN{4xEKblMAv"?izR8%20)!+H;^`8*t/AqzVdU=;*%20bQ*gYZ`
+       63            200           35 L      98     1314         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=S4n+=[tq+lQ}f*wh1`VJ62p`yR
+       64            200           35 L      99     1381         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=0H9WY^KG8(PVq3KO<nLGfSP]>.Y0N%20/EW=<\fy:4k(GN5eO:=Bcj">-j@Uj<;lM.DYK_Sr5IvIWzZ;7>BUc,+K1i+Rnh|
+       65            200           35 L      96     1325         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=hzSU:PdGj|S8?}h-WJERj2aME:"apW8OMe5D^&vZToJ;tsYSf@
+       66            200           35 L      97     1316         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%N+i{fnmyWV;0';Xp`/kk00*-/LS
+       67            200           35 L      97     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<7CH{U"\q@`+v

