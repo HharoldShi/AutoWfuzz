@@ -105,7 +105,7 @@ class ScrapedURLs:
         try:
             page = urlopen(url)
         except urllib.error.HTTPError as e:
-            print('HTTPError: {}'.format(e.code))
+            # print('HTTPError: {}'.format(e.code))
             return [], [], {}
         html = page.read().decode("utf-8")
         soup = BeautifulSoup(html, "html.parser")

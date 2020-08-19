@@ -9,6 +9,7 @@ import getopt
 # "http://testphp.vulnweb.com/"
 # "http://www.testfire.net/"
 
+
 def main():
     try:
         opts, args = getopt.getopt(sys.argv[2:], "e")
@@ -16,13 +17,11 @@ def main():
         sys.stderr.write(err)
         sys.exit(2)
 
+    top_url = sys.argv[1]
     show_error_only = False
     for o, a in opts:
         if o == "-e":
             vw.show_error_only = True
-
-    top_url = sys.argv[1]
-
 
     # web scraper
     s = ws.ScrapedURLs(top_url)
@@ -32,7 +31,13 @@ def main():
         print(i.url, i.getparams, i.postparams)
 
     # perform fuzzing
-    print("\nPerform Fuzzing the found URLs....")
+    com_dir_list = vw.fuzz_common_dir(top_url)
+    com_files_list = vw.fuzz_common_files(top_url)
+
+    # print found hidden URLs
+    vw.find_hidden_urls(url_list, com_dir_list, com_files_list)
+
+    print("\nPerform Fuzzing on the Found URLs....")
     for url in url_list:
         vw.fuzz_weak_username(url)
         vw.fuzz_sql_injection(url)
@@ -40,21 +45,10 @@ def main():
             vw.fuzz_xss_injection(url)
 
 
-
-
-
-
-
-    # urls.append("/datastore/search_by_id.php") #only int
-    # urls.append("/datastore/search_by_name.php") #only strings + two quotes
-    # urls.append("/datastore/search_double_by_name.php") # only slashes and two quotes
-    # urls.append("/datastore/search_by_statement.php") # search for rake
-    # urls.append("/datastore/search_get_by_name.php")
-    # urls.append("/datastore/search_single_by_name.php") #only slashes and single quote
-    # parameters.append("id")
-    # parameters.append("name")
-
-
+def test_main():
+    url = ws.URL("http://testphp.vulnweb.com/hpp/")
+    url.getparams = ["pp"]
+    vw.fuzz_xss_injection(url)
 
 
 if __name__ == '__main__':
