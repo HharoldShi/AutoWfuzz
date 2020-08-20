@@ -4,7 +4,7 @@ import sys
 import random
 
 show_error_only = False
-error_msgs = ["Warning: mysql_fetch_array()", "Error 1064"]
+error_msgs = ["Warning: mysql_fetch_array()", "Error 1064", "Error 1054"]
 
 
 class FuzzResultEntry:
@@ -114,9 +114,14 @@ def fuzz_sql_injection(url):
 
 
 def fuzz_xss_injection(url):
-    sys.stdout.write("\nWFuzz -- XSS Injection, URL = " + url.url + "\n")
     payload = "-z file,../wfuzz-master/wordlist/Injections/XSS.txt"
-    wfuzz_get_request(payload, url.url, url.getparams)
+    if len(url.getparams) != 0:
+        sys.stdout.write("\nWFuzz -- XSS Injection on URL parameters, URL = " + url.url + "\n")
+        wfuzz_get_request(payload, url.url, url.getparams)
+
+    if len(url.postparams) != 0:
+        sys.stdout.write("\nWFuzz -- XSS Injection on POST parameters, URL = " + url.url + "\n")
+        wfuzz_post_request(payload, url.url, url.postparams)
 
 
 def fuzz_weak_username(url):

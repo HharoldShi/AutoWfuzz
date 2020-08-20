@@ -41,8 +41,7 @@ def main():
     for url in url_list:
         vw.fuzz_weak_username(url)
         vw.fuzz_sql_injection(url)
-        if len(url.getparams) != 0:
-            vw.fuzz_xss_injection(url)
+        vw.fuzz_xss_injection(url)
 
 
 def test_main():
