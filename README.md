@@ -4,4 +4,5 @@ This is a course project to fullfill the requirement of ECE653 of University of 
 
 ## Run
 python auto_wfuzzer.py "home URL of the website to test" command_option
+
 The command option currently supports "-e", which is used to show only the ouput with error messages. 
